@@ -8,17 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    let alignments: [TextAlignment] = [.leading, .center, .trailing]
+    @State private var alignment = TextAlignment.center
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.cyan)
-            Text("Hello, Ajung")
-                .font(.title)
-                .foregroundColor(Color .mint)
-                
+            Picker("Text alignment", selection: $alignment) {
+                ForEach(alignments, id: \.self) { alignment in
+                    Text(String(describing: alignment))
+                }
+            }
+
+            Text("This is an extremely long text string that will never fit even the widest of phones without wrapping")
+                .font(.largeTitle)
+                .multilineTextAlignment(alignment)
+                .frame(width: 300)
         }
-        .padding()
     }
 }
 
