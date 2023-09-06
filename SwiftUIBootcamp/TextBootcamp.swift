@@ -12,8 +12,13 @@ struct TextBootcamp: View {
         // component
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
         // modifier
-            .font(.title)
-            .fontWeight(.bold)
+            // .font(.title)
+            // .fontWeight(.bold)
+        // kita bisa menuliskan langsung modifier
+            .bold()
+            .underline(color: Color.primary)
+            .strikethrough(color: Color.red)
+            .font(.system(size: 32, weight: .semibold, design: .rounded))
     }
 }
 
