@@ -9,36 +9,50 @@ import SwiftUI
 
 struct ShapeCircle: View {
     var body: some View {
-        VStack {
-            HStack {
-                Text("Grup 1")
+        
+        ZStack {
+            Rectangle()
+                .fill(.indigo)
+                .ignoresSafeArea()
+            
+            VStack {
+                // circle merah
+                HStack {
+                    Circle()
+                        .fill(.red)
+                        .padding()
+                    
+                    Circle()
+                        .trim(from: 0.0, to: 0.65)
+                        .stroke(Color.white, lineWidth: 5)
+                        .padding()
+                        
+                }
+                
+                // circle kuning
                 Circle()
-                    .fill(.teal)
+                    .stroke(Color.yellow, style: StrokeStyle(lineWidth: 12, lineCap: .butt,  dash: [5]))
+                    .overlay(
+                        ZStack {
+                            Circle()
+                                .fill(.yellow)
+                                .frame(width: 185, height: 185)
+                            Text("Kuning")
+                                 .font(.largeTitle)
+                        }
+                    )
                     .padding()
+                
+                // circle hijau
                 Circle()
-                    .padding()            }
-            .border(.black)
-            
-            
-            HStack {
-                Circle()
-                Circle()
+                    .stroke(Color.green, lineWidth: 12)
+                    .overlay(
+                        Circle()
+                            .fill(Color.green)
+                            .frame(width: 185, height: 185)
+                    )
+                    .padding()
             }
-            .border(.black)
-            
-            HStack {
-                Circle()
-                Circle()
-            }
-            .border(.black)
-            
-            
-            HStack {
-                Circle()
-                Circle()
-            }
-            .border(.black)
-            
         }
     }
 }
