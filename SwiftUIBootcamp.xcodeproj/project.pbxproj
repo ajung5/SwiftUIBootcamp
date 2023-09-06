@@ -10,6 +10,7 @@
 		9710298D2AA819E4009438F2 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710298C2AA819E4009438F2 /* TextBootcamp.swift */; };
 		9710298F2AA825C4009438F2 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710298E2AA825C4009438F2 /* ShapesBootcamp.swift */; };
 		971029912AA849BF009438F2 /* ShapeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971029902AA849BF009438F2 /* ShapeCircle.swift */; };
+		973CD62B2AA8C4C400B3E42A /* ShapeEllipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973CD62A2AA8C4C400B3E42A /* ShapeEllipse.swift */; };
 		97404C1B2AA88718007F80B2 /* ShapeRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97404C1A2AA88718007F80B2 /* ShapeRectangle.swift */; };
 		97404C1D2AA88738007F80B2 /* ShapeRoundedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97404C1C2AA88738007F80B2 /* ShapeRoundedRectangle.swift */; };
 		97404C1F2AA88AE6007F80B2 /* ShapeLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97404C1E2AA88AE6007F80B2 /* ShapeLoginPage.swift */; };
@@ -23,6 +24,7 @@
 		9710298C2AA819E4009438F2 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
 		9710298E2AA825C4009438F2 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 		971029902AA849BF009438F2 /* ShapeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeCircle.swift; sourceTree = "<group>"; };
+		973CD62A2AA8C4C400B3E42A /* ShapeEllipse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeEllipse.swift; sourceTree = "<group>"; };
 		97404C1A2AA88718007F80B2 /* ShapeRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeRectangle.swift; sourceTree = "<group>"; };
 		97404C1C2AA88738007F80B2 /* ShapeRoundedRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeRoundedRectangle.swift; sourceTree = "<group>"; };
 		97404C1E2AA88AE6007F80B2 /* ShapeLoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeLoginPage.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -52,6 +54,7 @@
 				97404C1A2AA88718007F80B2 /* ShapeRectangle.swift */,
 				97404C1C2AA88738007F80B2 /* ShapeRoundedRectangle.swift */,
 				97404C1E2AA88AE6007F80B2 /* ShapeLoginPage.swift */,
+				973CD62A2AA8C4C400B3E42A /* ShapeEllipse.swift */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9710298F2AA825C4009438F2 /* ShapesBootcamp.swift in Sources */,
+				973CD62B2AA8C4C400B3E42A /* ShapeEllipse.swift in Sources */,
 				971029912AA849BF009438F2 /* ShapeCircle.swift in Sources */,
 				978D37D82AA76EEC00051875 /* ContentView.swift in Sources */,
 				97404C1B2AA88718007F80B2 /* ShapeRectangle.swift in Sources */,
