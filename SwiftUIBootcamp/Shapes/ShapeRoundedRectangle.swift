@@ -9,7 +9,19 @@ import SwiftUI
 
 struct ShapeRoundedRectangle: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack {
+                RoundedRectangle(cornerRadius: 10)
+                    .frame(width: 150, height: 100)
+                
+                RoundedRectangle(cornerRadius: 10)
+                    .frame(width: 150, height: 100)
+            }
+            
+            RoundedRectangle(cornerRadius: 10)
+                .frame(width: 250, height: 100)
+                .padding(.top, 10)
+        }
     }
 }
 
