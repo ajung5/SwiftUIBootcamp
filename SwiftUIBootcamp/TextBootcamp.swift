@@ -35,7 +35,7 @@ struct TextBootcamp: View {
                 .padding(.top)
             Text("Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur")
                 .multilineTextAlignment(.leading)
-                .padding(.leading, 15) // memberi padding ke kiri sebanyak 15 
+                .padding(.leading, 15) // memberi padding ke kiri sebanyak 15
             
             Text("Text Rata kanan")
                 .font(.headline)
@@ -44,6 +44,16 @@ struct TextBootcamp: View {
                 .multilineTextAlignment(.trailing)
                 .padding(.trailing, 15) // memberi padding ke kanan sebanyak 15
                 .border(.black)
+               
+            
+            Text("Contoh Frame")
+                .font(.headline)
+                .padding(.top)
+            Text("Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo".capitalized)
+                .multilineTextAlignment(.center)
+                .frame(width: 200, height: 100, alignment: .center)
+                .border(.black)
+                .minimumScaleFactor(1.0)
         }
         
     }
