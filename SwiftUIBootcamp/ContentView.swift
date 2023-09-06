@@ -21,7 +21,7 @@ struct ContentView: View {
 
             Text("This is an extremely long text string that will never fit even the widest of phones without wrapping")
                 .font(.largeTitle)
-                .multilineTextAlignment(alignment)
+                //.multilineTextAlignment(alignment)
                 .frame(width: 300)
         }
     }
