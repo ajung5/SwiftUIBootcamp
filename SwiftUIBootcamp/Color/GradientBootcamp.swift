@@ -38,7 +38,24 @@ struct GradientBootcamp: View {
                 .padding()
                 .scaledToFit()
             
-            
+            // Radial Gradient
+            Circle()
+                .fill(
+                    RadialGradient(
+                        colors: [Color.red,
+                                 Color.orange,
+                                 Color.yellow,
+                                 Color.green,
+                                 Color.blue,
+                                 Color.indigo,
+                                 Color.purple],
+                        center: .center,
+                        startRadius: 10,
+                        endRadius: 175
+                    )
+                )
+                .padding()
+                .scaledToFit()
         }
     }
 }
