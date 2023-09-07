@@ -56,6 +56,18 @@ struct GradientBootcamp: View {
                 )
                 .padding()
                 .scaledToFit()
+            
+            Ellipse()
+                .fill(
+                    AngularGradient(
+                        colors: [Color.red,
+                                 Color.blue],
+                        center: .center,
+                        angle: .degrees(180 + 45)
+                    )
+                )
+                .padding()
+                .frame(width: 300, height: 200)
         }
     }
 }
