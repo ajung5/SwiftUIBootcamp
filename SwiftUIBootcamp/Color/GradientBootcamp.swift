@@ -35,8 +35,8 @@ struct GradientBootcamp: View {
                         endPoint: .trailing) // akhir gradasi warna
                 )
                 //.frame(width: 300, height: 200)
-                .padding()
-                .scaledToFit()
+//                .padding()
+//                .scaledToFit()
             
             // Radial Gradient
             Circle()
@@ -54,7 +54,7 @@ struct GradientBootcamp: View {
                         endRadius: 175
                     )
                 )
-                .padding()
+                //.padding()
                 .scaledToFit()
             
             Ellipse()
@@ -66,7 +66,16 @@ struct GradientBootcamp: View {
                         angle: .degrees(180 + 45)
                     )
                 )
-                .padding()
+               // .padding()
+                .frame(maxWidth: .infinity)
+            
+            RoundedRectangle(cornerRadius: 20)
+                .fill(
+                    LinearGradient(colors: [Color.teal,
+                                            Color.purple],
+                                   startPoint: .leading,
+                                   endPoint: .trailing)
+                )
                 .frame(width: 300, height: 200)
         }
     }

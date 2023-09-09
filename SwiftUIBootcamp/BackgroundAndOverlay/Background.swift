@@ -10,6 +10,8 @@ import SwiftUI
 struct BackgroundAndOverlay: View {
     var body: some View {
         VStack {
+            Text("Stack Background")
+                .font(.largeTitle)
             // Stack background
             HStack {
                 Text("STOP")
@@ -27,7 +29,7 @@ struct BackgroundAndOverlay: View {
                             .frame(width: 120, height: 120)
                     )
                 
-                Text("Gradient")
+                Text("")
                     .frame(width: 130, height: 130, alignment: .center)
                     .foregroundColor(.yellow)
                     .font(.largeTitle)
