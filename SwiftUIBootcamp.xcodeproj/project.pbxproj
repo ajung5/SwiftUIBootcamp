@@ -13,7 +13,8 @@
 		9710E9262AAA07B6001AE36B /* GradientBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710E9252AAA07B6001AE36B /* GradientBootcamp.swift */; };
 		972DCCED2AABE18700C61CCE /* FrameBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DCCEC2AABE18700C61CCE /* FrameBootcamp.swift */; };
 		972DCCEF2AABE68700C61CCE /* Frames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DCCEE2AABE68700C61CCE /* Frames.swift */; };
-		972DCCF22AABED5100C61CCE /* BackgroundAndOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DCCF12AABED5100C61CCE /* BackgroundAndOverlay.swift */; };
+		972DCCF22AABED5100C61CCE /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DCCF12AABED5100C61CCE /* Background.swift */; };
+		972DCCF42AABF2A900C61CCE /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DCCF32AABF2A900C61CCE /* Overlay.swift */; };
 		973CD62B2AA8C4C400B3E42A /* ShapeEllipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973CD62A2AA8C4C400B3E42A /* ShapeEllipse.swift */; };
 		973CD62D2AA8C8C500B3E42A /* ColorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973CD62C2AA8C8C500B3E42A /* ColorBootcamp.swift */; };
 		97404C1B2AA88718007F80B2 /* ShapeRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97404C1A2AA88718007F80B2 /* ShapeRectangle.swift */; };
@@ -34,7 +35,8 @@
 		9710E9252AAA07B6001AE36B /* GradientBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBootcamp.swift; sourceTree = "<group>"; };
 		972DCCEC2AABE18700C61CCE /* FrameBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBootcamp.swift; sourceTree = "<group>"; };
 		972DCCEE2AABE68700C61CCE /* Frames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frames.swift; sourceTree = "<group>"; };
-		972DCCF12AABED5100C61CCE /* BackgroundAndOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlay.swift; sourceTree = "<group>"; };
+		972DCCF12AABED5100C61CCE /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		972DCCF32AABF2A900C61CCE /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
 		973CD62A2AA8C4C400B3E42A /* ShapeEllipse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeEllipse.swift; sourceTree = "<group>"; };
 		973CD62C2AA8C8C500B3E42A /* ColorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBootcamp.swift; sourceTree = "<group>"; };
 		97404C1A2AA88718007F80B2 /* ShapeRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeRectangle.swift; sourceTree = "<group>"; };
@@ -91,6 +93,15 @@
 			path = Frames;
 			sourceTree = "<group>";
 		};
+		972DCCF52AABF2B200C61CCE /* BackgroundAndOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				972DCCF12AABED5100C61CCE /* Background.swift */,
+				972DCCF32AABF2A900C61CCE /* Overlay.swift */,
+			);
+			path = BackgroundAndOverlay;
+			sourceTree = "<group>";
+		};
 		978D37C92AA76EEB00051875 = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +126,7 @@
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				9710298C2AA819E4009438F2 /* TextBootcamp.swift */,
 				978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */,
-				972DCCF12AABED5100C61CCE /* BackgroundAndOverlay.swift */,
+				972DCCF52AABF2B200C61CCE /* BackgroundAndOverlay */,
 				972DCCF02AABE69C00C61CCE /* Frames */,
 				9710E9272AAA07C0001AE36B /* Color */,
 				971029922AA849C8009438F2 /* Shapes */,
@@ -213,12 +224,13 @@
 				978D37D82AA76EEC00051875 /* ContentView.swift in Sources */,
 				97404C1B2AA88718007F80B2 /* ShapeRectangle.swift in Sources */,
 				97404C1D2AA88738007F80B2 /* ShapeRoundedRectangle.swift in Sources */,
-				972DCCF22AABED5100C61CCE /* BackgroundAndOverlay.swift in Sources */,
+				972DCCF22AABED5100C61CCE /* Background.swift in Sources */,
 				97A346842AAAA8C8003FA17A /* ImagesBootcamp.swift in Sources */,
 				9710E9262AAA07B6001AE36B /* GradientBootcamp.swift in Sources */,
 				9710298D2AA819E4009438F2 /* TextBootcamp.swift in Sources */,
 				97404C1F2AA88AE6007F80B2 /* ShapeLoginPage.swift in Sources */,
 				978D37D62AA76EEC00051875 /* SwiftUIBootcampApp.swift in Sources */,
+				972DCCF42AABF2A900C61CCE /* Overlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
