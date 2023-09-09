@@ -26,7 +26,10 @@ struct ShapeLoginPage: View {
                 Capsule()
                     .fill(Color.green)
                     .frame(height: 44)
-                    .overlay(Text("Sign Up"))
+                    .overlay(
+                        Text("Sign Up")
+                            .font(.headline)
+                    )
             }
             
             .padding()
