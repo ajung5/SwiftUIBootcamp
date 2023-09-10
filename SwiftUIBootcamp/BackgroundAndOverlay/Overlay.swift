@@ -46,7 +46,7 @@ struct Overlay: View {
                     // modifier background berada dibelakang posisi layer objek circle
                     .background(
                         Circle()
-                            .fill(Color.yellow)
+                            .fill(Color("PrincentonOrange"))
                             .frame(width: 100, height: 100)
                     )
                 
