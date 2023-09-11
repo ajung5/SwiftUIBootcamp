@@ -56,6 +56,7 @@ struct StacksBootcamp: View {
                 .padding(.init(top: 20, leading: 10, bottom: 0, trailing: 9)) // custom padding pada tiap sisi
             ZStack{
                 // Dalam zstack, komponen paling bawah berada diposisi paling depan dalam layer
+                // Zstack tidak mempunyai spacing
                 Circle()
                     .fill(Color.red)
                     .frame(width: 150, height: 150)
