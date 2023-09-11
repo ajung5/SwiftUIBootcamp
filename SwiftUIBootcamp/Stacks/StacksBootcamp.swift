@@ -16,7 +16,7 @@ struct StacksBootcamp: View {
     var body: some View {
         // Vstack
         VStack {
-            Text("VStack -> Virtual Stack")
+            Text("VStack -> Vertical Stack")
                 .font(.headline)
                 .fontWeight(.bold)
                 .padding(.init(top: 20, leading: 10, bottom: 0, trailing: 9)) // custom padding pada tiap sisi
