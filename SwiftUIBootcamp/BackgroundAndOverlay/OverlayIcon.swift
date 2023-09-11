@@ -59,11 +59,50 @@ struct OverlayIcon: View {
             
             
             RoundedRectangle(cornerRadius: 25)
-                .fill(
                 
+                .fill(
+                    LinearGradient(colors: [Color("Iris"),
+                                            Color("VividCerise"),
+                                            Color("Jasmine"),
+                                            Color("PrincentonOrange"),
+                                            Color("Grape")],
+                                   startPoint: .trailing,
+                                   endPoint: .bottomLeading)
                 )
                 .frame(width: 175, height: 175)
-                
+                .overlay(
+                    RoundedRectangle(cornerRadius: 25)
+                        .stroke(lineWidth: 10)
+                        .fill(.white)
+                        .frame(width: 130, height: 130)
+                        .background(
+                            Circle()
+                                .stroke(lineWidth: 10)
+                                .fill(.white)
+                                .frame(width: 75, height: 75)
+                        )
+                        .overlay(
+                            Circle()
+                                .fill(.white)
+                                .frame(width: 20, height: 20)
+                            , alignment: .topTrailing
+                        )
+                        
+                )
+                .background(
+                    RoundedRectangle(cornerRadius: 25)
+                        .fill(.clear)
+                        .frame(width: 200, height: 200)
+                    
+                        .overlay(
+                            Circle()
+                                
+                                .fill(.red)
+                                .frame(width: 50, height: 50)
+                            ,alignment: .topTrailing
+                            
+                        )
+                )
         }
     }
 }
