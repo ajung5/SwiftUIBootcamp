@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Padding: View {
+struct PaddingBootcamp: View {
     var body: some View {
         
         // dengan menggunakan padding, jadi ga perlu lagi pake frame. bisa lebih dynamic
@@ -47,6 +47,6 @@ struct Padding: View {
 
 struct Padding_Previews: PreviewProvider {
     static var previews: some View {
-        Padding()
+        PaddingBootcamp()
     }
 }

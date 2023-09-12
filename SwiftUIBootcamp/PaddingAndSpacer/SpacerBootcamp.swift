@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Spacer: View {
+struct SpacerBootcamp: View {
     var body: some View {
         Text("asds")
     }
@@ -15,6 +15,6 @@ struct Spacer: View {
 
 struct Spacer_Previews: PreviewProvider {
     static var previews: some View {
-        Spacer()
+        SpacerBootcamp()
     }
 }
