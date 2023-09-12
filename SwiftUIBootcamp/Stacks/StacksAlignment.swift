@@ -35,7 +35,7 @@ struct StacksAlignment: View {
                     .frame(width: 200, height: 215)
                     .overlay(
                         Rectangle()
-                            .fill(Color("erieBlack"))
+                            .fill(Color.gray)
                             .frame(width: 100, height: 75)
                             .padding(.top, radius)
                             .cornerRadius(radius)
