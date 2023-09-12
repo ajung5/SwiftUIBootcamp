@@ -37,6 +37,8 @@
 		97E67C9C2AAEBD75007D9E1E /* StacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E67C9B2AAEBD75007D9E1E /* StacksBootcamp.swift */; };
 		97E67C9E2AAEBE02007D9E1E /* KinaraImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E67C9D2AAEBE02007D9E1E /* KinaraImage.swift */; };
 		97E67CA12AAECB4E007D9E1E /* StacksAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E67CA02AAECB4E007D9E1E /* StacksAlignment.swift */; };
+		97EA12BC2AB03D4300E40832 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EA12BB2AB03D4300E40832 /* Padding.swift */; };
+		97EA12BE2AB03D4E00E40832 /* Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EA12BD2AB03D4E00E40832 /* Spacer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +73,8 @@
 		97E67C9B2AAEBD75007D9E1E /* StacksBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootcamp.swift; sourceTree = "<group>"; };
 		97E67C9D2AAEBE02007D9E1E /* KinaraImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinaraImage.swift; sourceTree = "<group>"; };
 		97E67CA02AAECB4E007D9E1E /* StacksAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksAlignment.swift; sourceTree = "<group>"; };
+		97EA12BB2AB03D4300E40832 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
+		97EA12BD2AB03D4E00E40832 /* Spacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +166,7 @@
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				9710298C2AA819E4009438F2 /* TextBootcamp.swift */,
 				978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */,
+				97EA12BF2AB03D5600E40832 /* PaddingAndSpacer */,
 				97E67CA22AAECB57007D9E1E /* Stacks */,
 				97E67C9F2AAEC116007D9E1E /* Images */,
 				972DCCF52AABF2B200C61CCE /* BackgroundAndOverlay */,
@@ -199,6 +204,15 @@
 				978D520C2AAF6A6C00C59F54 /* FloopyDiskStack.swift */,
 			);
 			path = Stacks;
+			sourceTree = "<group>";
+		};
+		97EA12BF2AB03D5600E40832 /* PaddingAndSpacer */ = {
+			isa = PBXGroup;
+			children = (
+				97EA12BB2AB03D4300E40832 /* Padding.swift */,
+				97EA12BD2AB03D4E00E40832 /* Spacer.swift */,
+			);
+			path = PaddingAndSpacer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97E67CA12AAECB4E007D9E1E /* StacksAlignment.swift in Sources */,
+				97EA12BE2AB03D4E00E40832 /* Spacer.swift in Sources */,
 				972DCCED2AABE18700C61CCE /* FrameBootcamp.swift in Sources */,
 				973CD62D2AA8C8C500B3E42A /* ColorBootcamp.swift in Sources */,
 				972DCCEF2AABE68700C61CCE /* Frames.swift in Sources */,
@@ -295,6 +310,7 @@
 				97404C1F2AA88AE6007F80B2 /* ShapeLoginPage.swift in Sources */,
 				9744EF642AAF102B00908F76 /* KinaraCard.swift in Sources */,
 				974FF5172AAD6DFF007A3840 /* LinearGradientBound.swift in Sources */,
+				97EA12BC2AB03D4300E40832 /* Padding.swift in Sources */,
 				97E67C9C2AAEBD75007D9E1E /* StacksBootcamp.swift in Sources */,
 				978D37D62AA76EEC00051875 /* SwiftUIBootcampApp.swift in Sources */,
 				978D520D2AAF6A6C00C59F54 /* FloopyDiskStack.swift in Sources */,
