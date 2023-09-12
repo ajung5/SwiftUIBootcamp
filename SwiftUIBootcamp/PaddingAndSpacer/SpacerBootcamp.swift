@@ -66,8 +66,44 @@ struct SpacerBootcamp: View {
             }
             .background(Color("VividCerise"))
             
+            Text ("Multiple Spacer")
+                .font(.headline)
+                .padding(.vertical, 15)
+            
+            // HStack 4
+            // jika kita membuat spacer di dalam stack yang sama, maka spacer tersebut akan otomatis menyesuaikan dengan ukuran yang sama
+            // spacer mempunyai property default dan minimunLength, fungsinya untuk menentukan panjang minimal dari spacer tersebut
+            HStack(spacing: 0){
+                Spacer()
+                    .frame(height: 10)
+                    .background(.white)
+                
+                Circle()
+                    .fill(.red)
+                    .frame(width: 75, height: 75)
+                
+                Spacer()
+                    .frame(height: 10)
+                    .background(.white)
+                
+                Circle()
+                    .fill(.yellow)
+                    .frame(width: 75, height: 75)
+                
+                Spacer()
+                    .frame(height: 10)
+                    .background(.white)
+                
+                Circle()
+                    .fill(.green)
+                    .frame(width: 75, height: 75)
+                
+                Spacer()
+                    .frame(height: 10)
+                    .background(.white)
+            }
+            .background(Color("silver"))
         }
-        //.padding(.horizontal,5)
     }
 }
 
