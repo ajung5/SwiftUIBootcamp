@@ -28,6 +28,7 @@
 		9746B84A2AADB9560043B26B /* OverlayCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9746B8492AADB9560043B26B /* OverlayCircle.swift */; };
 		974E7BFD2AB1E64100AD2300 /* ForEachArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974E7BFC2AB1E64100AD2300 /* ForEachArray.swift */; };
 		974E7BFF2AB1F7B800AD2300 /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974E7BFE2AB1F7B800AD2300 /* ScrollViewBootcamp.swift */; };
+		974E7C012AB1FB4D00AD2300 /* HorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974E7C002AB1FB4D00AD2300 /* HorizontalScrollView.swift */; };
 		974FF5152AAD5771007A3840 /* OverlayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FF5142AAD5771007A3840 /* OverlayIcon.swift */; };
 		974FF5172AAD6DFF007A3840 /* LinearGradientBound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FF5162AAD6DFF007A3840 /* LinearGradientBound.swift */; };
 		974FF5192AAD7F02007A3840 /* OverlayIconInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FF5182AAD7F02007A3840 /* OverlayIconInstagram.swift */; };
@@ -70,6 +71,7 @@
 		9746B8492AADB9560043B26B /* OverlayCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayCircle.swift; sourceTree = "<group>"; };
 		974E7BFC2AB1E64100AD2300 /* ForEachArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachArray.swift; sourceTree = "<group>"; };
 		974E7BFE2AB1F7B800AD2300 /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
+		974E7C002AB1FB4D00AD2300 /* HorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollView.swift; sourceTree = "<group>"; };
 		974FF5142AAD5771007A3840 /* OverlayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayIcon.swift; sourceTree = "<group>"; };
 		974FF5162AAD6DFF007A3840 /* LinearGradientBound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientBound.swift; sourceTree = "<group>"; };
 		974FF5182AAD7F02007A3840 /* OverlayIconInstagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayIconInstagram.swift; sourceTree = "<group>"; };
@@ -175,6 +177,15 @@
 			path = Card;
 			sourceTree = "<group>";
 		};
+		974E7C022AB1FB5300AD2300 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				974E7BFE2AB1F7B800AD2300 /* ScrollViewBootcamp.swift */,
+				974E7C002AB1FB4D00AD2300 /* HorizontalScrollView.swift */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
 		978D37C92AA76EEB00051875 = {
 			isa = PBXGroup;
 			children = (
@@ -195,7 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				978D37D72AA76EEC00051875 /* ContentView.swift */,
-				974E7BFE2AB1F7B800AD2300 /* ScrollViewBootcamp.swift */,
+				974E7C022AB1FB5300AD2300 /* ScrollView */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				9710298C2AA819E4009438F2 /* TextBootcamp.swift */,
 				978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */,
@@ -325,6 +336,7 @@
 				97E67CA12AAECB4E007D9E1E /* StacksAlignment.swift in Sources */,
 				97EA12BE2AB03D4E00E40832 /* SpacerBootcamp.swift in Sources */,
 				972DCCED2AABE18700C61CCE /* FrameBootcamp.swift in Sources */,
+				974E7C012AB1FB4D00AD2300 /* HorizontalScrollView.swift in Sources */,
 				970D46442AB1956700FE2559 /* EnumBootcamp.swift in Sources */,
 				970D46462AB19BD600FE2559 /* ForEachBootcamp.swift in Sources */,
 				973CD62D2AA8C8C500B3E42A /* ColorBootcamp.swift in Sources */,
