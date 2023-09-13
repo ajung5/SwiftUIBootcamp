@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		970D463F2AB166B300FE2559 /* InitializerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D463E2AB166B300FE2559 /* InitializerBootcamp.swift */; };
 		9710298D2AA819E4009438F2 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710298C2AA819E4009438F2 /* TextBootcamp.swift */; };
 		9710298F2AA825C4009438F2 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710298E2AA825C4009438F2 /* ShapesBootcamp.swift */; };
 		971029912AA849BF009438F2 /* ShapeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971029902AA849BF009438F2 /* ShapeCircle.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		970D463E2AB166B300FE2559 /* InitializerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerBootcamp.swift; sourceTree = "<group>"; };
 		9710298C2AA819E4009438F2 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
 		9710298E2AA825C4009438F2 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 		971029902AA849BF009438F2 /* ShapeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeCircle.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 		978D37D42AA76EEC00051875 /* SwiftUIBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				970D463E2AB166B300FE2559 /* InitializerBootcamp.swift */,
 				978D37D72AA76EEC00051875 /* ContentView.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				9710298C2AA819E4009438F2 /* TextBootcamp.swift */,
@@ -301,6 +304,7 @@
 				97E67C9E2AAEBE02007D9E1E /* KinaraImage.swift in Sources */,
 				974FF5152AAD5771007A3840 /* OverlayIcon.swift in Sources */,
 				978D37D82AA76EEC00051875 /* ContentView.swift in Sources */,
+				970D463F2AB166B300FE2559 /* InitializerBootcamp.swift in Sources */,
 				97404C1B2AA88718007F80B2 /* ShapeRectangle.swift in Sources */,
 				97404C1D2AA88738007F80B2 /* ShapeRoundedRectangle.swift in Sources */,
 				97D7EA4D2AAEE8D9001B2839 /* CardView.swift in Sources */,
