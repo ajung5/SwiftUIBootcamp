@@ -25,7 +25,7 @@ struct ForEachArray: View {
     var body: some View {
         VStack {
             ForEach(Cars) { item in
-                Text("\(item.brand)")
+                Text("\(item.brand), \(item.model)")
             }
         }
     }
