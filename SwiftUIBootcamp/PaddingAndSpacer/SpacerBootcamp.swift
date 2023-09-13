@@ -26,7 +26,7 @@ struct SpacerBootcamp: View {
             }
             .background(.teal) // background di dalam HStack
             
-            Text("Spacer di dalam Stack")
+            Text("Spacer di dalam Stack 2")
                 .font(.title3)
                 .padding(.top)
             
