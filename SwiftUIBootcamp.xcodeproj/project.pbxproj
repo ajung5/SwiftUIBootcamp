@@ -10,6 +10,7 @@
 		970D463F2AB166B300FE2559 /* InitializerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D463E2AB166B300FE2559 /* InitializerBootcamp.swift */; };
 		970D46442AB1956700FE2559 /* EnumBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D46432AB1956700FE2559 /* EnumBootcamp.swift */; };
 		970D46462AB19BD600FE2559 /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D46452AB19BD600FE2559 /* ForEachBootcamp.swift */; };
+		970D46492AB1A2EB00FE2559 /* ForEachData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D46482AB1A2EB00FE2559 /* ForEachData.swift */; };
 		9710298D2AA819E4009438F2 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710298C2AA819E4009438F2 /* TextBootcamp.swift */; };
 		9710298F2AA825C4009438F2 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710298E2AA825C4009438F2 /* ShapesBootcamp.swift */; };
 		971029912AA849BF009438F2 /* ShapeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971029902AA849BF009438F2 /* ShapeCircle.swift */; };
@@ -49,6 +50,7 @@
 		970D463E2AB166B300FE2559 /* InitializerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerBootcamp.swift; sourceTree = "<group>"; };
 		970D46432AB1956700FE2559 /* EnumBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumBootcamp.swift; sourceTree = "<group>"; };
 		970D46452AB19BD600FE2559 /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
+		970D46482AB1A2EB00FE2559 /* ForEachData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachData.swift; sourceTree = "<group>"; };
 		9710298C2AA819E4009438F2 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
 		9710298E2AA825C4009438F2 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 		971029902AA849BF009438F2 /* ShapeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeCircle.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				970D46452AB19BD600FE2559 /* ForEachBootcamp.swift */,
+				970D46482AB1A2EB00FE2559 /* ForEachData.swift */,
 			);
 			path = ForEach;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				972DCCF22AABED5100C61CCE /* Background.swift in Sources */,
 				97A346842AAAA8C8003FA17A /* ImagesBootcamp.swift in Sources */,
 				9710E9262AAA07B6001AE36B /* GradientBootcamp.swift in Sources */,
+				970D46492AB1A2EB00FE2559 /* ForEachData.swift in Sources */,
 				974FF5192AAD7F02007A3840 /* OverlayIconInstagram.swift in Sources */,
 				9710298D2AA819E4009438F2 /* TextBootcamp.swift in Sources */,
 				97D7EA4F2AAEEE5A001B2839 /* CardViewKinara.swift in Sources */,
