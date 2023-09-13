@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		970D463F2AB166B300FE2559 /* InitializerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D463E2AB166B300FE2559 /* InitializerBootcamp.swift */; };
+		970D46442AB1956700FE2559 /* EnumBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D46432AB1956700FE2559 /* EnumBootcamp.swift */; };
 		9710298D2AA819E4009438F2 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710298C2AA819E4009438F2 /* TextBootcamp.swift */; };
 		9710298F2AA825C4009438F2 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710298E2AA825C4009438F2 /* ShapesBootcamp.swift */; };
 		971029912AA849BF009438F2 /* ShapeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971029902AA849BF009438F2 /* ShapeCircle.swift */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		970D463E2AB166B300FE2559 /* InitializerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerBootcamp.swift; sourceTree = "<group>"; };
+		970D46432AB1956700FE2559 /* EnumBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumBootcamp.swift; sourceTree = "<group>"; };
 		9710298C2AA819E4009438F2 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
 		9710298E2AA825C4009438F2 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 		971029902AA849BF009438F2 /* ShapeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeCircle.swift; sourceTree = "<group>"; };
@@ -92,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		970D46422AB1952C00FE2559 /* InitAndEnum */ = {
+			isa = PBXGroup;
+			children = (
+				970D463E2AB166B300FE2559 /* InitializerBootcamp.swift */,
+				970D46432AB1956700FE2559 /* EnumBootcamp.swift */,
+			);
+			path = InitAndEnum;
+			sourceTree = "<group>";
+		};
 		971029922AA849C8009438F2 /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,11 +176,11 @@
 		978D37D42AA76EEC00051875 /* SwiftUIBootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				970D463E2AB166B300FE2559 /* InitializerBootcamp.swift */,
 				978D37D72AA76EEC00051875 /* ContentView.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				9710298C2AA819E4009438F2 /* TextBootcamp.swift */,
 				978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */,
+				970D46422AB1952C00FE2559 /* InitAndEnum */,
 				9744EF622AAF100A00908F76 /* Card */,
 				97EA12BF2AB03D5600E40832 /* PaddingAndSpacer */,
 				97E67CA22AAECB57007D9E1E /* Stacks */,
@@ -294,6 +305,7 @@
 				97E67CA12AAECB4E007D9E1E /* StacksAlignment.swift in Sources */,
 				97EA12BE2AB03D4E00E40832 /* SpacerBootcamp.swift in Sources */,
 				972DCCED2AABE18700C61CCE /* FrameBootcamp.swift in Sources */,
+				970D46442AB1956700FE2559 /* EnumBootcamp.swift in Sources */,
 				973CD62D2AA8C8C500B3E42A /* ColorBootcamp.swift in Sources */,
 				972DCCEF2AABE68700C61CCE /* Frames.swift in Sources */,
 				9710298F2AA825C4009438F2 /* ShapesBootcamp.swift in Sources */,
