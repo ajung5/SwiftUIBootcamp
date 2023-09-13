@@ -26,6 +26,7 @@
 		97404C1F2AA88AE6007F80B2 /* ShapeLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97404C1E2AA88AE6007F80B2 /* ShapeLoginPage.swift */; };
 		9744EF642AAF102B00908F76 /* KinaraCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9744EF632AAF102B00908F76 /* KinaraCard.swift */; };
 		9746B84A2AADB9560043B26B /* OverlayCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9746B8492AADB9560043B26B /* OverlayCircle.swift */; };
+		974E7BFD2AB1E64100AD2300 /* ForEachArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974E7BFC2AB1E64100AD2300 /* ForEachArray.swift */; };
 		974FF5152AAD5771007A3840 /* OverlayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FF5142AAD5771007A3840 /* OverlayIcon.swift */; };
 		974FF5172AAD6DFF007A3840 /* LinearGradientBound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FF5162AAD6DFF007A3840 /* LinearGradientBound.swift */; };
 		974FF5192AAD7F02007A3840 /* OverlayIconInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FF5182AAD7F02007A3840 /* OverlayIconInstagram.swift */; };
@@ -66,6 +67,7 @@
 		97404C1E2AA88AE6007F80B2 /* ShapeLoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeLoginPage.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9744EF632AAF102B00908F76 /* KinaraCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinaraCard.swift; sourceTree = "<group>"; };
 		9746B8492AADB9560043B26B /* OverlayCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayCircle.swift; sourceTree = "<group>"; };
+		974E7BFC2AB1E64100AD2300 /* ForEachArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachArray.swift; sourceTree = "<group>"; };
 		974FF5142AAD5771007A3840 /* OverlayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayIcon.swift; sourceTree = "<group>"; };
 		974FF5162AAD6DFF007A3840 /* LinearGradientBound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientBound.swift; sourceTree = "<group>"; };
 		974FF5182AAD7F02007A3840 /* OverlayIconInstagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayIconInstagram.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				970D46452AB19BD600FE2559 /* ForEachBootcamp.swift */,
+				974E7BFC2AB1E64100AD2300 /* ForEachArray.swift */,
 				970D46482AB1A2EB00FE2559 /* ForEachData.swift */,
 			);
 			path = ForEach;
@@ -332,6 +335,7 @@
 				974FF5152AAD5771007A3840 /* OverlayIcon.swift in Sources */,
 				978D37D82AA76EEC00051875 /* ContentView.swift in Sources */,
 				970D463F2AB166B300FE2559 /* InitializerBootcamp.swift in Sources */,
+				974E7BFD2AB1E64100AD2300 /* ForEachArray.swift in Sources */,
 				97404C1B2AA88718007F80B2 /* ShapeRectangle.swift in Sources */,
 				97404C1D2AA88738007F80B2 /* ShapeRoundedRectangle.swift in Sources */,
 				97D7EA4D2AAEE8D9001B2839 /* CardView.swift in Sources */,
