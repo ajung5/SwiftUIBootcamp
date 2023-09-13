@@ -206,10 +206,10 @@
 			isa = PBXGroup;
 			children = (
 				978D37D72AA76EEC00051875 /* ContentView.swift */,
-				974E7C022AB1FB5300AD2300 /* ScrollView */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				9710298C2AA819E4009438F2 /* TextBootcamp.swift */,
 				978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */,
+				974E7C022AB1FB5300AD2300 /* ScrollView */,
 				970D46472AB19BDA00FE2559 /* ForEach */,
 				970D46422AB1952C00FE2559 /* InitAndEnum */,
 				9744EF622AAF100A00908F76 /* Card */,

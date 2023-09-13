@@ -11,10 +11,14 @@ struct HorizontalScrollView: View {
     var body: some View {
         
         ScrollView {
-            VStack {
+            // pada scrollview, jika kita melakukan pengulangan dengan banyak data, maka data tersebbut akan di download semua oleh user.
+            // bayangkan jika ada 1000 atau sejuta shape yang harus di download
+            // untuk mengantisipasi tersebut, maka gunakanlah keyword "lazy" pada stack, Lazy hanya akan load data yang tampil di screen aja
+            
+            LazyVStack {
                 ForEach(0..<15) { item in
                     ScrollView(.horizontal, showsIndicators: true) {
-                        HStack {
+                        LazyHStack {
                             ForEach(0..<10) { index in
                                 RoundedRectangle(cornerRadius: 25)
                                     .fill(.white)
