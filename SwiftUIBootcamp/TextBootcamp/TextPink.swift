@@ -15,7 +15,27 @@ struct TextPink: View {
             
             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
                 .font(.custom("PinkDisplayRegular", size: 55))
+                .padding()
+            
+            RoundedRectangle(cornerRadius: 15)
+                .frame(width: 200, height: 200)
+                .overlay(
+                    VStack (spacing: 0){
+                        Text("grand")
+                            .foregroundColor(.white)
+                            .font(.custom("pricedown", size: 55))
+                        Text("theft")
+                            .foregroundColor(.white)
+                            .font(.custom("pricedown", size: 55))
+                        Text("auto")
+                            .foregroundColor(.white)
+                            .font(.custom("pricedown", size: 55))
+                    }
+                )
+                
+                
         }
+        //.padding(.horizontal)
     }
 }
 
