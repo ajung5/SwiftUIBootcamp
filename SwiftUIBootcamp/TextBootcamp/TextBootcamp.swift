@@ -48,6 +48,7 @@ struct TextBootcamp: View {
             
             Text("Contoh Frame")
                 .font(.headline)
+                .font(.custom("PinkDisplayRegular", size: 22))
                 .padding(.top)
             Text("Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo".capitalized)
                 .multilineTextAlignment(.center)
