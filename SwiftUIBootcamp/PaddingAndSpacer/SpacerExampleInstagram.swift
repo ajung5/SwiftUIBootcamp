@@ -13,6 +13,8 @@ struct SpacerExampleInstagram: View {
             
             HStack(spacing: 25){
                 Text("Instagram")
+                    .font(.custom("PinkishRegular", size: 28))
+                    .foregroundColor(.white)
                 Spacer()
                 Image(systemName: "plus.app")
                     .foregroundColor(.white)
@@ -32,8 +34,18 @@ struct SpacerExampleInstagram: View {
             
             Spacer()
             
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-                .font(.largeTitle)
+            ScrollView {
+                VStack {
+                    ForEach(0..<10) { item in
+                        Text("Kinara Almahyra Prayasti")
+                            //.font(.largeTitle)
+                            .font(.custom("PinkishRegular", size: 55))
+                            .padding(.bottom, 15)
+                            .multilineTextAlignment(.leading)
+                    }
+                }
+            }
+            
             
             Spacer()
             

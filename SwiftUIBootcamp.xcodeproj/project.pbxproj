@@ -32,7 +32,6 @@
 		974FF5152AAD5771007A3840 /* OverlayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FF5142AAD5771007A3840 /* OverlayIcon.swift */; };
 		974FF5172AAD6DFF007A3840 /* LinearGradientBound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FF5162AAD6DFF007A3840 /* LinearGradientBound.swift */; };
 		974FF5192AAD7F02007A3840 /* OverlayIconInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FF5182AAD7F02007A3840 /* OverlayIconInstagram.swift */; };
-		977A6C592AB2971E005F9422 /* PinkDisplay.otf in Resources */ = {isa = PBXBuildFile; fileRef = 977A6C552AB2971E005F9422 /* PinkDisplay.otf */; };
 		977A6C5C2AB2971E005F9422 /* PinkDisplayRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */; };
 		9783ABAA2AB0AA1B004629E6 /* SpacerExampleInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9783ABA92AB0AA1B004629E6 /* SpacerExampleInstagram.swift */; };
 		978D37D62AA76EEC00051875 /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */; };
@@ -43,6 +42,7 @@
 		97A346822AAA9A0B003FA17A /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */; };
 		97A346842AAAA8C8003FA17A /* ImagesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A346832AAAA8C8003FA17A /* ImagesBootcamp.swift */; };
 		97C1741D2AB2A14700C674DB /* TextPink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C1741C2AB2A14700C674DB /* TextPink.swift */; };
+		97C174202AB2A35000C674DB /* PinkishRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */; };
 		97D7EA4D2AAEE8D9001B2839 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7EA4C2AAEE8D9001B2839 /* CardView.swift */; };
 		97D7EA4F2AAEEE5A001B2839 /* CardViewKinara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7EA4E2AAEEE5A001B2839 /* CardViewKinara.swift */; };
 		97E67C9C2AAEBD75007D9E1E /* StacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E67C9B2AAEBD75007D9E1E /* StacksBootcamp.swift */; };
@@ -78,7 +78,6 @@
 		974FF5142AAD5771007A3840 /* OverlayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayIcon.swift; sourceTree = "<group>"; };
 		974FF5162AAD6DFF007A3840 /* LinearGradientBound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientBound.swift; sourceTree = "<group>"; };
 		974FF5182AAD7F02007A3840 /* OverlayIconInstagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayIconInstagram.swift; sourceTree = "<group>"; };
-		977A6C552AB2971E005F9422 /* PinkDisplay.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkDisplay.otf; sourceTree = "<group>"; };
 		977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkDisplayRegular.ttf; sourceTree = "<group>"; };
 		977A6C5E2AB29A2A005F9422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9783ABA92AB0AA1B004629E6 /* SpacerExampleInstagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExampleInstagram.swift; sourceTree = "<group>"; };
@@ -91,6 +90,7 @@
 		97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
 		97A346832AAAA8C8003FA17A /* ImagesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesBootcamp.swift; sourceTree = "<group>"; };
 		97C1741C2AB2A14700C674DB /* TextPink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPink.swift; sourceTree = "<group>"; };
+		97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkishRegular.ttf; sourceTree = "<group>"; };
 		97D7EA4C2AAEE8D9001B2839 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		97D7EA4E2AAEEE5A001B2839 /* CardViewKinara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewKinara.swift; sourceTree = "<group>"; };
 		97E67C9B2AAEBD75007D9E1E /* StacksBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootcamp.swift; sourceTree = "<group>"; };
@@ -204,7 +204,7 @@
 		977A6C5D2AB29730005F9422 /* pinkish */ = {
 			isa = PBXGroup;
 			children = (
-				977A6C552AB2971E005F9422 /* PinkDisplay.otf */,
+				97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */,
 				977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */,
 			);
 			path = pinkish;
@@ -358,8 +358,8 @@
 			files = (
 				977A6C5C2AB2971E005F9422 /* PinkDisplayRegular.ttf in Resources */,
 				978D37DD2AA76EED00051875 /* Preview Assets.xcassets in Resources */,
+				97C174202AB2A35000C674DB /* PinkishRegular.ttf in Resources */,
 				978D37DA2AA76EED00051875 /* Assets.xcassets in Resources */,
-				977A6C592AB2971E005F9422 /* PinkDisplay.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
