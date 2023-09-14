@@ -44,6 +44,7 @@
 		97C1741D2AB2A14700C674DB /* TextPink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C1741C2AB2A14700C674DB /* TextPink.swift */; };
 		97C174202AB2A35000C674DB /* PinkishRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */; };
 		97C174222AB2A79800C674DB /* pricedown.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97C174212AB2A79800C674DB /* pricedown.otf */; };
+		97CDC7D42AB2ED9700E39153 /* GridBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CDC7D32AB2ED9700E39153 /* GridBootcamp.swift */; };
 		97D7EA4D2AAEE8D9001B2839 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7EA4C2AAEE8D9001B2839 /* CardView.swift */; };
 		97D7EA4F2AAEEE5A001B2839 /* CardViewKinara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7EA4E2AAEEE5A001B2839 /* CardViewKinara.swift */; };
 		97E67C9C2AAEBD75007D9E1E /* StacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E67C9B2AAEBD75007D9E1E /* StacksBootcamp.swift */; };
@@ -93,6 +94,7 @@
 		97C1741C2AB2A14700C674DB /* TextPink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPink.swift; sourceTree = "<group>"; };
 		97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkishRegular.ttf; sourceTree = "<group>"; };
 		97C174212AB2A79800C674DB /* pricedown.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pricedown.otf; sourceTree = "<group>"; };
+		97CDC7D32AB2ED9700E39153 /* GridBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBootcamp.swift; sourceTree = "<group>"; };
 		97D7EA4C2AAEE8D9001B2839 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		97D7EA4E2AAEEE5A001B2839 /* CardViewKinara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewKinara.swift; sourceTree = "<group>"; };
 		97E67C9B2AAEBD75007D9E1E /* StacksBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootcamp.swift; sourceTree = "<group>"; };
@@ -234,10 +236,11 @@
 			children = (
 				977A6C5E2AB29A2A005F9422 /* Info.plist */,
 				978D37D72AA76EEC00051875 /* ContentView.swift */,
-				97C1741E2AB2A14F00C674DB /* TextBootcamp */,
+				97CDC7D32AB2ED9700E39153 /* GridBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */,
 				977A6C542AB2964D005F9422 /* CustomFont */,
+				97C1741E2AB2A14F00C674DB /* TextBootcamp */,
 				974E7C022AB1FB5300AD2300 /* ScrollView */,
 				970D46472AB19BDA00FE2559 /* ForEach */,
 				970D46422AB1952C00FE2559 /* InitAndEnum */,
@@ -374,6 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97CDC7D42AB2ED9700E39153 /* GridBootcamp.swift in Sources */,
 				97E67CA12AAECB4E007D9E1E /* StacksAlignment.swift in Sources */,
 				97C1741D2AB2A14700C674DB /* TextPink.swift in Sources */,
 				97EA12BE2AB03D4E00E40832 /* SpacerBootcamp.swift in Sources */,
