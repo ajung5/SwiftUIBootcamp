@@ -14,6 +14,9 @@ struct GridBootcamp: View {
     // 
     
     let kolom: [GridItem] = [
+        // setiap griditem, mewakili satu kolom
+        GridItem(.fixed(50), spacing: nil, alignment: nil),
+        GridItem(.fixed(50), spacing: nil, alignment: nil),
         GridItem(.fixed(50), spacing: nil, alignment: nil)
     ]
     
