@@ -14,13 +14,13 @@ struct LazyVGridCustom: View {
         // .flexible membuat lebar grid jadi fleksibel, tanpa harus menentukan lebar/tinggi grid
         GridItem(.flexible(),
                  // spacing disini antara  kolom
-                 spacing: 1,
+                 spacing: 6,
                  alignment: nil),
         GridItem(.flexible(),
                  spacing: nil,
                  alignment: nil),
         GridItem(.flexible(),
-                 spacing: 8,
+                 spacing: nil,
                  alignment: nil)
     ]
     
@@ -31,11 +31,38 @@ struct LazyVGridCustom: View {
                       alignment: .center,
                       
                       // spacing disini antara baris (row) bukan kolom
-                      spacing: 3,
-                      pinnedViews: []) {
-                ForEach(0..<50) { index in
-                    Rectangle()
-                        .frame(height: 150)
+                      spacing: 6,
+                      
+                      // pinnedviews untuk mengunci header/footer ketika di scroll
+                      pinnedViews: [.sectionHeaders]) {
+                Section(header:
+                            Text("Section 1")
+                                .font(.title)
+                                .foregroundColor(.white)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .background(.teal)
+                                .padding()
+                ) {
+                    ForEach(0..<20) { index in
+                        Rectangle()
+                            .frame(height: 150)
+                    }
+                }
+                
+                
+                // # Section 2
+                Section(header:
+                            Text("Section 2")
+                                .font(.title)
+                                .foregroundColor(.white)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .background(Color("VividCerise"))
+                                .padding()
+                ) {
+                    ForEach(0..<20) { index in
+                        Rectangle()
+                            .frame(height: 150)
+                    }
                 }
             }
         }
