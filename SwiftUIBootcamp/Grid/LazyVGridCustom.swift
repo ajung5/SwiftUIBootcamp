@@ -13,13 +13,14 @@ struct LazyVGridCustom: View {
         
         // .flexible membuat lebar grid jadi fleksibel, tanpa harus menentukan lebar/tinggi grid
         GridItem(.flexible(),
-                 spacing: nil,
+                 // spacing disini antara  kolom
+                 spacing: 1,
                  alignment: nil),
         GridItem(.flexible(),
                  spacing: nil,
                  alignment: nil),
         GridItem(.flexible(),
-                 spacing: nil,
+                 spacing: 8,
                  alignment: nil)
     ]
     
@@ -28,7 +29,9 @@ struct LazyVGridCustom: View {
             
             LazyVGrid(columns: columns,
                       alignment: .center,
-                      spacing: nil,
+                      
+                      // spacing disini antara baris (row) bukan kolom
+                      spacing: 3,
                       pinnedViews: []) {
                 ForEach(0..<50) { index in
                     Rectangle()
