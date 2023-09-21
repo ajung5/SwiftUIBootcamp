@@ -17,17 +17,19 @@ struct GridBootcamp: View {
         // setiap griditem, mewakili satu kolom
         GridItem(.fixed(50), spacing: nil, alignment: nil),
         GridItem(.fixed(50), spacing: nil, alignment: nil),
+        
+        // memodifikasi column ke 5 dengan mengubah lebar nya
+        GridItem(.fixed(100), spacing: nil, alignment: nil),
+        GridItem(.fixed(50), spacing: nil, alignment: nil),
         GridItem(.fixed(50), spacing: nil, alignment: nil)
     ]
     
     var body: some View {
         LazyVGrid(columns: kolom) {
-            Rectangle()
-            Rectangle()
-            Rectangle()
-            Rectangle()
-            Rectangle()
-            Rectangle()
+            ForEach(0..<50) { index in
+                Rectangle()
+                    .frame(height: 50)
+            }
         }
     }
 }
