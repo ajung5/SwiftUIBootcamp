@@ -20,6 +20,24 @@ struct ButtonBootcamp: View {
                 self.title = "Anda Berhasil Login"
             }
             .accentColor(.green) // accentcolor bakal di ganti di ios versi selanjutnya
+            
+            // Contoh Button #2.
+            // dengan menggunakan button ini, bisa custom label sesuai selera
+            Button {
+                self.title = "Silahkan untuk daftar"
+            } label: {
+                Text("Daftar")
+                    .font(.headline)
+                    .fontWeight(.semibold)
+                    .foregroundColor(.white)
+                    .padding()
+                    .padding(.horizontal, 20)
+                    .background(
+                        Color.teal
+                            .cornerRadius(15)
+                            .shadow(radius: 15)
+                    )
+            }
         }
     }
 }
