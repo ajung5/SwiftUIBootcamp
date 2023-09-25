@@ -27,7 +27,7 @@ struct ButtonBootcamp: View {
             Button {
                 self.title = "Silahkan untuk daftar"
             } label: {
-                Text("Daftar")
+                Text("Daftar".uppercased())
                     .font(.headline)
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
@@ -43,7 +43,7 @@ struct ButtonBootcamp: View {
             
             // Contoh Button #3.
             Button {
-                self.title = "Button 3"
+                self.title = "Like 23K"
             } label: {
                 Circle()
                     .fill(.white)
@@ -55,6 +55,24 @@ struct ButtonBootcamp: View {
                             .foregroundColor(Color(#colorLiteral(red: 0.5807225108, green: 0.066734083, blue: 0, alpha: 1)))
                     }
             }
+            
+            
+            // Contoh Button #4.
+            Button {
+                self.title = "Selesai"
+            } label: {
+                Text ("Finish".uppercased())
+                    .font(.caption)
+                    .foregroundColor(.gray)
+                    .bold()
+                    .padding()
+                    .padding(.horizontal, 15)
+                    .background(
+                        Capsule()
+                            .stroke(.gray, lineWidth: 2)
+                    )
+            }
+
 
         }
     }
