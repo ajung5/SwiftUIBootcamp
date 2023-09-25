@@ -21,6 +21,7 @@ struct ButtonBootcamp: View {
             }
             .accentColor(.green) // accentcolor bakal di ganti di ios versi selanjutnya
             
+            
             // Contoh Button #2.
             // dengan menggunakan button ini, bisa custom label sesuai selera
             Button {
@@ -38,6 +39,23 @@ struct ButtonBootcamp: View {
                             .shadow(radius: 15)
                     )
             }
+            
+            
+            // Contoh Button #3.
+            Button {
+                self.title = "Button 3"
+            } label: {
+                Circle()
+                    .fill(.white)
+                    .frame(width: 75, height: 75)
+                    .shadow(radius: 10)
+                    .overlay {
+                        Image(systemName: "heart.fill")
+                            .font(.largeTitle)
+                            .foregroundColor(Color(#colorLiteral(red: 0.5807225108, green: 0.066734083, blue: 0, alpha: 1)))
+                    }
+            }
+
         }
     }
 }
