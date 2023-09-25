@@ -27,6 +27,10 @@ struct LazyVGridCustom: View {
     var body: some View {
         ScrollView {
             
+            Rectangle()
+                .fill(Color.cyan)
+                .frame(height: 400)
+            
             LazyVGrid(columns: columns,
                       alignment: .center,
                       
@@ -61,6 +65,7 @@ struct LazyVGridCustom: View {
                 ) {
                     ForEach(0..<20) { index in
                         Rectangle()
+                            .fill(.orange)
                             .frame(height: 150)
                     }
                 }
