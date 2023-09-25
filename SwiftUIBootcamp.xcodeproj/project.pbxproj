@@ -51,6 +51,7 @@
 		97E67C9E2AAEBE02007D9E1E /* KinaraImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E67C9D2AAEBE02007D9E1E /* KinaraImage.swift */; };
 		97E67CA12AAECB4E007D9E1E /* StacksAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E67CA02AAECB4E007D9E1E /* StacksAlignment.swift */; };
 		97E6D0722AC1BCF200824E3A /* SafeAreaBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */; };
+		97E6D0742AC1C3D100824E3A /* ButtonBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E6D0732AC1C3D100824E3A /* ButtonBootcamp.swift */; };
 		97EA12BC2AB03D4300E40832 /* PaddingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EA12BB2AB03D4300E40832 /* PaddingBootcamp.swift */; };
 		97EA12BE2AB03D4E00E40832 /* SpacerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EA12BD2AB03D4E00E40832 /* SpacerBootcamp.swift */; };
 		97EDCA8E2ABC8536004C26AC /* LazyVGridCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EDCA8D2ABC8536004C26AC /* LazyVGridCustom.swift */; };
@@ -104,6 +105,7 @@
 		97E67C9D2AAEBE02007D9E1E /* KinaraImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinaraImage.swift; sourceTree = "<group>"; };
 		97E67CA02AAECB4E007D9E1E /* StacksAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksAlignment.swift; sourceTree = "<group>"; };
 		97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBootcamp.swift; sourceTree = "<group>"; };
+		97E6D0732AC1C3D100824E3A /* ButtonBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBootcamp.swift; sourceTree = "<group>"; };
 		97EA12BB2AB03D4300E40832 /* PaddingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBootcamp.swift; sourceTree = "<group>"; };
 		97EA12BD2AB03D4E00E40832 /* SpacerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBootcamp.swift; sourceTree = "<group>"; };
 		97EDCA8D2ABC8536004C26AC /* LazyVGridCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridCustom.swift; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 			children = (
 				977A6C5E2AB29A2A005F9422 /* Info.plist */,
 				978D37D72AA76EEC00051875 /* ContentView.swift */,
+				97E6D0732AC1C3D100824E3A /* ButtonBootcamp.swift */,
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */,
@@ -398,6 +401,7 @@
 				97E67CA12AAECB4E007D9E1E /* StacksAlignment.swift in Sources */,
 				97C1741D2AB2A14700C674DB /* TextPink.swift in Sources */,
 				97EA12BE2AB03D4E00E40832 /* SpacerBootcamp.swift in Sources */,
+				97E6D0742AC1C3D100824E3A /* ButtonBootcamp.swift in Sources */,
 				97EDCA8E2ABC8536004C26AC /* LazyVGridCustom.swift in Sources */,
 				972DCCED2AABE18700C61CCE /* FrameBootcamp.swift in Sources */,
 				974E7C012AB1FB4D00AD2300 /* HorizontalScrollView.swift in Sources */,
