@@ -18,20 +18,25 @@ struct ExtractedFunction: View {
                 .ignoresSafeArea()
             
             // content
-            VStack {
-                Text("Title")
-                    .font(.largeTitle)
+            contentLayer
+        }
+    }
+    
+    // selain bisa mengekstrak view dengan membuat function, kita juga bisa mengekstrak view itu sendiri dengan membuat variabel tersendiri
+    var contentLayer: some View {
+        VStack {
+            Text("Title")
+                .font(.largeTitle)
+                .foregroundColor(.white)
+            Button {
+                changeBackgrouund()
+            } label: {
+                Text("PRESS ME")
+                    .font(.headline)
                     .foregroundColor(.white)
-                Button {
-                    changeBackgrouund()
-                } label: {
-                    Text("PRESS ME")
-                        .font(.headline)
-                        .foregroundColor(.white)
-                        .padding()
-                        .background(.black)
-                        .cornerRadius(10)
-                }
+                    .padding()
+                    .background(.black)
+                    .cornerRadius(10)
             }
         }
     }
