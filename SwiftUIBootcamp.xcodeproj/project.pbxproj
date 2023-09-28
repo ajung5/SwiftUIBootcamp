@@ -42,6 +42,7 @@
 		97A346822AAA9A0B003FA17A /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */; };
 		97A346842AAAA8C8003FA17A /* ImagesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A346832AAAA8C8003FA17A /* ImagesBootcamp.swift */; };
 		97AC98332AC306A1006C69A2 /* ExtractedFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */; };
+		97AC98352AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */; };
 		97C1741D2AB2A14700C674DB /* TextPink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C1741C2AB2A14700C674DB /* TextPink.swift */; };
 		97C174202AB2A35000C674DB /* PinkishRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */; };
 		97C174222AB2A79800C674DB /* pricedown.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97C174212AB2A79800C674DB /* pricedown.otf */; };
@@ -98,6 +99,7 @@
 		97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
 		97A346832AAAA8C8003FA17A /* ImagesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesBootcamp.swift; sourceTree = "<group>"; };
 		97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunction.swift; sourceTree = "<group>"; };
+		97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsBootcamp.swift; sourceTree = "<group>"; };
 		97C1741C2AB2A14700C674DB /* TextPink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPink.swift; sourceTree = "<group>"; };
 		97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkishRegular.ttf; sourceTree = "<group>"; };
 		97C174212AB2A79800C674DB /* pricedown.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pricedown.otf; sourceTree = "<group>"; };
@@ -248,6 +250,7 @@
 			children = (
 				977A6C5E2AB29A2A005F9422 /* Info.plist */,
 				978D37D72AA76EEC00051875 /* ContentView.swift */,
+				97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */,
 				97E6D0762AC1D3EE00824E3A /* StateBootcamp.swift */,
 				97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */,
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
@@ -443,6 +446,7 @@
 				97A346842AAAA8C8003FA17A /* ImagesBootcamp.swift in Sources */,
 				9710E9262AAA07B6001AE36B /* GradientBootcamp.swift in Sources */,
 				970D46492AB1A2EB00FE2559 /* ForEachData.swift in Sources */,
+				97AC98352AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift in Sources */,
 				974FF5192AAD7F02007A3840 /* OverlayIconInstagram.swift in Sources */,
 				9710298D2AA819E4009438F2 /* TextBootcamp.swift in Sources */,
 				97D7EA4F2AAEEE5A001B2839 /* CardViewKinara.swift in Sources */,
