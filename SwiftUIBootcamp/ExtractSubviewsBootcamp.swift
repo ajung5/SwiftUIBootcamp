@@ -13,7 +13,9 @@ struct ExtractSubviewsBootcamp: View {
             Color("VividCerise")
                 .ignoresSafeArea()
             
-            myItem
+            contentLayer
+            
+            
         }
     }
     
@@ -21,19 +23,38 @@ struct ExtractSubviewsBootcamp: View {
     // jika menggunakan itu, hanya jika loogic nya tidaka akan berubah
     // dan data di dalam subview teersebut akan bersifat static
     
-    var myItem: some View {
-        VStack  {
-            Text("1")
-            Text("Apple")
+    var contentLayer: some View {
+        HStack {
+            MyItem(title: "Orange", count: 2, color: .gray)
+            MyItem(title: "Grape", count: 4, color: .green)
         }
-        .padding()
-        .background(.mint)
-        .cornerRadius(10)
     }
+    
 }
 
 struct ExtractSubviewsBootcamp_Previews: PreviewProvider {
     static var previews: some View {
         ExtractSubviewsBootcamp()
+    }
+}
+
+
+// jadi, jika ingin subview tersebut bersifat dinamis. maka lakukan ekstrak subview dengan cara:
+// command + klik => extract subview
+// jadi jika mengekstrak dengan mempunyai body sendiri, subview tersebut akan memiliki sifat yang sama dengan main body
+
+struct MyItem: View {
+    let title: String
+    let count: Int
+    let color: Color
+    
+    var body: some View {
+        VStack  {
+            Text("\(count)")
+            Text(title)
+        }
+        .padding()
+        .background(color)
+        .cornerRadius(10)
     }
 }
