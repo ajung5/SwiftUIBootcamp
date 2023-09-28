@@ -32,6 +32,7 @@
 		974FF5152AAD5771007A3840 /* OverlayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FF5142AAD5771007A3840 /* OverlayIcon.swift */; };
 		974FF5172AAD6DFF007A3840 /* LinearGradientBound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FF5162AAD6DFF007A3840 /* LinearGradientBound.swift */; };
 		974FF5192AAD7F02007A3840 /* OverlayIconInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FF5182AAD7F02007A3840 /* OverlayIconInstagram.swift */; };
+		97593FBE2AC5B115004037EF /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97593FBD2AC5B115004037EF /* BindingBootcamp.swift */; };
 		977A6C5C2AB2971E005F9422 /* PinkDisplayRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */; };
 		9783ABAA2AB0AA1B004629E6 /* SpacerExampleInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9783ABA92AB0AA1B004629E6 /* SpacerExampleInstagram.swift */; };
 		978D37D62AA76EEC00051875 /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */; };
@@ -87,6 +88,7 @@
 		974FF5142AAD5771007A3840 /* OverlayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayIcon.swift; sourceTree = "<group>"; };
 		974FF5162AAD6DFF007A3840 /* LinearGradientBound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientBound.swift; sourceTree = "<group>"; };
 		974FF5182AAD7F02007A3840 /* OverlayIconInstagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayIconInstagram.swift; sourceTree = "<group>"; };
+		97593FBD2AC5B115004037EF /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
 		977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkDisplayRegular.ttf; sourceTree = "<group>"; };
 		977A6C5E2AB29A2A005F9422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9783ABA92AB0AA1B004629E6 /* SpacerExampleInstagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExampleInstagram.swift; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 				977A6C5E2AB29A2A005F9422 /* Info.plist */,
 				978D37D72AA76EEC00051875 /* ContentView.swift */,
 				97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */,
+				97593FBD2AC5B115004037EF /* BindingBootcamp.swift */,
 				97E6D0762AC1D3EE00824E3A /* StateBootcamp.swift */,
 				97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */,
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
@@ -430,6 +433,7 @@
 				972DCCEF2AABE68700C61CCE /* Frames.swift in Sources */,
 				9710298F2AA825C4009438F2 /* ShapesBootcamp.swift in Sources */,
 				9746B84A2AADB9560043B26B /* OverlayCircle.swift in Sources */,
+				97593FBE2AC5B115004037EF /* BindingBootcamp.swift in Sources */,
 				973CD62B2AA8C4C400B3E42A /* ShapeEllipse.swift in Sources */,
 				97A346822AAA9A0B003FA17A /* IconsBootcamp.swift in Sources */,
 				971029912AA849BF009438F2 /* ShapeCircle.swift in Sources */,
