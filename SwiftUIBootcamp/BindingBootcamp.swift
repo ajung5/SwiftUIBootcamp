@@ -22,6 +22,7 @@ struct BindingBootcamp: View {
             
             VStack {
                 Text(title)
+                
                     .foregroundColor(.white)
                 
                 ButtonView(backgroundColor: $backgroundColor, title: $title)
