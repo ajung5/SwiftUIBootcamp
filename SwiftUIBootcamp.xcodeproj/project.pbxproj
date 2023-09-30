@@ -259,7 +259,7 @@
 				97E6D0762AC1D3EE00824E3A /* StateBootcamp.swift */,
 				97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */,
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
-				978E1EC82AC8748F00ACDC28 /* SijawaraDashboardClone.swift */,
+				978E1ECA2AC878AE00ACDC28 /* Sijawara */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */,
 				97E6D0752AC1D3D400824E3A /* Button */,
@@ -289,6 +289,14 @@
 				978D37DC2AA76EED00051875 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		978E1ECA2AC878AE00ACDC28 /* Sijawara */ = {
+			isa = PBXGroup;
+			children = (
+				978E1EC82AC8748F00ACDC28 /* SijawaraDashboardClone.swift */,
+			);
+			path = Sijawara;
 			sourceTree = "<group>";
 		};
 		97C1741E2AB2A14F00C674DB /* TextBootcamp */ = {

@@ -31,14 +31,14 @@ struct SijawaraDashboardClone: View {
 
 // top menu
 struct topMenu: View {
+    
+    let kolom: [GridItem] = [
+        GridItem(.fixed(75), spacing: nil, alignment: .leading),
+        GridItem(.flexible(), spacing: 5, alignment: .center),
+        GridItem(.fixed(75), spacing: nil, alignment: .trailing)
+    ]
+    
     var body: some View {
-        
-        let kolom: [GridItem] = [
-            GridItem(.fixed(75), spacing: nil, alignment: .leading),
-            GridItem(.flexible(), spacing: 5, alignment: .center),
-            GridItem(.fixed(75), spacing: nil, alignment: .trailing)
-        ]
-        
         VStack {
             LazyVGrid(columns: kolom){
                 Image(systemName: "text.justify")
