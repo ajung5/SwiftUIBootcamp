@@ -245,6 +245,12 @@ struct mainMenu: View {
                     } label: {
                         ZStack {
                             RoundedRectangle(cornerRadius: 15)
+                                .fill(
+                                    LinearGradient(colors: [Color.blue,
+                                                            Color.teal],
+                                                   startPoint: .top,
+                                                   endPoint: .bottom)
+                                )
                                 .frame(width: 65, height: 65)
 
                             Image(systemName: symbols[index])
