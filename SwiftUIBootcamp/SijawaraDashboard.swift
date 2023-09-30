@@ -15,6 +15,8 @@ struct SijawaraDashboard: View {
             VStack {
                 topMenu()
                 
+                Presensi()
+                
                 accountSummary()
                 
                 Spacer()
@@ -57,8 +59,8 @@ struct topMenu: View {
 }
 
 
-//  presensi dan account summary
-struct accountSummary: View {
+//  presensi
+struct Presensi: View {
     
     let kolom: [GridItem] = [
         GridItem(.fixed(35), spacing: nil, alignment: .center),
@@ -105,15 +107,101 @@ struct accountSummary: View {
 
                 }
             }
-            
-            // Account Summary section
-            ZStack {
-                RoundedRectangle(cornerRadius: 10)
-                    .fill(.white)
-                    .frame(height: 150)
-            }
         }
         .padding(.top, 5)
+    }
+}
+
+// account summary
+struct accountSummary: View {
+    
+    let kolom: [GridItem] = [
+        GridItem(.fixed(55), spacing: 25, alignment: .leading),
+        GridItem(.flexible(), spacing: nil, alignment: .leading)
+    ]
+    
+    let kolom2: [GridItem] = [
+        GridItem(.flexible(), spacing: nil, alignment: .center),
+        GridItem(.flexible(), spacing: nil, alignment: .center),
+        GridItem(.flexible(), spacing: nil, alignment: .center)
+    ]
+
+    
+    var body: some View {
+        // Account Summary section
+        ZStack {
+            //Background Shape
+            RoundedRectangle(cornerRadius: 10)
+                .fill(.white)
+                .frame(height: 150)
+            
+            // summary
+            VStack(spacing: 20) {
+                LazyVGrid(columns: kolom) {
+                    Image("ajung")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 55, height: 55)
+                        .clipShape(
+                            Ellipse()
+                        )
+                        .padding(.horizontal, 15)
+                    
+                    VStack (alignment: .leading) {
+                        Text("AGUNG NAWAWI, S.Kom")
+                            .font(.system(size: 20))
+                            .fontWeight(.semibold)
+                        
+                        Text("199405152020121002")
+                            .font(.callout)
+                    }
+                    
+                }
+                
+                Divider()
+                
+                LazyVGrid(columns: kolom2) {
+                    //datang
+                    HStack {
+                        Circle()
+                            .fill(.green)
+                            .frame(width: 15, height: 15)
+                        VStack(alignment: .leading) {
+                            Text(("Datang"))
+                                .font(.caption)
+                            Text(("07:24"))
+                                .font(.caption)
+                        }
+                    }
+                    
+                    // pulang
+                    HStack {
+                        Circle()
+                            .fill(.green)
+                            .frame(width: 15, height: 15)
+                        VStack(alignment: .leading) {
+                            Text(("Pulang"))
+                                .font(.caption)
+                            Text(("16:24"))
+                                .font(.caption)
+                        }
+                    }
+                    
+                    //terlambat
+                    HStack {
+                        Circle()
+                            .fill(.green)
+                            .frame(width: 15, height: 15)
+                        VStack(alignment: .center) {
+                            Text(("Terlambat"))
+                                .font(.caption)
+                            Text(("-"))
+                                .font(.caption)
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
