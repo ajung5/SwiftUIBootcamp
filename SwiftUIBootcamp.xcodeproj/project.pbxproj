@@ -40,6 +40,7 @@
 		978D37DA2AA76EED00051875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978D37D92AA76EED00051875 /* Assets.xcassets */; };
 		978D37DD2AA76EED00051875 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978D37DC2AA76EED00051875 /* Preview Assets.xcassets */; };
 		978D520D2AAF6A6C00C59F54 /* FloopyDiskStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D520C2AAF6A6C00C59F54 /* FloopyDiskStack.swift */; };
+		978E1EC52AC84E8F00ACDC28 /* SijawaraDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978E1EC42AC84E8F00ACDC28 /* SijawaraDashboard.swift */; };
 		97A346822AAA9A0B003FA17A /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */; };
 		97A346842AAAA8C8003FA17A /* ImagesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A346832AAAA8C8003FA17A /* ImagesBootcamp.swift */; };
 		97AC98332AC306A1006C69A2 /* ExtractedFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */; };
@@ -98,6 +99,7 @@
 		978D37D92AA76EED00051875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		978D37DC2AA76EED00051875 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		978D520C2AAF6A6C00C59F54 /* FloopyDiskStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloopyDiskStack.swift; sourceTree = "<group>"; };
+		978E1EC42AC84E8F00ACDC28 /* SijawaraDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SijawaraDashboard.swift; sourceTree = "<group>"; };
 		97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
 		97A346832AAAA8C8003FA17A /* ImagesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesBootcamp.swift; sourceTree = "<group>"; };
 		97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunction.swift; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 			children = (
 				977A6C5E2AB29A2A005F9422 /* Info.plist */,
 				978D37D72AA76EEC00051875 /* ContentView.swift */,
+				978E1EC42AC84E8F00ACDC28 /* SijawaraDashboard.swift */,
 				97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */,
 				97593FBD2AC5B115004037EF /* BindingBootcamp.swift */,
 				97E6D0762AC1D3EE00824E3A /* StateBootcamp.swift */,
@@ -432,6 +435,7 @@
 				974E7BFF2AB1F7B800AD2300 /* ScrollViewBootcamp.swift in Sources */,
 				972DCCEF2AABE68700C61CCE /* Frames.swift in Sources */,
 				9710298F2AA825C4009438F2 /* ShapesBootcamp.swift in Sources */,
+				978E1EC52AC84E8F00ACDC28 /* SijawaraDashboard.swift in Sources */,
 				9746B84A2AADB9560043B26B /* OverlayCircle.swift in Sources */,
 				97593FBE2AC5B115004037EF /* BindingBootcamp.swift in Sources */,
 				973CD62B2AA8C4C400B3E42A /* ShapeEllipse.swift in Sources */,
