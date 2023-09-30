@@ -50,9 +50,14 @@ struct topMenu: View {
                     .foregroundColor(.white)
                     .fontWeight(.semibold)
                 
-                Image(systemName: "arrow.clockwise")
-                    .font(.title)
-                    .foregroundColor(.white)
+                Button {
+                    
+                } label: {
+                    Image(systemName: "arrow.clockwise")
+                        .font(.title)
+                        .foregroundColor(.white)
+                }
+
             }
         }
     }
