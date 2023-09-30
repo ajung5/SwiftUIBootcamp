@@ -19,9 +19,9 @@ struct SijawaraDashboard: View {
                 
                 accountSummary()
                 
-                Spacer()
+                mainMenu()
                 
-                Text("ajhkhk")
+                Spacer()
             }
             .padding(.horizontal, 20)
         }
@@ -116,7 +116,7 @@ struct Presensi: View {
 struct accountSummary: View {
     
     let kolom: [GridItem] = [
-        GridItem(.fixed(55), spacing: 25, alignment: .leading),
+        GridItem(.fixed(55), spacing: 15, alignment: .leading),
         GridItem(.flexible(), spacing: nil, alignment: .leading)
     ]
     
@@ -145,7 +145,6 @@ struct accountSummary: View {
                         .clipShape(
                             Ellipse()
                         )
-                        .padding(.horizontal, 15)
                     
                     VStack (alignment: .leading) {
                         Text("AGUNG NAWAWI, S.Kom")
@@ -201,7 +200,64 @@ struct accountSummary: View {
                     }
                 }
             }
+            .padding(.horizontal, 15)
         }
+    }
+}
+
+
+// main menu
+struct mainMenu: View {
+    
+    private var symbols = ["person.circle",
+                           "list.clipboard.fill",
+                           "creditcard.fill",
+                           "plus.rectangle.on.folder.fill",
+                           "text.badge.checkmark",
+                           "doc.text.magnifyingglass",
+                           "map.fill",
+                           "bell.badge.fill",
+                           "questionmark.circle.fill"]
+    
+    private var captions = ["Profile",
+                           "Aktifitas",
+                           "TPP",
+                           "Pengajuan",
+                           "Validasi",
+                           "Riwayat",
+                           "Lokasi",
+                           "Notifikasi",
+                           "Bantuan"]
+    
+    private var kolom: [GridItem] = [
+        GridItem(.flexible(), spacing: 25, alignment: .center),
+        GridItem(.flexible(), spacing: 25, alignment: .center),
+        GridItem(.flexible(), spacing: 25, alignment: .center)
+    ]
+    
+    var body: some View {
+        LazyVGrid(columns: kolom, spacing: 35) {
+            ForEach(0..<9) { index in
+                VStack{
+                    
+                    Button {
+                        
+                    } label: {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 15)
+                                .frame(width: 65, height: 65)
+
+                            Image(systemName: symbols[index])
+                                .foregroundColor(.white)
+                                .font(.system(size: 45))
+                        }
+                    }
+                    
+                    Text(captions[index])
+                }
+            }
+        }
+        .padding(.top, 35)
     }
 }
 
