@@ -9,7 +9,17 @@ import SwiftUI
 
 struct SijawaraDashboard: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.teal
+                .ignoresSafeArea()
+            VStack {
+                Text("SSSS")
+                
+                Spacer()
+                
+                Text("ajhkhk")
+            }
+        }
     }
 }
 
