@@ -167,7 +167,7 @@ struct accountSummary: View {
                             .frame(width: 15, height: 15)
                         VStack(alignment: .leading) {
                             Text(("Datang"))
-                                .font(.caption)
+                                .font(.subheadline)
                             Text(("07:24"))
                                 .font(.caption)
                         }
@@ -180,7 +180,7 @@ struct accountSummary: View {
                             .frame(width: 15, height: 15)
                         VStack(alignment: .leading) {
                             Text(("Pulang"))
-                                .font(.caption)
+                                .font(.subheadline)
                             Text(("16:24"))
                                 .font(.caption)
                         }
@@ -193,7 +193,7 @@ struct accountSummary: View {
                             .frame(width: 15, height: 15)
                         VStack(alignment: .center) {
                             Text(("Terlambat"))
-                                .font(.caption)
+                                .font(.subheadline)
                             Text(("-"))
                                 .font(.caption)
                         }
