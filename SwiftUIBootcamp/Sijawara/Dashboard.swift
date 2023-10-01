@@ -1,5 +1,5 @@
 //
-//  SijawaraDashboardClone.swift
+//  Dashboard.swift
 //  SwiftUIBootcamp
 //
 //  Created by Agung Nawawi on 30/09/23.
@@ -7,19 +7,20 @@
 
 import SwiftUI
 
-struct SijawaraDashboardClone: View {
+struct Dashboard: View {
     var body: some View {
         ZStack {
             Color.teal
                 .ignoresSafeArea()
+            
             VStack {
-                topMenu()
+                NavBar()
                 
-                Presensi()
+                Absence()
                 
-                accountSummary()
+                AccountDetail()
                 
-                mainMenu()
+                MenuUtama()
                 
                 Spacer()
             }
@@ -28,19 +29,18 @@ struct SijawaraDashboardClone: View {
     }
 }
 
-
-// top menu
-struct topMenu: View {
+//NavBar
+struct NavBar: View {
     
-    let kolom: [GridItem] = [
+    private var kolom: [GridItem] = [
         GridItem(.fixed(75), spacing: nil, alignment: .leading),
-        GridItem(.flexible(), spacing: 5, alignment: .center),
+        GridItem(.flexible(), spacing: nil, alignment: .center),
         GridItem(.fixed(75), spacing: nil, alignment: .trailing)
     ]
     
     var body: some View {
         VStack {
-            LazyVGrid(columns: kolom){
+            LazyVGrid(columns: kolom) {
                 Image(systemName: "text.justify")
                     .font(.title)
                     .foregroundColor(.white)
@@ -63,9 +63,7 @@ struct topMenu: View {
     }
 }
 
-
-//  presensi
-struct Presensi: View {
+struct Absence: View {
     
     let kolom: [GridItem] = [
         GridItem(.fixed(35), spacing: nil, alignment: .center),
@@ -75,8 +73,6 @@ struct Presensi: View {
     
     var body: some View {
         VStack {
-            
-            // Presensi Section
             ZStack {
                 RoundedRectangle(cornerRadius: 10)
                     .fill(.white)
@@ -117,8 +113,8 @@ struct Presensi: View {
     }
 }
 
-// account summary
-struct accountSummary: View {
+// acount
+struct AccountDetail: View {
     
     let kolom: [GridItem] = [
         GridItem(.fixed(55), spacing: 15, alignment: .leading),
@@ -130,18 +126,15 @@ struct accountSummary: View {
         GridItem(.flexible(), spacing: nil, alignment: .center),
         GridItem(.flexible(), spacing: nil, alignment: .center)
     ]
-
     
     var body: some View {
-        // Account Summary section
         ZStack {
-            //Background Shape
             RoundedRectangle(cornerRadius: 10)
                 .fill(.white)
                 .frame(height: 150)
             
-            // summary
-            VStack(spacing: 20) {
+            // details
+            VStack (spacing: 20) {
                 LazyVGrid(columns: kolom) {
                     Image("ajung")
                         .resizable()
@@ -150,68 +143,65 @@ struct accountSummary: View {
                         .clipShape(
                             Ellipse()
                         )
-                    
-                    VStack (alignment: .leading) {
+                    VStack(alignment: .leading) {
                         Text("AGUNG NAWAWI, S.Kom")
                             .font(.system(size: 20))
                             .fontWeight(.semibold)
                         
-                        Text("199405152020121002")
+                        Text("11242414124124124")
                             .font(.callout)
                     }
                 }
                 
                 Divider()
                 
+                // bottom detail
                 LazyVGrid(columns: kolom2) {
-                    //datang
                     HStack {
                         Circle()
                             .fill(.green)
                             .frame(width: 15, height: 15)
                         VStack(alignment: .leading) {
-                            Text(("Datang"))
+                            Text("Datang")
                                 .font(.subheadline)
-                            Text(("07:24"))
+                            Text("07:25")
                                 .font(.caption)
                         }
                     }
                     
-                    // pulang
                     HStack {
                         Circle()
                             .fill(.green)
                             .frame(width: 15, height: 15)
                         VStack(alignment: .leading) {
-                            Text(("Pulang"))
+                            Text("Pulang")
                                 .font(.subheadline)
-                            Text(("16:24"))
+                            Text("16:25")
                                 .font(.caption)
                         }
                     }
                     
-                    //terlambat
                     HStack {
                         Circle()
                             .fill(.green)
                             .frame(width: 15, height: 15)
                         VStack(alignment: .center) {
-                            Text(("Terlambat"))
+                            Text("Terlambat")
                                 .font(.subheadline)
-                            Text(("-"))
+                            Text("-")
                                 .font(.caption)
                         }
                     }
                 }
+                
             }
             .padding(.horizontal, 15)
         }
     }
 }
 
-
 // main menu
-struct mainMenu: View {
+struct MenuUtama: View {
     
     private var symbols = ["person.circle",
                            "list.clipboard.fill",
@@ -242,8 +232,7 @@ struct mainMenu: View {
     var body: some View {
         LazyVGrid(columns: kolom, spacing: 35) {
             ForEach(0..<9) { index in
-                VStack{
-                    
+                VStack {
                     Button {
                         
                     } label: {
@@ -251,18 +240,15 @@ struct mainMenu: View {
                             RoundedRectangle(cornerRadius: 15)
                                 .fill(
                                     LinearGradient(colors: [Color.blue,
-                                                            Color.teal],
-                                                   startPoint: .top,
-                                                   endPoint: .bottom)
+                                                            Color.teal], startPoint: .top, endPoint: .bottom)
                                 )
                                 .frame(width: 65, height: 65)
-
+                            
                             Image(systemName: symbols[index])
                                 .foregroundColor(.white)
                                 .font(.system(size: 45))
                         }
                     }
-                    
                     Text(captions[index])
                 }
             }
@@ -271,8 +257,8 @@ struct mainMenu: View {
     }
 }
 
-struct SijawaraDashboardClone_Previews: PreviewProvider {
+struct Dashboard_Previews: PreviewProvider {
     static var previews: some View {
-        SijawaraDashboardClone()
+        Dashboard()
     }
 }
