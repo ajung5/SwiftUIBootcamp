@@ -208,6 +208,15 @@
 			path = Card;
 			sourceTree = "<group>";
 		};
+		974B6A9C2AC9B1AD0095B4E7 /* BindingAndState */ = {
+			isa = PBXGroup;
+			children = (
+				97593FBD2AC5B115004037EF /* BindingBootcamp.swift */,
+				97E6D0762AC1D3EE00824E3A /* StateBootcamp.swift */,
+			);
+			path = BindingAndState;
+			sourceTree = "<group>";
+		};
 		974E7C022AB1FB5300AD2300 /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,13 +266,12 @@
 				977A6C5E2AB29A2A005F9422 /* Info.plist */,
 				978D37D72AA76EEC00051875 /* ContentView.swift */,
 				97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */,
-				97593FBD2AC5B115004037EF /* BindingBootcamp.swift */,
-				97E6D0762AC1D3EE00824E3A /* StateBootcamp.swift */,
 				97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */,
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
-				978E1ECA2AC878AE00ACDC28 /* Sijawara */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */,
+				978E1ECA2AC878AE00ACDC28 /* Sijawara */,
+				974B6A9C2AC9B1AD0095B4E7 /* BindingAndState */,
 				97E6D0752AC1D3D400824E3A /* Button */,
 				97CDC7D52AB2F16700E39153 /* Grid */,
 				977A6C542AB2964D005F9422 /* CustomFont */,
