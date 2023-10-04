@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct ConditionalsView: View {
+    
+    @State var isLoading: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("IS LOADING: \(isLoading.description)") {
+            isLoading.toggle()
+        }
+        
+        if isLoading {
+            ProgressView()
+        } else {
+            
+        }
     }
 }
 

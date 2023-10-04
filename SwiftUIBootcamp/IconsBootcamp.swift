@@ -68,8 +68,6 @@ struct IconsBootcamp: View {
     }
 }
 
-struct IconsBootcamp_Previews: PreviewProvider {
-    static var previews: some View {
-        IconsBootcamp()
-    }
+#Preview {
+    IconsBootcamp()
 }

@@ -15,6 +15,7 @@
 		9710298F2AA825C4009438F2 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710298E2AA825C4009438F2 /* ShapesBootcamp.swift */; };
 		971029912AA849BF009438F2 /* ShapeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971029902AA849BF009438F2 /* ShapeCircle.swift */; };
 		9710E9262AAA07B6001AE36B /* GradientBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710E9252AAA07B6001AE36B /* GradientBootcamp.swift */; };
+		9716A2852ACD0A27000B03F9 /* ConditionalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9716A2842ACD0A27000B03F9 /* ConditionalsView.swift */; };
 		971E59112ACA9C140063E4D1 /* ConditionalBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E59102ACA9C140063E4D1 /* ConditionalBootcamp.swift */; };
 		971E59142ACAA9D60063E4D1 /* AakuDanKamu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E59132ACAA9D60063E4D1 /* AakuDanKamu.swift */; };
 		971E59162ACAAD490063E4D1 /* AkuDanKamu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E59152ACAAD490063E4D1 /* AkuDanKamu.swift */; };
@@ -65,6 +66,7 @@
 		97EA12BE2AB03D4E00E40832 /* SpacerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EA12BD2AB03D4E00E40832 /* SpacerBootcamp.swift */; };
 		97EDCA8E2ABC8536004C26AC /* LazyVGridCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EDCA8D2ABC8536004C26AC /* LazyVGridCustom.swift */; };
 		97EDCA902ABC884D004C26AC /* LazyGridAdaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EDCA8F2ABC884D004C26AC /* LazyGridAdaptive.swift */; };
+		97F9ECF62ACACCC100D1821A /* CardCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F9ECF52ACACCC100D1821A /* CardCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,7 @@
 		9710298E2AA825C4009438F2 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 		971029902AA849BF009438F2 /* ShapeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeCircle.swift; sourceTree = "<group>"; };
 		9710E9252AAA07B6001AE36B /* GradientBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBootcamp.swift; sourceTree = "<group>"; };
+		9716A2842ACD0A27000B03F9 /* ConditionalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalsView.swift; sourceTree = "<group>"; };
 		971E59102ACA9C140063E4D1 /* ConditionalBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBootcamp.swift; sourceTree = "<group>"; };
 		971E59132ACAA9D60063E4D1 /* AakuDanKamu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AakuDanKamu.swift; sourceTree = "<group>"; };
 		971E59152ACAAD490063E4D1 /* AkuDanKamu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkuDanKamu.swift; sourceTree = "<group>"; };
@@ -128,6 +131,7 @@
 		97EA12BD2AB03D4E00E40832 /* SpacerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBootcamp.swift; sourceTree = "<group>"; };
 		97EDCA8D2ABC8536004C26AC /* LazyVGridCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridCustom.swift; sourceTree = "<group>"; };
 		97EDCA8F2ABC884D004C26AC /* LazyGridAdaptive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridAdaptive.swift; sourceTree = "<group>"; };
+		97F9ECF52ACACCC100D1821A /* CardCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +192,7 @@
 			children = (
 				971E59102ACA9C140063E4D1 /* ConditionalBootcamp.swift */,
 				971E59152ACAAD490063E4D1 /* AkuDanKamu.swift */,
+				9716A2842ACD0A27000B03F9 /* ConditionalsView.swift */,
 				971E59132ACAA9D60063E4D1 /* AakuDanKamu.swift */,
 			);
 			path = Conditional;
@@ -219,6 +224,7 @@
 			children = (
 				97D7EA4C2AAEE8D9001B2839 /* CardView.swift */,
 				97D7EA4E2AAEEE5A001B2839 /* CardViewKinara.swift */,
+				97F9ECF52ACACCC100D1821A /* CardCircle.swift */,
 				9744EF632AAF102B00908F76 /* KinaraCard.swift */,
 			);
 			path = Card;
@@ -411,7 +417,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					978D37D12AA76EEC00051875 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -497,6 +503,8 @@
 				9710298D2AA819E4009438F2 /* TextBootcamp.swift in Sources */,
 				97D7EA4F2AAEEE5A001B2839 /* CardViewKinara.swift in Sources */,
 				97404C1F2AA88AE6007F80B2 /* ShapeLoginPage.swift in Sources */,
+				97F9ECF62ACACCC100D1821A /* CardCircle.swift in Sources */,
+				9716A2852ACD0A27000B03F9 /* ConditionalsView.swift in Sources */,
 				9744EF642AAF102B00908F76 /* KinaraCard.swift in Sources */,
 				9783ABAA2AB0AA1B004629E6 /* SpacerExampleInstagram.swift in Sources */,
 				974FF5172AAD6DFF007A3840 /* LinearGradientBound.swift in Sources */,
@@ -519,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -551,6 +560,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -579,6 +589,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -611,6 +622,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
