@@ -50,6 +50,7 @@
 		97A346842AAAA8C8003FA17A /* ImagesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A346832AAAA8C8003FA17A /* ImagesBootcamp.swift */; };
 		97AC98332AC306A1006C69A2 /* ExtractedFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */; };
 		97AC98352AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */; };
+		97BA15B62ACD0F0A00C37792 /* TernaryBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA15B52ACD0F0A00C37792 /* TernaryBootcamp.swift */; };
 		97C1741D2AB2A14700C674DB /* TextPink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C1741C2AB2A14700C674DB /* TextPink.swift */; };
 		97C174202AB2A35000C674DB /* PinkishRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */; };
 		97C174222AB2A79800C674DB /* pricedown.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97C174212AB2A79800C674DB /* pricedown.otf */; };
@@ -115,6 +116,7 @@
 		97A346832AAAA8C8003FA17A /* ImagesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesBootcamp.swift; sourceTree = "<group>"; };
 		97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunction.swift; sourceTree = "<group>"; };
 		97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsBootcamp.swift; sourceTree = "<group>"; };
+		97BA15B52ACD0F0A00C37792 /* TernaryBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryBootcamp.swift; sourceTree = "<group>"; };
 		97C1741C2AB2A14700C674DB /* TextPink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPink.swift; sourceTree = "<group>"; };
 		97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkishRegular.ttf; sourceTree = "<group>"; };
 		97C174212AB2A79800C674DB /* pricedown.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pricedown.otf; sourceTree = "<group>"; };
@@ -289,10 +291,11 @@
 				978D37D72AA76EEC00051875 /* ContentView.swift */,
 				97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */,
 				97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */,
-				971E59122ACAA9C10063E4D1 /* Conditional */,
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
+				97BA15B52ACD0F0A00C37792 /* TernaryBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */,
+				971E59122ACAA9C10063E4D1 /* Conditional */,
 				978E1ECA2AC878AE00ACDC28 /* Sijawara */,
 				974B6A9C2AC9B1AD0095B4E7 /* BindingAndState */,
 				97E6D0752AC1D3D400824E3A /* Button */,
@@ -464,6 +467,7 @@
 			files = (
 				97CDC7D42AB2ED9700E39153 /* LazyVGridBootcamp.swift in Sources */,
 				97E67CA12AAECB4E007D9E1E /* StacksAlignment.swift in Sources */,
+				97BA15B62ACD0F0A00C37792 /* TernaryBootcamp.swift in Sources */,
 				97C1741D2AB2A14700C674DB /* TextPink.swift in Sources */,
 				97EA12BE2AB03D4E00E40832 /* SpacerBootcamp.swift in Sources */,
 				97AC98332AC306A1006C69A2 /* ExtractedFunction.swift in Sources */,
