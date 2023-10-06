@@ -53,6 +53,7 @@
 		97AC98352AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */; };
 		97BA15B62ACD0F0A00C37792 /* TernaryBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA15B52ACD0F0A00C37792 /* TernaryBootcamp.swift */; };
 		97BA15B92ACD3A5400C37792 /* LightTernary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA15B82ACD3A5400C37792 /* LightTernary.swift */; };
+		97BC53CE2AD042C300FC25B8 /* AnimationTimingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BC53CD2AD042C300FC25B8 /* AnimationTimingBootcamp.swift */; };
 		97C1741D2AB2A14700C674DB /* TextPink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C1741C2AB2A14700C674DB /* TextPink.swift */; };
 		97C174202AB2A35000C674DB /* PinkishRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */; };
 		97C174222AB2A79800C674DB /* pricedown.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97C174212AB2A79800C674DB /* pricedown.otf */; };
@@ -121,6 +122,7 @@
 		97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsBootcamp.swift; sourceTree = "<group>"; };
 		97BA15B52ACD0F0A00C37792 /* TernaryBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryBootcamp.swift; sourceTree = "<group>"; };
 		97BA15B82ACD3A5400C37792 /* LightTernary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTernary.swift; sourceTree = "<group>"; };
+		97BC53CD2AD042C300FC25B8 /* AnimationTimingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingBootcamp.swift; sourceTree = "<group>"; };
 		97C1741C2AB2A14700C674DB /* TextPink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPink.swift; sourceTree = "<group>"; };
 		97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkishRegular.ttf; sourceTree = "<group>"; };
 		97C174212AB2A79800C674DB /* pricedown.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pricedown.otf; sourceTree = "<group>"; };
@@ -293,12 +295,12 @@
 			children = (
 				977A6C5E2AB29A2A005F9422 /* Info.plist */,
 				978D37D72AA76EEC00051875 /* ContentView.swift */,
-				974C1A422ACFED3D003F87E6 /* AnimationBootcamp.swift */,
 				97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */,
 				97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */,
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */,
+				97BC53CC2AD0429400FC25B8 /* Animation */,
 				97BA15B72ACD397600C37792 /* Ternary */,
 				971E59122ACAA9C10063E4D1 /* Conditional */,
 				978E1ECA2AC878AE00ACDC28 /* Sijawara */,
@@ -348,6 +350,15 @@
 				97BA15B82ACD3A5400C37792 /* LightTernary.swift */,
 			);
 			path = Ternary;
+			sourceTree = "<group>";
+		};
+		97BC53CC2AD0429400FC25B8 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				974C1A422ACFED3D003F87E6 /* AnimationBootcamp.swift */,
+				97BC53CD2AD042C300FC25B8 /* AnimationTimingBootcamp.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 		97C1741E2AB2A14F00C674DB /* TextBootcamp */ = {
@@ -513,6 +524,7 @@
 				97404C1D2AA88738007F80B2 /* ShapeRoundedRectangle.swift in Sources */,
 				97E6D0772AC1D3EE00824E3A /* StateBootcamp.swift in Sources */,
 				97D7EA4D2AAEE8D9001B2839 /* CardView.swift in Sources */,
+				97BC53CE2AD042C300FC25B8 /* AnimationTimingBootcamp.swift in Sources */,
 				972DCCF22AABED5100C61CCE /* Background.swift in Sources */,
 				97A346842AAAA8C8003FA17A /* ImagesBootcamp.swift in Sources */,
 				978E1EC92AC8748F00ACDC28 /* SijawaraDashboardClone.swift in Sources */,
