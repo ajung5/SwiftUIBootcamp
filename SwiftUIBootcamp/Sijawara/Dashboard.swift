@@ -38,6 +38,9 @@ struct NavBar: View {
         GridItem(.fixed(75), spacing: nil, alignment: .trailing)
     ]
     
+    @State var rotateAnimate: Bool = false
+    @State var rotationAngle: Double = 0.0
+    
     var body: some View {
         VStack {
             LazyVGrid(columns: kolom) {
@@ -51,11 +54,15 @@ struct NavBar: View {
                     .fontWeight(.semibold)
                 
                 Button {
-                    
+                    rotateAnimate.toggle()
+                    rotationAngle += 360
                 } label: {
                     Image(systemName: "arrow.clockwise")
                         .font(.title)
                         .foregroundColor(.white)
+                        .rotationEffect(.degrees(rotationAngle))
+                        .animation(.easeInOut,
+                                   value: rotateAnimate)
                 }
 
             }
@@ -70,6 +77,8 @@ struct Absence: View {
         GridItem(.fixed(175), spacing: nil, alignment: .leading),
         GridItem(.flexible(), spacing: nil, alignment: .center)
     ]
+    
+    @State var isAnimating: Bool = false
     
     var body: some View {
         VStack {
@@ -93,17 +102,21 @@ struct Absence: View {
                     }
                     
                     Button {
-                        
+                        isAnimating.toggle()
                     } label: {
                         Text("Presensi")
                             .foregroundColor(.white)
                             .fontWeight(.semibold)
-                            .frame(height: 30)
-                            .padding(.horizontal, 20)
+                            .frame(width: isAnimating ? 100 : 75, height: 30)
+                            .padding(.horizontal, 5)
                             .background(
                                 RoundedRectangle(cornerRadius: 10)
-                                    .fill(.green)
+                                    .fill(isAnimating ? .vividCerise : .green)
                             )
+                            .animation(.spring(response: 0.5,
+                                               dampingFraction: 0.7,
+                                               blendDuration: 1),
+                                       value: isAnimating)
                     }
 
                 }

@@ -54,6 +54,7 @@
 		97BA15B62ACD0F0A00C37792 /* TernaryBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA15B52ACD0F0A00C37792 /* TernaryBootcamp.swift */; };
 		97BA15B92ACD3A5400C37792 /* LightTernary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA15B82ACD3A5400C37792 /* LightTernary.swift */; };
 		97BC53CE2AD042C300FC25B8 /* AnimationTimingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BC53CD2AD042C300FC25B8 /* AnimationTimingBootcamp.swift */; };
+		97BC53D02AD0560200FC25B8 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BC53CF2AD0560200FC25B8 /* SpringAnimation.swift */; };
 		97C1741D2AB2A14700C674DB /* TextPink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C1741C2AB2A14700C674DB /* TextPink.swift */; };
 		97C174202AB2A35000C674DB /* PinkishRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */; };
 		97C174222AB2A79800C674DB /* pricedown.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97C174212AB2A79800C674DB /* pricedown.otf */; };
@@ -123,6 +124,7 @@
 		97BA15B52ACD0F0A00C37792 /* TernaryBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryBootcamp.swift; sourceTree = "<group>"; };
 		97BA15B82ACD3A5400C37792 /* LightTernary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTernary.swift; sourceTree = "<group>"; };
 		97BC53CD2AD042C300FC25B8 /* AnimationTimingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingBootcamp.swift; sourceTree = "<group>"; };
+		97BC53CF2AD0560200FC25B8 /* SpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
 		97C1741C2AB2A14700C674DB /* TextPink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPink.swift; sourceTree = "<group>"; };
 		97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkishRegular.ttf; sourceTree = "<group>"; };
 		97C174212AB2A79800C674DB /* pricedown.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pricedown.otf; sourceTree = "<group>"; };
@@ -356,6 +358,7 @@
 			isa = PBXGroup;
 			children = (
 				974C1A422ACFED3D003F87E6 /* AnimationBootcamp.swift */,
+				97BC53CF2AD0560200FC25B8 /* SpringAnimation.swift */,
 				97BC53CD2AD042C300FC25B8 /* AnimationTimingBootcamp.swift */,
 			);
 			path = Animation;
@@ -517,6 +520,7 @@
 				971029912AA849BF009438F2 /* ShapeCircle.swift in Sources */,
 				97E67C9E2AAEBE02007D9E1E /* KinaraImage.swift in Sources */,
 				974FF5152AAD5771007A3840 /* OverlayIcon.swift in Sources */,
+				97BC53D02AD0560200FC25B8 /* SpringAnimation.swift in Sources */,
 				978D37D82AA76EEC00051875 /* ContentView.swift in Sources */,
 				970D463F2AB166B300FE2559 /* InitializerBootcamp.swift in Sources */,
 				974E7BFD2AB1E64100AD2300 /* ForEachArray.swift in Sources */,
