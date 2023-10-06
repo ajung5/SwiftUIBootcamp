@@ -257,8 +257,6 @@ struct MenuUtama: View {
     }
 }
 
-struct Dashboard_Previews: PreviewProvider {
-    static var previews: some View {
-        Dashboard()
-    }
+#Preview {
+    Dashboard() 
 }

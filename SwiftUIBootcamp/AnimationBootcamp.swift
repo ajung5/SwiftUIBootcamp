@@ -9,14 +9,12 @@ import SwiftUI
 
 struct AnimationBootcamp: View {
     @State var isAnimated: Bool = false
+    @State var scale = 1.0
     
     var body: some View {
         VStack {
             Button("Button: \(isAnimated.description)") {
-                // menambahkan animasi
-                withAnimation (.default) {
-                    isAnimated.toggle()
-                }
+                isAnimated.toggle()
             }
             
             Spacer()
@@ -30,6 +28,11 @@ struct AnimationBootcamp: View {
                     height: isAnimated ? 100 : 300)
                 .rotationEffect(Angle(degrees: isAnimated ? 360 : 0))
                 .offset(y: isAnimated ? 300 : 0)
+                .animation(
+                        .default
+                        .repeatCount(3, autoreverses: true),
+                        value: isAnimated)
+
             
             Spacer()
         }
