@@ -66,8 +66,6 @@ struct AakuDanKamu: View {
     }
 }
 
-struct AakuDanKamu_Previews: PreviewProvider {
-    static var previews: some View {
-        AakuDanKamu()
-    }
+#Preview {
+    AakuDanKamu(showSymbol: false, showSymbols: false)
 }

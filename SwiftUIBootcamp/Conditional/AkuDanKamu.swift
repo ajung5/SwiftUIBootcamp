@@ -8,8 +8,34 @@
 import SwiftUI
 
 struct AkuDanKamu: View {
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        @State var aku: Bool = false
+        @State var kamu: Bool = false
+        
+        VStack(spacing: nil) {
+            HStack {
+                Button {
+                    aku.toggle()
+                } label: {
+                    HStack {
+                        Text("Aku: ")
+                            .font(.system(size: 24))
+                        Text(aku.description)
+                            .foregroundStyle(.white)
+                            .font(.system(size: 24))
+                            .padding()
+                            .background(
+                                RoundedRectangle(cornerRadius: 15)
+                                    .frame(height: 35)
+                            )
+                    }
+                }
+
+            }
+        }
     }
 }
 
