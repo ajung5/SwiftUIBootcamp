@@ -36,12 +36,35 @@ struct SheetsBootcamp: View {
                     )
             })
             .sheet(isPresented: $showSheet) {
-                Text(("Hello"))
+                SecondScreen()
             }
         }
     }
 }
 
+struct SecondScreen: View {
+
+    @Environment(\.dismiss) var dismiss
+
+    var body: some View {
+        ZStack(alignment: .topLeading) {
+            Color.vividCerise
+                .ignoresSafeArea()
+            
+            Button(action: {
+                dismiss()
+            }, label: {
+                Image(systemName: "xmark")
+                    .foregroundStyle(.white)
+                    .font(.largeTitle)
+                    .padding(20)
+            })
+        }
+    }
+    
+}
+
 #Preview {
     SheetsBootcamp()
+//    SecondScreen()
 }
