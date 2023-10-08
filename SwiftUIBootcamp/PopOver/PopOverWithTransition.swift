@@ -1,5 +1,5 @@
 //
-//  PopOverBootcamp.swift
+//  PopOverWithTrransition.swift
 //  SwiftUIBootcamp
 //
 //  Created by Agung Nawawi on 08/10/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PopOverBootcamp: View {
+struct PopOverWithTransition: View {
     
     @State var showNewScreen: Bool = false
     
@@ -18,7 +18,9 @@ struct PopOverBootcamp: View {
             
             VStack {
                 Button(action: {
-                    showNewScreen.toggle()
+                    withAnimation(.spring) {
+                        self.showNewScreen.toggle()
+                    }
                 }, label: {
                     Text("Button")
                         .font(.largeTitle)
@@ -27,17 +29,23 @@ struct PopOverBootcamp: View {
                 Spacer()
             }
             
-            // METHOD #1 = SHEET
-            .sheet(isPresented: $showNewScreen, content: {
-                NewScreen()
-            })
+            // Methode #2 = TRANSITION
+            ZStack {
+                if showNewScreen {
+                    NewScreenView(showNewScreen: $showNewScreen)
+                        .padding(.top, 100)
+                        .transition(.move(edge: .bottom))
+                }
+            }
+            .zIndex(2.0)
         }
     }
 }
 
-struct NewScreen: View {
+
+struct NewScreenView: View {
     
-    @Environment(\.dismiss) var dismiss
+    @Binding var showNewScreen: Bool
     
     var body: some View {
         ZStack(alignment: .topLeading) {
@@ -45,19 +53,17 @@ struct NewScreen: View {
                 .ignoresSafeArea()
             
             Button(action: {
-                dismiss()
+                showNewScreen.toggle()
             }, label: {
                 Image(systemName: "xmark")
                     .foregroundColor(.white)
                     .font(.largeTitle)
                     .padding(20)
             })
-        }
-    }
+        }    }
     
 }
 
 #Preview {
-    PopOverBootcamp()
-//    NewScreen()
+    PopOverWithTransition()
 }
