@@ -35,9 +35,24 @@ struct SheetsBootcamp: View {
                         .cornerRadius(10)
                     )
             })
-            .sheet(isPresented: $showSheet) {
+            
+            // tidak dapat menggunakan lebih dari satuu sheet/fullscreen cover dalam satu view hirarki
+            // atau keduanya, jadi pilih salah satu aja
+            
+            
+            .fullScreenCover(isPresented: $showSheet, content: {
+                
+                // JANGAN MENAMBAHKAN CONDITIONAL LOGIC DISINI, KARENA BAKAL ERRROR
                 SecondScreen()
-            }
+            })
+            
+//            .sheet(isPresented: $showSheet) {
+            // JANGAN MENAMBAHKAN CONDITIONAL LOGIC DISINI, KARENA BAKAL ERRROR
+//                SecondScreen()
+//            }
+            
+            // beda dari kedua nya adalah, kalo fullscreencover, akan menuutup semua halaman view pertama
+            // tapi kalo sheet, hanya sebagian
         }
     }
 }
