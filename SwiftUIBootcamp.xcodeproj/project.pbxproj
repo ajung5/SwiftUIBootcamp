@@ -68,6 +68,7 @@
 		97D7EA4D2AAEE8D9001B2839 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7EA4C2AAEE8D9001B2839 /* CardView.swift */; };
 		97D7EA4F2AAEEE5A001B2839 /* CardViewKinara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7EA4E2AAEEE5A001B2839 /* CardViewKinara.swift */; };
 		97DE09192AD4EC86007D3F48 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE09182AD4EC86007D3F48 /* NavView.swift */; };
+		97DE091B2AD52354007D3F48 /* ListBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE091A2AD52354007D3F48 /* ListBootcamp.swift */; };
 		97E67C9C2AAEBD75007D9E1E /* StacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E67C9B2AAEBD75007D9E1E /* StacksBootcamp.swift */; };
 		97E67C9E2AAEBE02007D9E1E /* KinaraImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E67C9D2AAEBE02007D9E1E /* KinaraImage.swift */; };
 		97E67CA12AAECB4E007D9E1E /* StacksAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E67CA02AAECB4E007D9E1E /* StacksAlignment.swift */; };
@@ -146,6 +147,7 @@
 		97D7EA4C2AAEE8D9001B2839 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		97D7EA4E2AAEEE5A001B2839 /* CardViewKinara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewKinara.swift; sourceTree = "<group>"; };
 		97DE09182AD4EC86007D3F48 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		97DE091A2AD52354007D3F48 /* ListBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBootcamp.swift; sourceTree = "<group>"; };
 		97E67C9B2AAEBD75007D9E1E /* StacksBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootcamp.swift; sourceTree = "<group>"; };
 		97E67C9D2AAEBE02007D9E1E /* KinaraImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinaraImage.swift; sourceTree = "<group>"; };
 		97E67CA02AAECB4E007D9E1E /* StacksAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksAlignment.swift; sourceTree = "<group>"; };
@@ -346,6 +348,7 @@
 				97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */,
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
+				97DE091C2AD5235C007D3F48 /* List */,
 				978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */,
 				97037ED82AD3983400E39682 /* Navigation */,
 				973D09542AD2F5620050050C /* PopOver */,
@@ -429,6 +432,14 @@
 				97EDCA8D2ABC8536004C26AC /* LazyVGridCustom.swift */,
 			);
 			path = Grid;
+			sourceTree = "<group>";
+		};
+		97DE091C2AD5235C007D3F48 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				97DE091A2AD52354007D3F48 /* ListBootcamp.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 		97E67C9F2AAEC116007D9E1E /* Images */ = {
@@ -594,6 +605,7 @@
 				97404C1F2AA88AE6007F80B2 /* ShapeLoginPage.swift in Sources */,
 				97F9ECF62ACACCC100D1821A /* CardCircle.swift in Sources */,
 				97DE09192AD4EC86007D3F48 /* NavView.swift in Sources */,
+				97DE091B2AD52354007D3F48 /* ListBootcamp.swift in Sources */,
 				9716A2852ACD0A27000B03F9 /* ConditionalsView.swift in Sources */,
 				9744EF642AAF102B00908F76 /* KinaraCard.swift in Sources */,
 				9783ABAA2AB0AA1B004629E6 /* SpacerExampleInstagram.swift in Sources */,
