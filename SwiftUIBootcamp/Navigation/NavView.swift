@@ -32,15 +32,49 @@ struct NavView: View {
     }
 }
 
+
+// suatu kondisi dimana kita ga mau tombol back yang default
+// jadi bisa hide nav bar untk membuat back button custom
+
 struct MyOtherScreen: View {
+    
+    @Environment(\.dismiss) var dismiss
+    
     var body: some View {
         ZStack {
             Color.vividCerise
                 .ignoresSafeArea()
-                .navigationTitle("Subject")
+                //.navigationTitle("Subject")
+                .navigationBarBackButtonHidden(true)
+                
             
-            NavigationLink("Click Me") {
-                Text("Third Screen")
+            VStack {
+                Button(action: {
+                    dismiss()
+                }, label: {
+                    Image(systemName: "xmark")
+                        .foregroundStyle(.white)
+                        .font(.largeTitle)
+                        .padding(10)
+                    Spacer()
+                        .frame(alignment: .center)
+                })
+                
+                Spacer()
+                    .frame(width: 100, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                
+                NavigationLink("Click Me") {
+                    Text("Third Screen")
+                }
+                .padding(5)
+                .foregroundStyle(.white)
+                .background(
+                    Color.green
+                        .cornerRadius(5)
+                        .shadow(radius: 5)
+                )
+                
+               Spacer()
             }
         }
     }
@@ -49,4 +83,5 @@ struct MyOtherScreen: View {
 
 #Preview {
     NavView()
+    //MyOtherScreen()
 }
