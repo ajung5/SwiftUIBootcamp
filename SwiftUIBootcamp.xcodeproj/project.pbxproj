@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97037ED72AD3982E00E39682 /* NavigationViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97037ED62AD3982E00E39682 /* NavigationViewBootcamp.swift */; };
 		970D463F2AB166B300FE2559 /* InitializerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D463E2AB166B300FE2559 /* InitializerBootcamp.swift */; };
 		970D46442AB1956700FE2559 /* EnumBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D46432AB1956700FE2559 /* EnumBootcamp.swift */; };
 		970D46462AB19BD600FE2559 /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D46452AB19BD600FE2559 /* ForEachBootcamp.swift */; };
@@ -66,6 +67,7 @@
 		97CDC7D42AB2ED9700E39153 /* LazyVGridBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CDC7D32AB2ED9700E39153 /* LazyVGridBootcamp.swift */; };
 		97D7EA4D2AAEE8D9001B2839 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7EA4C2AAEE8D9001B2839 /* CardView.swift */; };
 		97D7EA4F2AAEEE5A001B2839 /* CardViewKinara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7EA4E2AAEEE5A001B2839 /* CardViewKinara.swift */; };
+		97DE09192AD4EC86007D3F48 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE09182AD4EC86007D3F48 /* NavView.swift */; };
 		97E67C9C2AAEBD75007D9E1E /* StacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E67C9B2AAEBD75007D9E1E /* StacksBootcamp.swift */; };
 		97E67C9E2AAEBE02007D9E1E /* KinaraImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E67C9D2AAEBE02007D9E1E /* KinaraImage.swift */; };
 		97E67CA12AAECB4E007D9E1E /* StacksAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E67CA02AAECB4E007D9E1E /* StacksAlignment.swift */; };
@@ -81,6 +83,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		97037ED62AD3982E00E39682 /* NavigationViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootcamp.swift; sourceTree = "<group>"; };
 		970D463E2AB166B300FE2559 /* InitializerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerBootcamp.swift; sourceTree = "<group>"; };
 		970D46432AB1956700FE2559 /* EnumBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumBootcamp.swift; sourceTree = "<group>"; };
 		970D46452AB19BD600FE2559 /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
@@ -142,6 +145,7 @@
 		97CDC7D32AB2ED9700E39153 /* LazyVGridBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridBootcamp.swift; sourceTree = "<group>"; };
 		97D7EA4C2AAEE8D9001B2839 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		97D7EA4E2AAEEE5A001B2839 /* CardViewKinara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewKinara.swift; sourceTree = "<group>"; };
+		97DE09182AD4EC86007D3F48 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 		97E67C9B2AAEBD75007D9E1E /* StacksBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootcamp.swift; sourceTree = "<group>"; };
 		97E67C9D2AAEBE02007D9E1E /* KinaraImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinaraImage.swift; sourceTree = "<group>"; };
 		97E67CA02AAECB4E007D9E1E /* StacksAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksAlignment.swift; sourceTree = "<group>"; };
@@ -167,6 +171,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97037ED82AD3983400E39682 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				97037ED62AD3982E00E39682 /* NavigationViewBootcamp.swift */,
+				97DE09182AD4EC86007D3F48 /* NavView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		970D46422AB1952C00FE2559 /* InitAndEnum */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,11 +343,12 @@
 				978D37D72AA76EEC00051875 /* ContentView.swift */,
 				97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */,
 				973D09502AD2E2CE0050050C /* SheetsBootcamp.swift */,
-				973D09542AD2F5620050050C /* PopOver */,
 				97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */,
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */,
+				97037ED82AD3983400E39682 /* Navigation */,
+				973D09542AD2F5620050050C /* PopOver */,
 				9767C9A62AD13A1E006167F5 /* Transitions */,
 				97BC53CC2AD0429400FC25B8 /* Animation */,
 				97BA15B72ACD397600C37792 /* Ternary */,
@@ -579,6 +593,7 @@
 				97D7EA4F2AAEEE5A001B2839 /* CardViewKinara.swift in Sources */,
 				97404C1F2AA88AE6007F80B2 /* ShapeLoginPage.swift in Sources */,
 				97F9ECF62ACACCC100D1821A /* CardCircle.swift in Sources */,
+				97DE09192AD4EC86007D3F48 /* NavView.swift in Sources */,
 				9716A2852ACD0A27000B03F9 /* ConditionalsView.swift in Sources */,
 				9744EF642AAF102B00908F76 /* KinaraCard.swift in Sources */,
 				9783ABAA2AB0AA1B004629E6 /* SpacerExampleInstagram.swift in Sources */,
@@ -590,6 +605,7 @@
 				97E67C9C2AAEBD75007D9E1E /* StacksBootcamp.swift in Sources */,
 				97E6D0722AC1BCF200824E3A /* SafeAreaBootcamp.swift in Sources */,
 				978D37D62AA76EEC00051875 /* SwiftUIBootcampApp.swift in Sources */,
+				97037ED72AD3982E00E39682 /* NavigationViewBootcamp.swift in Sources */,
 				97EDCA902ABC884D004C26AC /* LazyGridAdaptive.swift in Sources */,
 				978D520D2AAF6A6C00C59F54 /* FloopyDiskStack.swift in Sources */,
 				972DCCF42AABF2A900C61CCE /* Overlay.swift in Sources */,
