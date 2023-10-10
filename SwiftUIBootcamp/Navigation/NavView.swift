@@ -25,9 +25,26 @@ struct NavView: View {
                 Text("Hello World")
                 Text("Hello World")
             }
-            
-            .navigationTitle("All Inboxes")
+            .navigationTitle("INBOX")
             .navigationBarTitleDisplayMode(.automatic)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    NavigationLink {
+                        MyOtherScreen()
+                    } label: {
+                        Image(systemName: "gear")
+                    }
+                    .tint(.red)
+                }
+                
+                ToolbarItem(placement: .topBarLeading) {
+                    HStack(alignment: .center) {
+                        Image(systemName: "person.fill")
+                        //Spacer()
+                        Text(("Sign In"))
+                    }
+                }
+            }
         }
     }
 }
@@ -45,7 +62,7 @@ struct MyOtherScreen: View {
             Color.vividCerise
                 .ignoresSafeArea()
                 //.navigationTitle("Subject")
-                .navigationBarBackButtonHidden(true)
+                //.navigationBarBackButtonHidden(true)
                 
             
             VStack {
