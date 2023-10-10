@@ -41,6 +41,7 @@
 		974FF5152AAD5771007A3840 /* OverlayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FF5142AAD5771007A3840 /* OverlayIcon.swift */; };
 		974FF5172AAD6DFF007A3840 /* LinearGradientBound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FF5162AAD6DFF007A3840 /* LinearGradientBound.swift */; };
 		974FF5192AAD7F02007A3840 /* OverlayIconInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FF5182AAD7F02007A3840 /* OverlayIconInstagram.swift */; };
+		9755CE582AD55FD20008EE7D /* AlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9755CE572AD55FD20008EE7D /* AlertBootcamp.swift */; };
 		97593FBE2AC5B115004037EF /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97593FBD2AC5B115004037EF /* BindingBootcamp.swift */; };
 		9767C9A82AD13B5C006167F5 /* MoveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767C9A72AD13B5C006167F5 /* MoveTransition.swift */; };
 		9767C9AA2AD13DA1006167F5 /* OpacityTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767C9A92AD13DA1006167F5 /* OpacityTransition.swift */; };
@@ -118,6 +119,7 @@
 		974FF5142AAD5771007A3840 /* OverlayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayIcon.swift; sourceTree = "<group>"; };
 		974FF5162AAD6DFF007A3840 /* LinearGradientBound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientBound.swift; sourceTree = "<group>"; };
 		974FF5182AAD7F02007A3840 /* OverlayIconInstagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayIconInstagram.swift; sourceTree = "<group>"; };
+		9755CE572AD55FD20008EE7D /* AlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp.swift; sourceTree = "<group>"; };
 		97593FBD2AC5B115004037EF /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
 		9767C9A72AD13B5C006167F5 /* MoveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTransition.swift; sourceTree = "<group>"; };
 		9767C9A92AD13DA1006167F5 /* OpacityTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityTransition.swift; sourceTree = "<group>"; };
@@ -342,14 +344,15 @@
 			isa = PBXGroup;
 			children = (
 				977A6C5E2AB29A2A005F9422 /* Info.plist */,
+				978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */,
 				978D37D72AA76EEC00051875 /* ContentView.swift */,
 				97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */,
 				973D09502AD2E2CE0050050C /* SheetsBootcamp.swift */,
 				97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */,
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
+				9755CE572AD55FD20008EE7D /* AlertBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				97DE091C2AD5235C007D3F48 /* List */,
-				978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */,
 				97037ED82AD3983400E39682 /* Navigation */,
 				973D09542AD2F5620050050C /* PopOver */,
 				9767C9A62AD13A1E006167F5 /* Transitions */,
@@ -565,6 +568,7 @@
 				974E7C012AB1FB4D00AD2300 /* HorizontalScrollView.swift in Sources */,
 				973D09562AD2F58A0050050C /* PopOverWithTransition.swift in Sources */,
 				974C1A432ACFED3D003F87E6 /* AnimationBootcamp.swift in Sources */,
+				9755CE582AD55FD20008EE7D /* AlertBootcamp.swift in Sources */,
 				970D46442AB1956700FE2559 /* EnumBootcamp.swift in Sources */,
 				97BA15B92ACD3A5400C37792 /* LightTernary.swift in Sources */,
 				970D46462AB19BD600FE2559 /* ForEachBootcamp.swift in Sources */,
