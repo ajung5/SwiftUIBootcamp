@@ -48,6 +48,14 @@ struct AlertBootcamp: View {
                     showAlert.toggle()
                 }
                 .tint(.white)
+                
+                Button("Button 3") {
+//                    alertTitle = "Succesfully Uploading Video"
+//                    alertMessage = "Your video now public"
+                    alertType = nil
+                    showAlert.toggle()
+                }
+                .tint(.white)
             }
             .alert(isPresented: $showAlert) {
                 getAlert()
