@@ -12,6 +12,7 @@
 		970D46442AB1956700FE2559 /* EnumBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D46432AB1956700FE2559 /* EnumBootcamp.swift */; };
 		970D46462AB19BD600FE2559 /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D46452AB19BD600FE2559 /* ForEachBootcamp.swift */; };
 		970D46492AB1A2EB00FE2559 /* ForEachData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D46482AB1A2EB00FE2559 /* ForEachData.swift */; };
+		970DFB222ADCE5A000118E46 /* DictionariesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970DFB212ADCE5A000118E46 /* DictionariesView.swift */; };
 		9710298D2AA819E4009438F2 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710298C2AA819E4009438F2 /* TextBootcamp.swift */; };
 		9710298F2AA825C4009438F2 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710298E2AA825C4009438F2 /* ShapesBootcamp.swift */; };
 		971029912AA849BF009438F2 /* ShapeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971029902AA849BF009438F2 /* ShapeCircle.swift */; };
@@ -44,6 +45,7 @@
 		974FF5192AAD7F02007A3840 /* OverlayIconInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FF5182AAD7F02007A3840 /* OverlayIconInstagram.swift */; };
 		9755CE582AD55FD20008EE7D /* AlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9755CE572AD55FD20008EE7D /* AlertBootcamp.swift */; };
 		97593FBE2AC5B115004037EF /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97593FBD2AC5B115004037EF /* BindingBootcamp.swift */; };
+		975D35092ADE67CA001D4FED /* ModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D35082ADE67CA001D4FED /* ModelBootcamp.swift */; };
 		9767C9A82AD13B5C006167F5 /* MoveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767C9A72AD13B5C006167F5 /* MoveTransition.swift */; };
 		9767C9AA2AD13DA1006167F5 /* OpacityTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767C9A92AD13DA1006167F5 /* OpacityTransition.swift */; };
 		977A6C5C2AB2971E005F9422 /* PinkDisplayRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */; };
@@ -91,6 +93,7 @@
 		970D46432AB1956700FE2559 /* EnumBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumBootcamp.swift; sourceTree = "<group>"; };
 		970D46452AB19BD600FE2559 /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
 		970D46482AB1A2EB00FE2559 /* ForEachData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachData.swift; sourceTree = "<group>"; };
+		970DFB212ADCE5A000118E46 /* DictionariesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionariesView.swift; sourceTree = "<group>"; };
 		9710298C2AA819E4009438F2 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
 		9710298E2AA825C4009438F2 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 		971029902AA849BF009438F2 /* ShapeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeCircle.swift; sourceTree = "<group>"; };
@@ -123,6 +126,7 @@
 		974FF5182AAD7F02007A3840 /* OverlayIconInstagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayIconInstagram.swift; sourceTree = "<group>"; };
 		9755CE572AD55FD20008EE7D /* AlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp.swift; sourceTree = "<group>"; };
 		97593FBD2AC5B115004037EF /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
+		975D35082ADE67CA001D4FED /* ModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootcamp.swift; sourceTree = "<group>"; };
 		9767C9A72AD13B5C006167F5 /* MoveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTransition.swift; sourceTree = "<group>"; };
 		9767C9A92AD13DA1006167F5 /* OpacityTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityTransition.swift; sourceTree = "<group>"; };
 		977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkDisplayRegular.ttf; sourceTree = "<group>"; };
@@ -203,6 +207,14 @@
 				970D46482AB1A2EB00FE2559 /* ForEachData.swift */,
 			);
 			path = ForEach;
+			sourceTree = "<group>";
+		};
+		970DFB232ADCE5A500118E46 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				970DFB212ADCE5A000118E46 /* DictionariesView.swift */,
+			);
+			path = Dictionary;
 			sourceTree = "<group>";
 		};
 		971029922AA849C8009438F2 /* Shapes */ = {
@@ -298,6 +310,14 @@
 			path = ScrollView;
 			sourceTree = "<group>";
 		};
+		975D350A2ADE67D7001D4FED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				975D35082ADE67CA001D4FED /* ModelBootcamp.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9767C9A62AD13A1E006167F5 /* Transitions */ = {
 			isa = PBXGroup;
 			children = (
@@ -355,6 +375,8 @@
 				9755CE572AD55FD20008EE7D /* AlertBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				972A82F32AD7C5B00060B895 /* ActionSheetBootcamp.swift */,
+				975D350A2ADE67D7001D4FED /* Model */,
+				970DFB232ADCE5A500118E46 /* Dictionary */,
 				97DE091C2AD5235C007D3F48 /* List */,
 				97037ED82AD3983400E39682 /* Navigation */,
 				973D09542AD2F5620050050C /* PopOver */,
@@ -564,6 +586,7 @@
 				97C1741D2AB2A14700C674DB /* TextPink.swift in Sources */,
 				97EA12BE2AB03D4E00E40832 /* SpacerBootcamp.swift in Sources */,
 				97AC98332AC306A1006C69A2 /* ExtractedFunction.swift in Sources */,
+				975D35092ADE67CA001D4FED /* ModelBootcamp.swift in Sources */,
 				97E6D0742AC1C3D100824E3A /* ButtonBootcamp.swift in Sources */,
 				97EDCA8E2ABC8536004C26AC /* LazyVGridCustom.swift in Sources */,
 				971E59142ACAA9D60063E4D1 /* AakuDanKamu.swift in Sources */,
@@ -592,6 +615,7 @@
 				97BC53D02AD0560200FC25B8 /* SpringAnimation.swift in Sources */,
 				9767C9AA2AD13DA1006167F5 /* OpacityTransition.swift in Sources */,
 				978D37D82AA76EEC00051875 /* ContentView.swift in Sources */,
+				970DFB222ADCE5A000118E46 /* DictionariesView.swift in Sources */,
 				970D463F2AB166B300FE2559 /* InitializerBootcamp.swift in Sources */,
 				974E7BFD2AB1E64100AD2300 /* ForEachArray.swift in Sources */,
 				97404C1B2AA88718007F80B2 /* ShapeRectangle.swift in Sources */,

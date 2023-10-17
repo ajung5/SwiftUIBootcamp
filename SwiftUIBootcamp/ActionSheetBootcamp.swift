@@ -38,6 +38,7 @@ struct ActionSheetBootcamp: View {
         .padding()
         .confirmationDialog("Are You Sure?",
                             isPresented: $isShowingDialog) {
+            
             switch actionSheetOption {
             case .isOtherPost:
                 Button("Share") {
