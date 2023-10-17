@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct ModelBootcamp: View {
-
     var body: some View {
         NavigationStack {
-            List {
-                UserListView()
+            List(users, id: \.self) { item in
+                //UserListView()
+                NavigationLink(destination: UserProfileView()) {
+                    UserListView(user: item)
+                }
+                
             }
             .navigationTitle("Users")
             .listStyle(InsetListStyle())
