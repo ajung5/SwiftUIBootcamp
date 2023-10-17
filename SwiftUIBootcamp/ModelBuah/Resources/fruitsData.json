@@ -1,143 +1,72 @@
 [
-    {
-        "name": "Apple",
-        "country": "Central Asia",
-        "count": 10,
-        "imageName": "apple.png",
-        "color": "red"
-    },
-    {
-        "name": "Banana",
-        "country": "Southeast Asia",
-        "count": 20,
-        "imageName": "banana.png",
-        "color": "yellow"
-    },
-    {
-        "name": "Orange",
-        "country": "China",
-        "count": 30,
-        "imageName": "orange.png",
-        "color": "orange"
-    },
-    {
-        "name": "Grape",
-        "country": "Eurasia",
-        "count": 40,
-        "imageName": "grape.png",
-        "color": "purple"
-    },
-    {
-        "name": "Strawberry",
-        "country": "Europe",
-        "count": 50,
-        "imageName": "strawberry.png",
-        "color": "red"
-    },
-    {
-        "name": "Watermelon",
-        "country": "Africa",
-        "count": 60,
-        "imageName": "watermelon.png",
-        "color": "green"
-    },
-    {
-        "name": "Avocado",
-        "country": "Central America",
-        "count": 70,
-        "imageName": "avocado.png",
-        "color": "green"
-    },
-    {
-        "name": "Mango",
-        "country": "South Asia",
-        "count": 80,
-        "imageName": "mango.png",
-        "color": "yellow"
-    },
-    {
-        "name": "Pineapple",
-        "country": "South America",
-        "count": 90,
-        "imageName": "pineapple.png",
-        "color": "yellow"
-    },
-    {
-        "name": "Coconut",
-        "country": "Southeast Asia",
-        "count": 100,
-        "imageName": "coconut.png",
-        "color": "brown"
-    },
-    {
-        "name": "Papaya",
-        "country": "Central America",
-        "count": 110,
-        "imageName": "papaya.png",
-        "color": "orange"
-    },
-    {
-        "name": "Cantaloupe",
-        "country": "North America",
-        "count": 120,
-        "imageName": "cantaloupe.png",
-        "color": "orange"
-    },
-    {
-        "name": "Honeydew",
-        "country": "Africa",
-        "count": 130,
-        "imageName": "honeydew.png",
-        "color": "green"
-    },
-    {
-        "name": "Lemon",
-        "country": "Asia",
-        "count": 140,
-        "imageName": "lemon.png",
-        "color": "yellow"
-    },
-    {
-        "name": "Lime",
-        "country": "Southeast Asia",
-        "count": 150,
-        "imageName": "lime.png",
-        "color": "green"
-    },
-    {
-        "name": "Grapefruit",
-        "country": "Southeast Asia",
-        "count": 160,
-        "imageName": "grapefruit.png",
-        "color": "yellow"
-    },
-    {
-        "name": "Pomegranate",
-        "country": "Middle East",
-        "count": 170,
-        "imageName": "pomegranate.png",
-        "color": "red"
-    },
-    {
-        "name": "Kiwi",
-        "country": "China",
-        "count": 180,
-        "imageName": "kiwi.png",
-        "color": "green"
-    },
-    {
-        "name": "Passion fruit",
-        "country": "South America",
-        "count": 190,
-        "imageName": "passion-fruit.png",
-        "color": "purple"
-    },
-    {
-        "name": "Guava",
-        "country": "Central America",
-        "count": 20,
-        "imageName": "passion-fruit.png",
-        "color": "purple"
-    }
+  {
+    "name": "Apple",
+    "count": 10,
+    "country": "USA"
+  },
+  {
+    "name": "Banana",
+    "count": 20,
+    "country": "India"
+  },
+  {
+    "name": "Orange",
+    "count": 30,
+    "country": "Brazil"
+  },
+  {
+    "name": "Grape",
+    "count": 40,
+    "country": "China"
+  },
+  {
+    "name": "Watermelon",
+    "count": 50,
+    "country": "Mexico"
+  },
+  {
+    "name": "Strawberry",
+    "count": 60,
+    "country": "Spain"
+  },
+  {
+    "name": "Blueberry",
+    "count": 70,
+    "country": "Canada"
+  },
+  {
+    "name": "Raspberry",
+    "count": 80,
+    "country": "Poland"
+  },
+  {
+    "name": "Cherry",
+    "count": 90,
+    "country": "Turkey"
+  },
+  {
+    "name": "Peach",
+    "count": 100,
+    "country": "Italy"
+  },
+  {
+    "name": "Plum",
+    "count": 110,
+    "country": "France"
+  },
+  {
+    "name": "Apricot",
+    "count": 120,
+    "country": "Uzbekistan"
+  },
+  {
+    "name": "Nectarine",
+    "count": 130,
+    "country": "Iran"
+  },
+  {
+    "name": "Avocado",
+    "count": 140,
+    "country": "Mexico"
+  }
 ]
- 

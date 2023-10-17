@@ -9,7 +9,7 @@
 
 import Foundation
 
-
+var fruits: [FruitModel] = load("fruitsData.json")
 
 
 func load<T: Decodable>(_ filename: String) -> T {
