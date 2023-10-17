@@ -46,6 +46,8 @@
 		9755CE582AD55FD20008EE7D /* AlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9755CE572AD55FD20008EE7D /* AlertBootcamp.swift */; };
 		97593FBE2AC5B115004037EF /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97593FBD2AC5B115004037EF /* BindingBootcamp.swift */; };
 		975D35092ADE67CA001D4FED /* ModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D35082ADE67CA001D4FED /* ModelBootcamp.swift */; };
+		975D350E2ADE72FD001D4FED /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D350D2ADE72FD001D4FED /* UserModel.swift */; };
+		975D35102ADE7364001D4FED /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D350F2ADE7364001D4FED /* UserListView.swift */; };
 		9767C9A82AD13B5C006167F5 /* MoveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767C9A72AD13B5C006167F5 /* MoveTransition.swift */; };
 		9767C9AA2AD13DA1006167F5 /* OpacityTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767C9A92AD13DA1006167F5 /* OpacityTransition.swift */; };
 		977A6C5C2AB2971E005F9422 /* PinkDisplayRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */; };
@@ -127,6 +129,8 @@
 		9755CE572AD55FD20008EE7D /* AlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp.swift; sourceTree = "<group>"; };
 		97593FBD2AC5B115004037EF /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
 		975D35082ADE67CA001D4FED /* ModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootcamp.swift; sourceTree = "<group>"; };
+		975D350D2ADE72FD001D4FED /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		975D350F2ADE7364001D4FED /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		9767C9A72AD13B5C006167F5 /* MoveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTransition.swift; sourceTree = "<group>"; };
 		9767C9A92AD13DA1006167F5 /* OpacityTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityTransition.swift; sourceTree = "<group>"; };
 		977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkDisplayRegular.ttf; sourceTree = "<group>"; };
@@ -314,6 +318,8 @@
 			isa = PBXGroup;
 			children = (
 				975D35082ADE67CA001D4FED /* ModelBootcamp.swift */,
+				975D350D2ADE72FD001D4FED /* UserModel.swift */,
+				975D350F2ADE7364001D4FED /* UserListView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -611,6 +617,7 @@
 				97A346822AAA9A0B003FA17A /* IconsBootcamp.swift in Sources */,
 				971029912AA849BF009438F2 /* ShapeCircle.swift in Sources */,
 				97E67C9E2AAEBE02007D9E1E /* KinaraImage.swift in Sources */,
+				975D35102ADE7364001D4FED /* UserListView.swift in Sources */,
 				974FF5152AAD5771007A3840 /* OverlayIcon.swift in Sources */,
 				97BC53D02AD0560200FC25B8 /* SpringAnimation.swift in Sources */,
 				9767C9AA2AD13DA1006167F5 /* OpacityTransition.swift in Sources */,
@@ -624,6 +631,7 @@
 				97D7EA4D2AAEE8D9001B2839 /* CardView.swift in Sources */,
 				97BC53CE2AD042C300FC25B8 /* AnimationTimingBootcamp.swift in Sources */,
 				972DCCF22AABED5100C61CCE /* Background.swift in Sources */,
+				975D350E2ADE72FD001D4FED /* UserModel.swift in Sources */,
 				973D09532AD2F0240050050C /* PopOverBootcamp.swift in Sources */,
 				972A82F42AD7C5B00060B895 /* ActionSheetBootcamp.swift in Sources */,
 				97A346842AAAA8C8003FA17A /* ImagesBootcamp.swift in Sources */,
