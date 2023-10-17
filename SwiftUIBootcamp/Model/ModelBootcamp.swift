@@ -12,7 +12,7 @@ struct ModelBootcamp: View {
         NavigationStack {
             List(users, id: \.self) { item in
                 //UserListView()
-                NavigationLink(destination: UserProfileView()) {
+                NavigationLink(destination: UserProfileView(user: item)) {
                     UserListView(user: item)
                 }
                 

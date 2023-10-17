@@ -64,6 +64,7 @@
 		97A346842AAAA8C8003FA17A /* ImagesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A346832AAAA8C8003FA17A /* ImagesBootcamp.swift */; };
 		97AC98332AC306A1006C69A2 /* ExtractedFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */; };
 		97AC98352AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */; };
+		97B91CBA2ADE9131007E0380 /* userData.json in Resources */ = {isa = PBXBuildFile; fileRef = 97B91CB92ADE9131007E0380 /* userData.json */; };
 		97BA15B62ACD0F0A00C37792 /* TernaryBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA15B52ACD0F0A00C37792 /* TernaryBootcamp.swift */; };
 		97BA15B92ACD3A5400C37792 /* LightTernary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA15B82ACD3A5400C37792 /* LightTernary.swift */; };
 		97BC53CE2AD042C300FC25B8 /* AnimationTimingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BC53CD2AD042C300FC25B8 /* AnimationTimingBootcamp.swift */; };
@@ -150,6 +151,7 @@
 		97A346832AAAA8C8003FA17A /* ImagesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesBootcamp.swift; sourceTree = "<group>"; };
 		97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunction.swift; sourceTree = "<group>"; };
 		97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsBootcamp.swift; sourceTree = "<group>"; };
+		97B91CB92ADE9131007E0380 /* userData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = userData.json; sourceTree = "<group>"; };
 		97BA15B52ACD0F0A00C37792 /* TernaryBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryBootcamp.swift; sourceTree = "<group>"; };
 		97BA15B82ACD3A5400C37792 /* LightTernary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTernary.swift; sourceTree = "<group>"; };
 		97BC53CD2AD042C300FC25B8 /* AnimationTimingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingBootcamp.swift; sourceTree = "<group>"; };
@@ -320,6 +322,7 @@
 			isa = PBXGroup;
 			children = (
 				975D35082ADE67CA001D4FED /* ModelBootcamp.swift */,
+				97B91CB92ADE9131007E0380 /* userData.json */,
 				975D350D2ADE72FD001D4FED /* UserModel.swift */,
 				975D350F2ADE7364001D4FED /* UserListView.swift */,
 				975D35112ADE7641001D4FED /* UserProfileView.swift */,
@@ -578,6 +581,7 @@
 				978D37DD2AA76EED00051875 /* Preview Assets.xcassets in Resources */,
 				97C174202AB2A35000C674DB /* PinkishRegular.ttf in Resources */,
 				97C174222AB2A79800C674DB /* pricedown.otf in Resources */,
+				97B91CBA2ADE9131007E0380 /* userData.json in Resources */,
 				978D37DA2AA76EED00051875 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
