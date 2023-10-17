@@ -73,6 +73,10 @@
 		97C174202AB2A35000C674DB /* PinkishRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */; };
 		97C174222AB2A79800C674DB /* pricedown.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97C174212AB2A79800C674DB /* pricedown.otf */; };
 		97CDC7D42AB2ED9700E39153 /* LazyVGridBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CDC7D32AB2ED9700E39153 /* LazyVGridBootcamp.swift */; };
+		97D77D6D2ADEC1DE00B4484B /* HomeViewBuah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D77D6C2ADEC1DE00B4484B /* HomeViewBuah.swift */; };
+		97D77D712ADEC21900B4484B /* ModelFruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D77D702ADEC21900B4484B /* ModelFruit.swift */; };
+		97D77D742ADEC23D00B4484B /* fruitsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 97D77D732ADEC23D00B4484B /* fruitsData.json */; };
+		97D77D762ADEC4CA00B4484B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D77D752ADEC4CA00B4484B /* ModelData.swift */; };
 		97D7EA4D2AAEE8D9001B2839 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7EA4C2AAEE8D9001B2839 /* CardView.swift */; };
 		97D7EA4F2AAEEE5A001B2839 /* CardViewKinara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7EA4E2AAEEE5A001B2839 /* CardViewKinara.swift */; };
 		97DE09192AD4EC86007D3F48 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE09182AD4EC86007D3F48 /* NavView.swift */; };
@@ -160,6 +164,10 @@
 		97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkishRegular.ttf; sourceTree = "<group>"; };
 		97C174212AB2A79800C674DB /* pricedown.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pricedown.otf; sourceTree = "<group>"; };
 		97CDC7D32AB2ED9700E39153 /* LazyVGridBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridBootcamp.swift; sourceTree = "<group>"; };
+		97D77D6C2ADEC1DE00B4484B /* HomeViewBuah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewBuah.swift; sourceTree = "<group>"; };
+		97D77D702ADEC21900B4484B /* ModelFruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelFruit.swift; sourceTree = "<group>"; };
+		97D77D732ADEC23D00B4484B /* fruitsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fruitsData.json; sourceTree = "<group>"; };
+		97D77D752ADEC4CA00B4484B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		97D7EA4C2AAEE8D9001B2839 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		97D7EA4E2AAEEE5A001B2839 /* CardViewKinara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewKinara.swift; sourceTree = "<group>"; };
 		97DE09182AD4EC86007D3F48 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
@@ -387,6 +395,7 @@
 				9755CE572AD55FD20008EE7D /* AlertBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				972A82F32AD7C5B00060B895 /* ActionSheetBootcamp.swift */,
+				97D77D6B2ADEC1AD00B4484B /* ModelBuah */,
 				975D350A2ADE67D7001D4FED /* Model */,
 				970DFB232ADCE5A500118E46 /* Dictionary */,
 				97DE091C2AD5235C007D3F48 /* List */,
@@ -472,6 +481,41 @@
 				97EDCA8D2ABC8536004C26AC /* LazyVGridCustom.swift */,
 			);
 			path = Grid;
+			sourceTree = "<group>";
+		};
+		97D77D6B2ADEC1AD00B4484B /* ModelBuah */ = {
+			isa = PBXGroup;
+			children = (
+				97D77D722ADEC22000B4484B /* Resources */,
+				97D77D6F2ADEC1FA00B4484B /* Model */,
+				97D77D6E2ADEC1EC00B4484B /* View */,
+			);
+			path = ModelBuah;
+			sourceTree = "<group>";
+		};
+		97D77D6E2ADEC1EC00B4484B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97D77D6C2ADEC1DE00B4484B /* HomeViewBuah.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		97D77D6F2ADEC1FA00B4484B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				97D77D702ADEC21900B4484B /* ModelFruit.swift */,
+				97D77D752ADEC4CA00B4484B /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		97D77D722ADEC22000B4484B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				97D77D732ADEC23D00B4484B /* fruitsData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		97DE091C2AD5235C007D3F48 /* List */ = {
@@ -579,6 +623,7 @@
 			files = (
 				977A6C5C2AB2971E005F9422 /* PinkDisplayRegular.ttf in Resources */,
 				978D37DD2AA76EED00051875 /* Preview Assets.xcassets in Resources */,
+				97D77D742ADEC23D00B4484B /* fruitsData.json in Resources */,
 				97C174202AB2A35000C674DB /* PinkishRegular.ttf in Resources */,
 				97C174222AB2A79800C674DB /* pricedown.otf in Resources */,
 				97B91CBA2ADE9131007E0380 /* userData.json in Resources */,
@@ -610,6 +655,7 @@
 				9755CE582AD55FD20008EE7D /* AlertBootcamp.swift in Sources */,
 				970D46442AB1956700FE2559 /* EnumBootcamp.swift in Sources */,
 				97BA15B92ACD3A5400C37792 /* LightTernary.swift in Sources */,
+				97D77D6D2ADEC1DE00B4484B /* HomeViewBuah.swift in Sources */,
 				970D46462AB19BD600FE2559 /* ForEachBootcamp.swift in Sources */,
 				973CD62D2AA8C8C500B3E42A /* ColorBootcamp.swift in Sources */,
 				973D09512AD2E2CE0050050C /* SheetsBootcamp.swift in Sources */,
@@ -656,10 +702,12 @@
 				97DE091B2AD52354007D3F48 /* ListBootcamp.swift in Sources */,
 				9716A2852ACD0A27000B03F9 /* ConditionalsView.swift in Sources */,
 				9744EF642AAF102B00908F76 /* KinaraCard.swift in Sources */,
+				97D77D762ADEC4CA00B4484B /* ModelData.swift in Sources */,
 				9783ABAA2AB0AA1B004629E6 /* SpacerExampleInstagram.swift in Sources */,
 				974FF5172AAD6DFF007A3840 /* LinearGradientBound.swift in Sources */,
 				97F1A2912AD0F6F4001477E3 /* TransitionBootcamp.swift in Sources */,
 				978E1ECE2AC87EBE00ACDC28 /* Dashboard.swift in Sources */,
+				97D77D712ADEC21900B4484B /* ModelFruit.swift in Sources */,
 				971E59162ACAAD490063E4D1 /* AkuDanKamu.swift in Sources */,
 				97EA12BC2AB03D4300E40832 /* PaddingBootcamp.swift in Sources */,
 				97E67C9C2AAEBD75007D9E1E /* StacksBootcamp.swift in Sources */,
