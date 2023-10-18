@@ -11,7 +11,6 @@ struct ModelBootcamp: View {
     var body: some View {
         NavigationStack {
             List(users, id: \.self) { item in
-                //UserListView()
                 NavigationLink(destination: UserProfileView(user: item)) {
                     UserListView(user: item)
                 }

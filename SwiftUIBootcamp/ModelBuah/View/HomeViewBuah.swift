@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct HomeViewBuah: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List(fruitsArray, id: \.self) { item in
+                NavigationLink(destination: FruitsDetail(fruit: item)) {
+                    FruitsListView(fruit: item)
+                }
+            }
+            .navigationTitle("Fruits")
+            .listStyle(InsetListStyle())
+        }
     }
 }
 
