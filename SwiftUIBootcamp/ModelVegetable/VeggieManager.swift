@@ -8,17 +8,22 @@
 import Foundation
 import SwiftUI
 
-class VeggieManager {
+class VeggieManager: ObservableObject {
     @Published var sayurArrray: [VegetableModel] = []
+    @Published var isLoading: Bool = false
     
     func getVeggies() {
-        let veggie1 = VegetableModel(name: "Peas", count: 2)
+        let veggie1 = VegetableModel(name: "Potato", count: 2)
         let veggie2 = VegetableModel(name: "Mushroom", count: 6)
-        let veggie3 = VegetableModel(name: "Kale", count: 7)
+        let veggie3 = VegetableModel(name: "Carrots", count: 7)
         
-        sayurArrray.append(veggie1)
-        sayurArrray.append(veggie2)
-        sayurArrray.append(veggie3)
+        isLoading = true
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+            self.sayurArrray.append(veggie1)
+            self.sayurArrray.append(veggie2)
+            self.sayurArrray.append(veggie3)
+            self.isLoading = false
+        }
     }
     
     func deleteVeggie(index: IndexSet) {
