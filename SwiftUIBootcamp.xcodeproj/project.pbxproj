@@ -10,6 +10,7 @@
 		97037ED72AD3982E00E39682 /* NavigationViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97037ED62AD3982E00E39682 /* NavigationViewBootcamp.swift */; };
 		970C4BCD2ADFAE88001461F7 /* VegetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970C4BCC2ADFAE88001461F7 /* VegetableView.swift */; };
 		970C4BCF2ADFAEDC001461F7 /* VeggieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970C4BCE2ADFAEDC001461F7 /* VeggieModel.swift */; };
+		970C4BD12ADFBBA7001461F7 /* VeggieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970C4BD02ADFBBA7001461F7 /* VeggieManager.swift */; };
 		970D463F2AB166B300FE2559 /* InitializerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D463E2AB166B300FE2559 /* InitializerBootcamp.swift */; };
 		970D46442AB1956700FE2559 /* EnumBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D46432AB1956700FE2559 /* EnumBootcamp.swift */; };
 		970D46462AB19BD600FE2559 /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970D46452AB19BD600FE2559 /* ForEachBootcamp.swift */; };
@@ -102,6 +103,7 @@
 		97037ED62AD3982E00E39682 /* NavigationViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootcamp.swift; sourceTree = "<group>"; };
 		970C4BCC2ADFAE88001461F7 /* VegetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableView.swift; sourceTree = "<group>"; };
 		970C4BCE2ADFAEDC001461F7 /* VeggieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeggieModel.swift; sourceTree = "<group>"; };
+		970C4BD02ADFBBA7001461F7 /* VeggieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeggieManager.swift; sourceTree = "<group>"; };
 		970D463E2AB166B300FE2559 /* InitializerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerBootcamp.swift; sourceTree = "<group>"; };
 		970D46432AB1956700FE2559 /* EnumBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumBootcamp.swift; sourceTree = "<group>"; };
 		970D46452AB19BD600FE2559 /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				970C4BCC2ADFAE88001461F7 /* VegetableView.swift */,
+				970C4BD02ADFBBA7001461F7 /* VeggieManager.swift */,
 				970C4BCE2ADFAEDC001461F7 /* VeggieModel.swift */,
 			);
 			path = ModelVegetable;
@@ -691,6 +694,7 @@
 				975D35102ADE7364001D4FED /* UserListView.swift in Sources */,
 				974FF5152AAD5771007A3840 /* OverlayIcon.swift in Sources */,
 				97BC53D02AD0560200FC25B8 /* SpringAnimation.swift in Sources */,
+				970C4BD12ADFBBA7001461F7 /* VeggieManager.swift in Sources */,
 				9767C9AA2AD13DA1006167F5 /* OpacityTransition.swift in Sources */,
 				978D37D82AA76EEC00051875 /* ContentView.swift in Sources */,
 				970DFB222ADCE5A000118E46 /* DictionariesView.swift in Sources */,

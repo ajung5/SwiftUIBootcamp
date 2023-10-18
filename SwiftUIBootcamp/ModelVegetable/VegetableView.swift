@@ -13,13 +13,16 @@ import SwiftUI
 
 struct VegetableView: View {
     
-    @State var veggieArray: [VegetableModel] = []
+    // Tanpa ditambahkan properti wrapper @ObservObject, data tidak akan ditampilkan
+    // karena view tidak diberitahu oleh class untuk mengupdate view nya
+    
+    var veggieManager: VeggieManager = VeggieManager()
     
     var body: some View {
         NavigationStack {
             List {
                 // melakukan perulangan pada variabel "veggieArray" yang beertipe data "VegetableModel"
-                ForEach(veggieArray) { item in
+                ForEach(veggieManager.sayurArrray) { item in
                     HStack {
                         Text("\(item.count)")
                             .foregroundStyle(.red)
@@ -29,28 +32,14 @@ struct VegetableView: View {
                             .bold()
                     }
                 }
-                .onDelete(perform: deleteVeggie)
+                .onDelete(perform: veggieManager.deleteVeggie)
             }
             .listStyle(GroupedListStyle())
             .navigationTitle("Veggie List")
             .onAppear{
-                getVeggies()
+                veggieManager.getVeggies()
             }
         }
-    }
-    
-    func getVeggies() {
-        let veggie1 = VegetableModel(name: "Peas", count: 2)
-        let veggie2 = VegetableModel(name: "Mushroom", count: 6)
-        let veggie3 = VegetableModel(name: "Kale", count: 7)
-        
-        veggieArray.append(veggie1)
-        veggieArray.append(veggie2)
-        veggieArray.append(veggie3)
-    }
-    
-    func deleteVeggie(index: IndexSet) {
-        veggieArray.remove(atOffsets: index)
     }
 }
 
