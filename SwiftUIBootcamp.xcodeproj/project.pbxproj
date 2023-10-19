@@ -30,6 +30,7 @@
 		972DCCF22AABED5100C61CCE /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DCCF12AABED5100C61CCE /* Background.swift */; };
 		972DCCF42AABF2A900C61CCE /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DCCF32AABF2A900C61CCE /* Overlay.swift */; };
 		973044072AE1640900CD003A /* StateWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973044062AE1640900CD003A /* StateWrapperView.swift */; };
+		973044092AE17C9000CD003A /* BindingWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973044082AE17C9000CD003A /* BindingWrapperView.swift */; };
 		973CD62B2AA8C4C400B3E42A /* ShapeEllipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973CD62A2AA8C4C400B3E42A /* ShapeEllipse.swift */; };
 		973CD62D2AA8C8C500B3E42A /* ColorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973CD62C2AA8C8C500B3E42A /* ColorBootcamp.swift */; };
 		973D09512AD2E2CE0050050C /* SheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973D09502AD2E2CE0050050C /* SheetsBootcamp.swift */; };
@@ -124,6 +125,7 @@
 		972DCCF12AABED5100C61CCE /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		972DCCF32AABF2A900C61CCE /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
 		973044062AE1640900CD003A /* StateWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWrapperView.swift; sourceTree = "<group>"; };
+		973044082AE17C9000CD003A /* BindingWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWrapperView.swift; sourceTree = "<group>"; };
 		973CD62A2AA8C4C400B3E42A /* ShapeEllipse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeEllipse.swift; sourceTree = "<group>"; };
 		973CD62C2AA8C8C500B3E42A /* ColorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBootcamp.swift; sourceTree = "<group>"; };
 		973D09502AD2E2CE0050050C /* SheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootcamp.swift; sourceTree = "<group>"; };
@@ -312,6 +314,7 @@
 			isa = PBXGroup;
 			children = (
 				973044062AE1640900CD003A /* StateWrapperView.swift */,
+				973044082AE17C9000CD003A /* BindingWrapperView.swift */,
 			);
 			path = PropertyWrapper;
 			sourceTree = "<group>";
@@ -719,6 +722,7 @@
 				975D35122ADE7641001D4FED /* UserProfileView.swift in Sources */,
 				97BC53CE2AD042C300FC25B8 /* AnimationTimingBootcamp.swift in Sources */,
 				972DCCF22AABED5100C61CCE /* Background.swift in Sources */,
+				973044092AE17C9000CD003A /* BindingWrapperView.swift in Sources */,
 				975D350E2ADE72FD001D4FED /* UserModel.swift in Sources */,
 				973D09532AD2F0240050050C /* PopOverBootcamp.swift in Sources */,
 				972A82F42AD7C5B00060B895 /* ActionSheetBootcamp.swift in Sources */,
