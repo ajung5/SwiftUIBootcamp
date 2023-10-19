@@ -308,12 +308,12 @@
 			path = BackgroundAndOverlay;
 			sourceTree = "<group>";
 		};
-		973044052AE163F000CD003A /* ProopertyWrapper */ = {
+		973044052AE163F000CD003A /* PropertyWrapper */ = {
 			isa = PBXGroup;
 			children = (
 				973044062AE1640900CD003A /* StateWrapperView.swift */,
 			);
-			path = ProopertyWrapper;
+			path = PropertyWrapper;
 			sourceTree = "<group>";
 		};
 		973D09542AD2F5620050050C /* PopOver */ = {
@@ -423,7 +423,7 @@
 				9755CE572AD55FD20008EE7D /* AlertBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				972A82F32AD7C5B00060B895 /* ActionSheetBootcamp.swift */,
-				973044052AE163F000CD003A /* ProopertyWrapper */,
+				973044052AE163F000CD003A /* PropertyWrapper */,
 				970C4BCB2ADFAE6D001461F7 /* ModelVegetable */,
 				97D77D6B2ADEC1AD00B4484B /* ModelBuah */,
 				975D350A2ADE67D7001D4FED /* Model */,
