@@ -17,10 +17,10 @@ struct BindingWrapperView: View {
     var body: some View {
         
         TextField("Enter Teks", text: $teks)
-        //Text(teks)
+        Text(teks)
         
         Button("Update Teks") {
-            teks = "Text Baru"
+            teks = teks
         }
     }
 }
@@ -35,6 +35,8 @@ struct SecondView: View {
     }
     
 }
+
+// In this example, @Binding is used to pass the value from $text (which is in ContentView) to text (which is in SecondView), so when the user presses the button, the text field will update and display the new text.
 
 #Preview {
     BindingWrapperView()
