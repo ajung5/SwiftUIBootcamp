@@ -37,6 +37,7 @@
 		973D09532AD2F0240050050C /* PopOverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973D09522AD2F0240050050C /* PopOverBootcamp.swift */; };
 		973D09562AD2F58A0050050C /* PopOverWithTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973D09552AD2F58A0050050C /* PopOverWithTransition.swift */; };
 		973EDF062AE2AE0800D6081B /* BindingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973EDF052AE2AE0800D6081B /* BindingExample.swift */; };
+		973EDF082AE2B0E600D6081B /* ObservedObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973EDF072AE2B0E600D6081B /* ObservedObjectView.swift */; };
 		97404C1B2AA88718007F80B2 /* ShapeRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97404C1A2AA88718007F80B2 /* ShapeRectangle.swift */; };
 		97404C1D2AA88738007F80B2 /* ShapeRoundedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97404C1C2AA88738007F80B2 /* ShapeRoundedRectangle.swift */; };
 		97404C1F2AA88AE6007F80B2 /* ShapeLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97404C1E2AA88AE6007F80B2 /* ShapeLoginPage.swift */; };
@@ -133,6 +134,7 @@
 		973D09522AD2F0240050050C /* PopOverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverBootcamp.swift; sourceTree = "<group>"; };
 		973D09552AD2F58A0050050C /* PopOverWithTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverWithTransition.swift; sourceTree = "<group>"; };
 		973EDF052AE2AE0800D6081B /* BindingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExample.swift; sourceTree = "<group>"; };
+		973EDF072AE2B0E600D6081B /* ObservedObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectView.swift; sourceTree = "<group>"; };
 		97404C1A2AA88718007F80B2 /* ShapeRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeRectangle.swift; sourceTree = "<group>"; };
 		97404C1C2AA88738007F80B2 /* ShapeRoundedRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeRoundedRectangle.swift; sourceTree = "<group>"; };
 		97404C1E2AA88AE6007F80B2 /* ShapeLoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeLoginPage.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -318,6 +320,7 @@
 				973044062AE1640900CD003A /* StateWrapperView.swift */,
 				973044082AE17C9000CD003A /* BindingWrapperView.swift */,
 				973EDF052AE2AE0800D6081B /* BindingExample.swift */,
+				973EDF072AE2B0E600D6081B /* ObservedObjectView.swift */,
 			);
 			path = PropertyWrapper;
 			sourceTree = "<group>";
@@ -688,6 +691,7 @@
 				972DCCED2AABE18700C61CCE /* FrameBootcamp.swift in Sources */,
 				974E7C012AB1FB4D00AD2300 /* HorizontalScrollView.swift in Sources */,
 				973D09562AD2F58A0050050C /* PopOverWithTransition.swift in Sources */,
+				973EDF082AE2B0E600D6081B /* ObservedObjectView.swift in Sources */,
 				974C1A432ACFED3D003F87E6 /* AnimationBootcamp.swift in Sources */,
 				9755CE582AD55FD20008EE7D /* AlertBootcamp.swift in Sources */,
 				970D46442AB1956700FE2559 /* EnumBootcamp.swift in Sources */,
