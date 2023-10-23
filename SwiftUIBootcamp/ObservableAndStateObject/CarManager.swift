@@ -7,6 +7,6 @@
 
 import Foundation
 
-class CarManager {
+class CarManager: ObservableObject {
     @Published var carArray: [CarModel] = []
 }
