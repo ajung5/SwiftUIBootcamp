@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CarModel: Identifiable {
+struct CarNameModel: Identifiable {
     let id = UUID ()
     let brand: String
     let model: String
@@ -15,11 +15,11 @@ struct CarModel: Identifiable {
 }
 
 struct ForEachArray: View {
-    var Cars: [CarModel] = [
-        CarModel(brand: "Toyota", model: "GR Yaris", year: 2020),
-        CarModel(brand: "Toyota", model: "Land Cruiser 300", year: 2021),
-        CarModel(brand: "Toyota", model: "RAV-4", year: 2022),
-        CarModel(brand: "Honda", model: "Civic", year: 2021)
+    var Cars: [CarNameModel] = [
+        CarNameModel(brand: "Toyota", model: "GR Yaris", year: 2020),
+        CarNameModel(brand: "Toyota", model: "Land Cruiser 300", year: 2021),
+        CarNameModel(brand: "Toyota", model: "RAV-4", year: 2022),
+        CarNameModel(brand: "Honda", model: "Civic", year: 2021)
     ]
     
     var body: some View {
