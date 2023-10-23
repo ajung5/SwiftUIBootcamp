@@ -341,6 +341,13 @@
 			path = PopOver;
 			sourceTree = "<group>";
 		};
+		9744EEC22AE60EE50026D276 /* ObservableAndStateObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ObservableAndStateObject;
+			sourceTree = "<group>";
+		};
 		9744EF622AAF100A00908F76 /* Card */ = {
 			isa = PBXGroup;
 			children = (
@@ -449,6 +456,7 @@
 				9755CE572AD55FD20008EE7D /* AlertBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				972A82F32AD7C5B00060B895 /* ActionSheetBootcamp.swift */,
+				9744EEC22AE60EE50026D276 /* ObservableAndStateObject */,
 				973044052AE163F000CD003A /* PropertyWrapper */,
 				970C4BCB2ADFAE6D001461F7 /* ModelVegetable */,
 				97D77D6B2ADEC1AD00B4484B /* ModelBuah */,
