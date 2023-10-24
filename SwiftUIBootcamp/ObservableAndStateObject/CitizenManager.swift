@@ -11,6 +11,10 @@ class CitizenManager: ObservableObject {
     @Published var cityArray: [CitizenModel] = []
     @Published var isLoading: Bool = false
     
+    init() {
+        getCitizen()
+    }
+    
     // Func getCitizen
     func getCitizen() {
         let city1 = CitizenModel(city: "Manado", citizenCount: 55)

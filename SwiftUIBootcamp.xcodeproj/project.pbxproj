@@ -62,6 +62,8 @@
 		977A6C5C2AB2971E005F9422 /* PinkDisplayRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */; };
 		977CD54B2AE8040300555648 /* CitizenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CD54A2AE8040300555648 /* CitizenView.swift */; };
 		977CD54D2AE8075200555648 /* CitizenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CD54C2AE8075200555648 /* CitizenManager.swift */; };
+		977CD54F2AE80F0300555648 /* CitizenDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CD54E2AE80F0300555648 /* CitizenDetailView.swift */; };
+		977CD5512AE80F9C00555648 /* CitizenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CD5502AE80F9C00555648 /* CitizenModel.swift */; };
 		9783ABAA2AB0AA1B004629E6 /* SpacerExampleInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9783ABA92AB0AA1B004629E6 /* SpacerExampleInstagram.swift */; };
 		978D37D62AA76EEC00051875 /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */; };
 		978D37D82AA76EEC00051875 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D37D72AA76EEC00051875 /* ContentView.swift */; };
@@ -167,6 +169,8 @@
 		977A6C5E2AB29A2A005F9422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		977CD54A2AE8040300555648 /* CitizenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenView.swift; sourceTree = "<group>"; };
 		977CD54C2AE8075200555648 /* CitizenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenManager.swift; sourceTree = "<group>"; };
+		977CD54E2AE80F0300555648 /* CitizenDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenDetailView.swift; sourceTree = "<group>"; };
+		977CD5502AE80F9C00555648 /* CitizenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenModel.swift; sourceTree = "<group>"; };
 		9783ABA92AB0AA1B004629E6 /* SpacerExampleInstagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExampleInstagram.swift; sourceTree = "<group>"; };
 		978D37D22AA76EEC00051875 /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
@@ -349,6 +353,8 @@
 				974A120A2AE7E6CB00493245 /* CarView.swift */,
 				977CD54A2AE8040300555648 /* CitizenView.swift */,
 				977CD54C2AE8075200555648 /* CitizenManager.swift */,
+				977CD5502AE80F9C00555648 /* CitizenModel.swift */,
+				977CD54E2AE80F0300555648 /* CitizenDetailView.swift */,
 			);
 			path = ObservableAndStateObject;
 			sourceTree = "<group>";
@@ -748,6 +754,7 @@
 				971029912AA849BF009438F2 /* ShapeCircle.swift in Sources */,
 				97E67C9E2AAEBE02007D9E1E /* KinaraImage.swift in Sources */,
 				975D35102ADE7364001D4FED /* UserListView.swift in Sources */,
+				977CD54F2AE80F0300555648 /* CitizenDetailView.swift in Sources */,
 				9797FD702AE417740014E717 /* EnvironmentObjectView.swift in Sources */,
 				974FF5152AAD5771007A3840 /* OverlayIcon.swift in Sources */,
 				97BC53D02AD0560200FC25B8 /* SpringAnimation.swift in Sources */,
@@ -774,6 +781,7 @@
 				97A346842AAAA8C8003FA17A /* ImagesBootcamp.swift in Sources */,
 				978E1EC92AC8748F00ACDC28 /* SijawaraDashboardClone.swift in Sources */,
 				9710E9262AAA07B6001AE36B /* GradientBootcamp.swift in Sources */,
+				977CD5512AE80F9C00555648 /* CitizenModel.swift in Sources */,
 				970D46492AB1A2EB00FE2559 /* ForEachData.swift in Sources */,
 				97D77D782ADECE4000B4484B /* FruitsListView.swift in Sources */,
 				97AC98352AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift in Sources */,

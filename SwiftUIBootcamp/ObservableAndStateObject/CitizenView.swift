@@ -25,7 +25,7 @@ struct CitizenView: View {
     //    @ObservedObject var citizenManager: CitizenManager = CitizenManager()
     
     // @StateObbject     -> USE THIS ON CREATIOON / INIT
-    // @ObservedObject   -> USE THIS FOR SUBVIEWS
+    // @ObservedObject   -> USE THIS FOR SUBVIEW
     @StateObject var citizenManager: CitizenManager = CitizenManager()
     
     var body: some View {
@@ -50,9 +50,18 @@ struct CitizenView: View {
             }
             .listStyle(GroupedListStyle())
             .navigationTitle("Citizen")
-            .onAppear{
-                citizenManager.getCitizen()
-            }
+            .toolbar(content: {
+                NavigationLink {
+                    CitizenDetailView(citizenManager: citizenManager)
+                } label: {
+                    Image(systemName: "arrow.right")
+                        .font(.title)
+                }
+
+            })
+//            .onAppear{
+//                citizenManager.getCitizen()
+//            }
         }
     }
 }
