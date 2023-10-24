@@ -9,11 +9,11 @@ import SwiftUI
 
 struct CarView: View {
     
-    let cars: CarModel
+    @State var cars: [CarModel] = []
     
     var body: some View {
         NavigationStack {
-            List(carArray) { item in
+            List(carArray.shuffled()) { item in
                 HStack {
                     RoundedRectangle(cornerRadius: 15)
                         .frame(width: 25, height: 25)
@@ -38,10 +38,14 @@ struct CarView: View {
             }
             .listStyle(GroupedListStyle())
             .navigationTitle("Car List")
+            .onAppear {
+                carArray.append(CarModel(brand: "Audi", model: "RS6 Avant", year: 2021))
+            }
         }
     }
 }
 
 #Preview {
-    CarView(cars: carArray[0])
+    //CarView(cars: carArray[0])
+    CarView()
 }

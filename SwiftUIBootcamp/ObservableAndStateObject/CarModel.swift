@@ -27,11 +27,11 @@ var carArray: [CarModel] = [
 //    CarModel(brand: "Volkswagen", model: "Jetta", year: 2015),
 //    CarModel(brand: "Chevrolet", model: "Cruze", year: 2014),
     CarModel(brand: "Dodge", model: "Dart", year: 2013),
-    CarModel(brand: "Chrysler", model: "200", year: 2012),
-
-    // European car brands
-    CarModel(brand: "BMW", model: "3 Series", year: 2023),
-    CarModel(brand: "Mercedes-Benz", model: "C-Class", year: 2022),
+//    CarModel(brand: "Chrysler", model: "200", year: 2012),
+//
+//    // European car brands
+//    CarModel(brand: "BMW", model: "3 Series", year: 2023),
+//    CarModel(brand: "Mercedes-Benz", model: "C-Class", year: 2022),
 //    CarModel(brand: "Audi", model: "A4", year: 2021),
 //    CarModel(brand: "Volkswagen", model: "Passat", year: 2020),
 //    CarModel(brand: "Volvo", model: "S60", year: 2019),
@@ -57,3 +57,13 @@ var carArray: [CarModel] = [
 //    CarModel(brand: "Hino", model: "Dutro", year: 2013),
 //    CarModel(brand: "Isuzu", model: "Elf", year: 2012),
 ]
+
+func getCars() {
+    let cars1 = CarModel(brand: "Audi", model: "RS6 Avant", year: 2021)
+    let cars2 = CarModel(brand: "Volkswagen", model: "Golf R-Line", year: 2020)
+    let cars3 = CarModel(brand: "Volvo", model: "XC60", year: 2019)
+    
+    carArray.append(cars1)
+    carArray.append(cars2)
+    carArray.append(cars3)
+}
