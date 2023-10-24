@@ -17,7 +17,7 @@ struct UserListView: View {
                 .frame(width: 35, height: 35)
             
             VStack(alignment: .leading) {
-                Text("\(user.firstName) \(user.middleName) \(user.lastName)")
+                Text("\(user.namaLengkap)")
                     .font(.headline)
                 
                 Text("@\(user.userName)")

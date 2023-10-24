@@ -1,0 +1,152 @@
+[
+  {
+    "brand": "Toyota",
+    "model": "Camry",
+    "year": 2023
+  },
+  {
+    "brand": "Honda",
+    "model": "Accord",
+    "year": 2022
+  },
+  {
+    "brand": "Nissan",
+    "model": "Altima",
+    "year": 2021
+  },
+  {
+    "brand": "Ford",
+    "model": "Fusion",
+    "year": 2020
+  },
+  {
+    "brand": "Chevrolet",
+    "model": "Malibu",
+    "year": 2019
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Sonata",
+    "year": 2018
+  },
+  {
+    "brand": "Kia",
+    "model": "Optima",
+    "year": 2017
+  },
+  {
+    "brand": "Mazda",
+    "model": "6",
+    "year": 2016
+  },
+  {
+    "brand": "Subaru",
+    "model": "Legacy",
+    "year": 2015
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Jetta",
+    "year": 2014
+  },
+  {
+    "brand": "Toyota",
+    "model": "Corolla",
+    "year": 2013
+  },
+  {
+    "brand": "Honda",
+    "model": "Civic",
+    "year": 2012
+  },
+  {
+    "brand": "Nissan",
+    "model": "Sentra",
+    "year": 2011
+  },
+  {
+    "brand": "Ford",
+    "model": "Focus",
+    "year": 2010
+  },
+  {
+    "brand": "Chevrolet",
+    "model": "Cruze",
+    "year": 2009
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "year": 2008
+  },
+  {
+    "brand": "Kia",
+    "model": "Forte",
+    "year": 2007
+  },
+  {
+    "brand": "Mazda",
+    "model": "3",
+    "year": 2006
+  },
+  {
+    "brand": "Subaru",
+    "model": "Impreza",
+    "year": 2005
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "year": 2005
+  },
+  {
+    "brand": "BMW",
+    "model": "3 Series",
+    "year": 2023
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2022
+  },
+  {
+    "brand": "Audi",
+    "model": "A4",
+    "year": 2021
+  },
+  {
+    "brand": "Lexus",
+    "model": "ES",
+    "year": 2020
+  },
+  {
+    "brand": "Infiniti",
+    "model": "Q50",
+    "year": 2019
+  },
+  {
+    "brand": "Acura",
+    "model": "TLX",
+    "year": 2018
+  },
+  {
+    "brand": "Genesis",
+    "model": "G80",
+    "year": 2017
+  },
+  {
+    "brand": "Volvo",
+    "model": "S60",
+    "year": 2016
+  },
+  {
+    "brand": "Jaguar",
+    "model": "XE",
+    "year": 2015
+  },
+  {
+    "brand": "Alfa Romeo",
+    "model": "Giulia",
+    "year": 2014
+  }
+]

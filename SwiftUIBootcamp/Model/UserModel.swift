@@ -21,6 +21,12 @@ struct PersonModel: Identifiable, Hashable {
     let imageName: String
 }
 
+extension PersonModel {
+    var namaLengkap: String {
+        return "\(firstName) \(middleName) \(lastName)"
+    }
+}
+
 var users: [PersonModel] = [
 //    PersonModel(firstName: "Alice", middleName: "Bob", lastName: "Carol", userName: "alice123", followerCount: 500, isVerified: true),
 //    PersonModel(firstName: "Dave", middleName: "Eve", lastName: "Frank", userName: "dave456", followerCount: 200, isVerified: false),
