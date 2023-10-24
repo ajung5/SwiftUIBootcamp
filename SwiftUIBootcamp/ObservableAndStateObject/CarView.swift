@@ -8,11 +8,40 @@
 import SwiftUI
 
 struct CarView: View {
+    
+    let cars: CarModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List(carArray) { item in
+                HStack {
+                    RoundedRectangle(cornerRadius: 15)
+                        .frame(width: 25, height: 25)
+                    
+                    VStack(alignment: .leading) {
+                        Text(item.model)
+                            .font(.headline)
+                        
+                        Text(item.brand)
+                            .font(.caption)
+                    }
+                    
+                    Spacer()
+                    
+                    VStack(alignment:.leading) {
+                        Text("Manufactured")
+                            .font(.subheadline)
+                        
+                        Text("\(item.year)")
+                    }
+                }
+            }
+            .listStyle(GroupedListStyle())
+            .navigationTitle("Car List")
+        }
     }
 }
 
 #Preview {
-    CarView()
+    CarView(cars: carArray[0])
 }
