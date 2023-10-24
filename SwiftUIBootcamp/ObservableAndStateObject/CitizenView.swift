@@ -33,6 +33,7 @@ struct CitizenView: View {
                             .bold()
                     }
                 }
+                .onDelete(perform: deleteCitizen)
             }
             .listStyle(GroupedListStyle())
             .navigationTitle("Citizen")
@@ -52,6 +53,10 @@ struct CitizenView: View {
         cityArray.append(city1)
         cityArray.append(city2)
         cityArray.append(city3)
+    }
+    
+    func deleteCitizen(index: IndexSet) {
+        cityArray.remove(atOffsets: index)
     }
 }
 
