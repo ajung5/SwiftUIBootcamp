@@ -7,9 +7,17 @@
 
 import Foundation
 
-//struct Citi: Identifiable, Hashable {
-//    
-//    let id: UUID = .init()
-//    let city: String
-//    let citizenCount: Int
-//}
+struct CityModel: Identifiable, Hashable {
+    
+    let id: UUID = .init()
+    let city: String
+    let citizenCount: Int
+}
+
+var cityArray: [CityModel] = [
+
+    CityModel(city: "Manado", citizenCount: 55),
+    CityModel(city: "Lampung", citizenCount: 44),
+    CityModel(city: "Bekasi", citizenCount: 33),
+    CityModel(city: "Subang", citizenCount: 100)
+]
