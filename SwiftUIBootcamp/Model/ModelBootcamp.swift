@@ -16,7 +16,8 @@ struct ModelBootcamp: View {
                 }
                 
             }
-            .navigationTitle("Users")
+            .navigationTitle("User List")
+            .navigationBarTitleDisplayMode(.automatic)
             .listStyle(InsetListStyle())
         }
     }
