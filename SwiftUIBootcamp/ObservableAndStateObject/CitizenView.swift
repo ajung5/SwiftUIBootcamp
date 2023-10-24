@@ -16,47 +16,40 @@ struct CitizenModel: Identifiable {
 
 struct CitizenView: View {
     
-    @State var cityArray: [CitizenModel] = [
-        CitizenModel(city: "Subang", citizenCount: 300)
-    ]
+//    @State var cityArray: [CitizenModel] = [
+//        CitizenModel(city: "Subang", citizenCount: 300)
+//    ]
+    
+    // variabel untuk mengakses array yang ada didalam class CitizenManager
+    // untuk membuat view mengupdate data dari class tersebut, perlu ditambahkan property wrapper pada variabel "citizenManager"
+    @ObservedObject var citizenManager: CitizenManager = CitizenManager()
     
     var body: some View {
         NavigationStack {
             List {
-                ForEach(cityArray) { item in
-                    HStack {
-                        Text("\(item.citizenCount)")
-                            .foregroundStyle(.red)
-                        
-                        Text(item.city)
-                            .font(.headline)
-                            .bold()
+                
+                if citizenManager.isLoading {
+                    ProgressView()
+                } else {
+                    ForEach(citizenManager.cityArray) { item in
+                        HStack {
+                            Text("\(item.citizenCount)")
+                                .foregroundStyle(.red)
+                            
+                            Text(item.city)
+                                .font(.headline)
+                                .bold()
+                        }
                     }
+                    .onDelete(perform: citizenManager.deleteCitizen)
                 }
-                .onDelete(perform: deleteCitizen)
             }
             .listStyle(GroupedListStyle())
             .navigationTitle("Citizen")
             .onAppear{
-                getCitizen()
+                citizenManager.getCitizen()
             }
         }
-    }
-    
-    
-    // Func getCitizen
-    func getCitizen() {
-        let city1 = CitizenModel(city: "Manado", citizenCount: 55)
-        let city2 = CitizenModel(city: "Lampung", citizenCount: 44)
-        let city3 = CitizenModel(city: "Bekasi", citizenCount: 33)
-        
-        cityArray.append(city1)
-        cityArray.append(city2)
-        cityArray.append(city3)
-    }
-    
-    func deleteCitizen(index: IndexSet) {
-        cityArray.remove(atOffsets: index)
     }
 }
 

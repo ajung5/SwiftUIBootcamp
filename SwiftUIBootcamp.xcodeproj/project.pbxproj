@@ -61,6 +61,7 @@
 		9767C9AA2AD13DA1006167F5 /* OpacityTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767C9A92AD13DA1006167F5 /* OpacityTransition.swift */; };
 		977A6C5C2AB2971E005F9422 /* PinkDisplayRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */; };
 		977CD54B2AE8040300555648 /* CitizenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CD54A2AE8040300555648 /* CitizenView.swift */; };
+		977CD54D2AE8075200555648 /* CitizenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CD54C2AE8075200555648 /* CitizenManager.swift */; };
 		9783ABAA2AB0AA1B004629E6 /* SpacerExampleInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9783ABA92AB0AA1B004629E6 /* SpacerExampleInstagram.swift */; };
 		978D37D62AA76EEC00051875 /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */; };
 		978D37D82AA76EEC00051875 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D37D72AA76EEC00051875 /* ContentView.swift */; };
@@ -165,6 +166,7 @@
 		977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkDisplayRegular.ttf; sourceTree = "<group>"; };
 		977A6C5E2AB29A2A005F9422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		977CD54A2AE8040300555648 /* CitizenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenView.swift; sourceTree = "<group>"; };
+		977CD54C2AE8075200555648 /* CitizenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenManager.swift; sourceTree = "<group>"; };
 		9783ABA92AB0AA1B004629E6 /* SpacerExampleInstagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExampleInstagram.swift; sourceTree = "<group>"; };
 		978D37D22AA76EEC00051875 /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
@@ -346,6 +348,7 @@
 				9794159C2AE7B3290024BF4B /* CarManager.swift */,
 				974A120A2AE7E6CB00493245 /* CarView.swift */,
 				977CD54A2AE8040300555648 /* CitizenView.swift */,
+				977CD54C2AE8075200555648 /* CitizenManager.swift */,
 			);
 			path = ObservableAndStateObject;
 			sourceTree = "<group>";
@@ -760,6 +763,7 @@
 				97E6D0772AC1D3EE00824E3A /* StateBootcamp.swift in Sources */,
 				97D7EA4D2AAEE8D9001B2839 /* CardView.swift in Sources */,
 				975D35122ADE7641001D4FED /* UserProfileView.swift in Sources */,
+				977CD54D2AE8075200555648 /* CitizenManager.swift in Sources */,
 				97BC53CE2AD042C300FC25B8 /* AnimationTimingBootcamp.swift in Sources */,
 				972DCCF22AABED5100C61CCE /* Background.swift in Sources */,
 				973044092AE17C9000CD003A /* BindingWrapperView.swift in Sources */,
