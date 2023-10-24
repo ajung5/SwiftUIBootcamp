@@ -22,7 +22,7 @@ struct PersonModel: Identifiable, Hashable {
 }
 
 extension PersonModel {
-    var namaLengkap: String {
+    var fullName: String {
         return "\(firstName) \(middleName) \(lastName)"
     }
 }
