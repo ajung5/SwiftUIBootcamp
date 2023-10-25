@@ -57,6 +57,9 @@
 		975D350E2ADE72FD001D4FED /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D350D2ADE72FD001D4FED /* UserModel.swift */; };
 		975D35102ADE7364001D4FED /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D350F2ADE7364001D4FED /* UserListView.swift */; };
 		975D35122ADE7641001D4FED /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D35112ADE7641001D4FED /* UserProfileView.swift */; };
+		975F2D352AE8EE110048E4C6 /* MainDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975F2D342AE8EE110048E4C6 /* MainDashboard.swift */; };
+		975F2D372AE8EE630048E4C6 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975F2D362AE8EE630048E4C6 /* DeviceManager.swift */; };
+		975F2D392AE8F17B0048E4C6 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975F2D382AE8F17B0048E4C6 /* DeviceModel.swift */; };
 		9767C9A82AD13B5C006167F5 /* MoveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767C9A72AD13B5C006167F5 /* MoveTransition.swift */; };
 		9767C9AA2AD13DA1006167F5 /* OpacityTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767C9A92AD13DA1006167F5 /* OpacityTransition.swift */; };
 		977A6C5C2AB2971E005F9422 /* PinkDisplayRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */; };
@@ -163,6 +166,9 @@
 		975D350D2ADE72FD001D4FED /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		975D350F2ADE7364001D4FED /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		975D35112ADE7641001D4FED /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		975F2D342AE8EE110048E4C6 /* MainDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboard.swift; sourceTree = "<group>"; };
+		975F2D362AE8EE630048E4C6 /* DeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+		975F2D382AE8F17B0048E4C6 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
 		9767C9A72AD13B5C006167F5 /* MoveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTransition.swift; sourceTree = "<group>"; };
 		9767C9A92AD13DA1006167F5 /* OpacityTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityTransition.swift; sourceTree = "<group>"; };
 		977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkDisplayRegular.ttf; sourceTree = "<group>"; };
@@ -410,6 +416,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		975F2D332AE8ED780048E4C6 /* EnvironmentObject */ = {
+			isa = PBXGroup;
+			children = (
+				975F2D342AE8EE110048E4C6 /* MainDashboard.swift */,
+				975F2D362AE8EE630048E4C6 /* DeviceManager.swift */,
+				975F2D382AE8F17B0048E4C6 /* DeviceModel.swift */,
+			);
+			path = EnvironmentObject;
+			sourceTree = "<group>";
+		};
 		9767C9A62AD13A1E006167F5 /* Transitions */ = {
 			isa = PBXGroup;
 			children = (
@@ -467,6 +483,7 @@
 				9755CE572AD55FD20008EE7D /* AlertBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				972A82F32AD7C5B00060B895 /* ActionSheetBootcamp.swift */,
+				975F2D332AE8ED780048E4C6 /* EnvironmentObject */,
 				9744EEC22AE60EE50026D276 /* ObservableAndStateObject */,
 				973044052AE163F000CD003A /* PropertyWrapper */,
 				97D77D6B2ADEC1AD00B4484B /* ModelBuah */,
@@ -741,6 +758,7 @@
 				973CD62D2AA8C8C500B3E42A /* ColorBootcamp.swift in Sources */,
 				973D09512AD2E2CE0050050C /* SheetsBootcamp.swift in Sources */,
 				971E59112ACA9C140063E4D1 /* ConditionalBootcamp.swift in Sources */,
+				975F2D352AE8EE110048E4C6 /* MainDashboard.swift in Sources */,
 				9767C9A82AD13B5C006167F5 /* MoveTransition.swift in Sources */,
 				979415972AE7A5D30024BF4B /* CarModel.swift in Sources */,
 				974E7BFF2AB1F7B800AD2300 /* ScrollViewBootcamp.swift in Sources */,
@@ -760,6 +778,7 @@
 				97BC53D02AD0560200FC25B8 /* SpringAnimation.swift in Sources */,
 				9767C9AA2AD13DA1006167F5 /* OpacityTransition.swift in Sources */,
 				978D37D82AA76EEC00051875 /* ContentView.swift in Sources */,
+				975F2D372AE8EE630048E4C6 /* DeviceManager.swift in Sources */,
 				977CD54B2AE8040300555648 /* CitizenView.swift in Sources */,
 				970DFB222ADCE5A000118E46 /* DictionariesView.swift in Sources */,
 				970D463F2AB166B300FE2559 /* InitializerBootcamp.swift in Sources */,
@@ -791,6 +810,7 @@
 				97404C1F2AA88AE6007F80B2 /* ShapeLoginPage.swift in Sources */,
 				97F9ECF62ACACCC100D1821A /* CardCircle.swift in Sources */,
 				97DE09192AD4EC86007D3F48 /* NavView.swift in Sources */,
+				975F2D392AE8F17B0048E4C6 /* DeviceModel.swift in Sources */,
 				97DE091B2AD52354007D3F48 /* ListBootcamp.swift in Sources */,
 				9716A2852ACD0A27000B03F9 /* ConditionalsView.swift in Sources */,
 				9744EF642AAF102B00908F76 /* KinaraCard.swift in Sources */,
