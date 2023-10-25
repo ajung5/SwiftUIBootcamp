@@ -11,12 +11,16 @@ struct DeviceDetailView: View {
     
     var selectedItem: DeviceModel
     
+    // untuk bisa mengakses data pada second view bisa menggunakan beberapa cara
+    // #1
+    @ObservedObject var deviceModel: DeviceManager
+    
     var body: some View {
         ZStack {
             Color.teal
                 .ignoresSafeArea()
             
-            NavigationLink(destination: DeviceFinalView()) {
+            NavigationLink(destination: DeviceFinalView(deviceModel: deviceModel)) {
                 Text(selectedItem.name)
                     .font(.headline)
                     .foregroundStyle(.vividCerise)
@@ -29,5 +33,5 @@ struct DeviceDetailView: View {
 }
 
 #Preview {
-    DeviceDetailView(selectedItem: DeviceModel(name: "iPhone 15 Pro", osVersion: 12))
+    DeviceDetailView(selectedItem: DeviceModel(name: "iPhone 15 Pro", osVersion: 12), deviceModel: DeviceManager())
 }

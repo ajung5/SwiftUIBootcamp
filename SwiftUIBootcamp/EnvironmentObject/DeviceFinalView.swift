@@ -8,18 +8,21 @@
 import SwiftUI
 
 struct DeviceFinalView: View {
+    
+    // untuk bisa mengakses data pada third view bisa menggunakan beberapa cara
+    // #1
+    @ObservedObject var deviceModel: DeviceManager
+    
     var body: some View {
         ZStack {
             Color.vividCerise
                 .ignoresSafeArea()
             
             ScrollView {
-                VStack(spacing: 20) {
-                    Text("Item 1")
-                    
-                    Text("Item 1")
-                    
-                    Text("Item 1")
+                VStack(alignment: .leading, spacing: 20) {
+                    ForEach(deviceModel.devices, id: \.self) { perangkat in
+                        Text(perangkat.name)
+                    }
                 }
                 .foregroundStyle(.white)
                 .font(.title)
@@ -29,5 +32,5 @@ struct DeviceFinalView: View {
 }
 
 #Preview {
-    DeviceFinalView()
+    DeviceFinalView(deviceModel: DeviceManager())
 }
