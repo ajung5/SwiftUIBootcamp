@@ -60,6 +60,7 @@
 		975F2D352AE8EE110048E4C6 /* MainDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975F2D342AE8EE110048E4C6 /* MainDashboard.swift */; };
 		975F2D372AE8EE630048E4C6 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975F2D362AE8EE630048E4C6 /* DeviceManager.swift */; };
 		975F2D392AE8F17B0048E4C6 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975F2D382AE8F17B0048E4C6 /* DeviceModel.swift */; };
+		975F2D3B2AE8F52C0048E4C6 /* DeviceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975F2D3A2AE8F52C0048E4C6 /* DeviceDetailView.swift */; };
 		9767C9A82AD13B5C006167F5 /* MoveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767C9A72AD13B5C006167F5 /* MoveTransition.swift */; };
 		9767C9AA2AD13DA1006167F5 /* OpacityTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767C9A92AD13DA1006167F5 /* OpacityTransition.swift */; };
 		977A6C5C2AB2971E005F9422 /* PinkDisplayRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */; };
@@ -169,6 +170,7 @@
 		975F2D342AE8EE110048E4C6 /* MainDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboard.swift; sourceTree = "<group>"; };
 		975F2D362AE8EE630048E4C6 /* DeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
 		975F2D382AE8F17B0048E4C6 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
+		975F2D3A2AE8F52C0048E4C6 /* DeviceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailView.swift; sourceTree = "<group>"; };
 		9767C9A72AD13B5C006167F5 /* MoveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTransition.swift; sourceTree = "<group>"; };
 		9767C9A92AD13DA1006167F5 /* OpacityTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityTransition.swift; sourceTree = "<group>"; };
 		977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkDisplayRegular.ttf; sourceTree = "<group>"; };
@@ -420,6 +422,7 @@
 			isa = PBXGroup;
 			children = (
 				975F2D342AE8EE110048E4C6 /* MainDashboard.swift */,
+				975F2D3A2AE8F52C0048E4C6 /* DeviceDetailView.swift */,
 				975F2D362AE8EE630048E4C6 /* DeviceManager.swift */,
 				975F2D382AE8F17B0048E4C6 /* DeviceModel.swift */,
 			);
@@ -803,6 +806,7 @@
 				977CD5512AE80F9C00555648 /* CitizenModel.swift in Sources */,
 				970D46492AB1A2EB00FE2559 /* ForEachData.swift in Sources */,
 				97D77D782ADECE4000B4484B /* FruitsListView.swift in Sources */,
+				975F2D3B2AE8F52C0048E4C6 /* DeviceDetailView.swift in Sources */,
 				97AC98352AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift in Sources */,
 				974FF5192AAD7F02007A3840 /* OverlayIconInstagram.swift in Sources */,
 				9710298D2AA819E4009438F2 /* TextBootcamp.swift in Sources */,

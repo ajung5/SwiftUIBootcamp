@@ -9,7 +9,7 @@ import Foundation
 
 class DeviceManager: ObservableObject {
     
-    @Published private var devices: [DeviceModel]
+    @Published var devices: [DeviceModel]
 
     init() {
         self.devices = [

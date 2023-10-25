@@ -16,9 +16,12 @@ struct MainDashboard: View {
         NavigationStack {
             List {
                 ForEach(deviceManager.devices, id: \.self) { item in
-                    Text(item.name)
+                    NavigationLink(destination: DeviceDetailView(selectedItem: item)) {
+                        Text(item.name)
+                    }
                 }
             }
+            .navigationTitle("Apple Devices")
         }
     }
 }
