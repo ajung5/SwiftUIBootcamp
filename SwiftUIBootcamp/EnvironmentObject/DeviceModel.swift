@@ -7,4 +7,8 @@
 
 import Foundation
 
-
+struct DeviceModel: Identifiable, Hashable {
+    let id: UUID = .init()
+    let name: String
+    let osVersion: Double
+}

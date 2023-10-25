@@ -9,7 +9,7 @@ import Foundation
 
 class DeviceManager: ObservableObject {
     
-    @Published var devices: [DeviceModel]
+    @Published private var devices: [DeviceModel]
 
     init() {
         self.devices = [
@@ -21,12 +21,6 @@ class DeviceManager: ObservableObject {
             DeviceModel(name: "iMac", osVersion: 16)
         ]
     }
-}
-
-struct DeviceModel: Identifiable, Hashable {
-    let id: UUID = .init()
-    let name: String
-    let osVersion: Double
 }
 
 
