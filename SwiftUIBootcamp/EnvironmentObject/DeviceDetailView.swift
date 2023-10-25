@@ -16,12 +16,14 @@ struct DeviceDetailView: View {
             Color.teal
                 .ignoresSafeArea()
             
-            Text(selectedItem.name)
-                .font(.headline)
-                .foregroundStyle(.vividCerise)
-                .padding()
-                .background(.white)
-                .clipShape(Capsule())
+            NavigationLink(destination: DeviceFinalView()) {
+                Text(selectedItem.name)
+                    .font(.headline)
+                    .foregroundStyle(.vividCerise)
+                    .padding()
+                    .background(.white)
+                    .clipShape(Capsule())
+            }
         }
     }
 }
