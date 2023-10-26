@@ -11,7 +11,11 @@ struct DeviceFinalView: View {
     
     // untuk bisa mengakses data pada third view bisa menggunakan beberapa cara
     // #1
-    @ObservedObject var deviceModel: DeviceManager
+    // @ObservedObject var deviceModel: DeviceManager
+        
+    // #2
+    // yaitu meenggunakan @EnvironmentObject Property wrapper
+    @EnvironmentObject var deviceModel: DeviceManager
     
     var body: some View {
         ZStack {
@@ -32,5 +36,5 @@ struct DeviceFinalView: View {
 }
 
 #Preview {
-    DeviceFinalView(deviceModel: DeviceManager())
+    DeviceFinalView()
 }

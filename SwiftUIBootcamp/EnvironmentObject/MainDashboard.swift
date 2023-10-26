@@ -16,13 +16,18 @@ struct MainDashboard: View {
         NavigationStack {
             List {
                 ForEach(deviceManager.devices.shuffled(), id: \.self) { item in
-                    NavigationLink(destination: DeviceDetailView(selectedItem: item, deviceModel: deviceManager)) {
+                    NavigationLink(destination: DeviceDetailView(selectedItem: item)) {
                         Text(item.name)
                     }
                 }
             }
             .navigationTitle("Apple Devices")
         }
+        // untuk bisa mengakses data pada second view bisa menggunakan beberapa cara
+        
+        // #2
+        // yaitu meenggunakan @EnvironmentObject Property wrapper
+        .environmentObject(deviceManager)
     }
 }
 
