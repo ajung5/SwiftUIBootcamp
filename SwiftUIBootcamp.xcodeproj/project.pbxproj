@@ -106,6 +106,7 @@
 		97DE09192AD4EC86007D3F48 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE09182AD4EC86007D3F48 /* NavView.swift */; };
 		97DE091B2AD52354007D3F48 /* ListBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE091A2AD52354007D3F48 /* ListBootcamp.swift */; };
 		97DE52352AED4E550042F319 /* ContextMenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE52342AED4E550042F319 /* ContextMenuBootcamp.swift */; };
+		97DE52372AED53790042F319 /* TextfieldBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE52362AED53790042F319 /* TextfieldBootcamp.swift */; };
 		97E67C9C2AAEBD75007D9E1E /* StacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E67C9B2AAEBD75007D9E1E /* StacksBootcamp.swift */; };
 		97E67C9E2AAEBE02007D9E1E /* KinaraImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E67C9D2AAEBE02007D9E1E /* KinaraImage.swift */; };
 		97E67CA12AAECB4E007D9E1E /* StacksAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E67CA02AAECB4E007D9E1E /* StacksAlignment.swift */; };
@@ -223,6 +224,7 @@
 		97DE09182AD4EC86007D3F48 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 		97DE091A2AD52354007D3F48 /* ListBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBootcamp.swift; sourceTree = "<group>"; };
 		97DE52342AED4E550042F319 /* ContextMenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBootcamp.swift; sourceTree = "<group>"; };
+		97DE52362AED53790042F319 /* TextfieldBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldBootcamp.swift; sourceTree = "<group>"; };
 		97E67C9B2AAEBD75007D9E1E /* StacksBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootcamp.swift; sourceTree = "<group>"; };
 		97E67C9D2AAEBE02007D9E1E /* KinaraImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinaraImage.swift; sourceTree = "<group>"; };
 		97E67CA02AAECB4E007D9E1E /* StacksAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksAlignment.swift; sourceTree = "<group>"; };
@@ -490,6 +492,7 @@
 				977A6C5E2AB29A2A005F9422 /* Info.plist */,
 				978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */,
 				978D37D72AA76EEC00051875 /* ContentView.swift */,
+				97DE52362AED53790042F319 /* TextfieldBootcamp.swift */,
 				97DE52342AED4E550042F319 /* ContextMenuBootcamp.swift */,
 				97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */,
 				973D09502AD2E2CE0050050C /* SheetsBootcamp.swift */,
@@ -772,6 +775,7 @@
 				975F2D3D2AE901D70048E4C6 /* DeviceFinalView.swift in Sources */,
 				973EDF082AE2B0E600D6081B /* ObservedObjectView.swift in Sources */,
 				97565E872AE55F99009597D4 /* BlackView.swift in Sources */,
+				97DE52372AED53790042F319 /* TextfieldBootcamp.swift in Sources */,
 				974C1A432ACFED3D003F87E6 /* AnimationBootcamp.swift in Sources */,
 				9755CE582AD55FD20008EE7D /* AlertBootcamp.swift in Sources */,
 				970D46442AB1956700FE2559 /* EnumBootcamp.swift in Sources */,
