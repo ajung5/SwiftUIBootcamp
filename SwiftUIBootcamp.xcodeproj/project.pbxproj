@@ -28,6 +28,8 @@
 		972DCCF42AABF2A900C61CCE /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DCCF32AABF2A900C61CCE /* Overlay.swift */; };
 		973044072AE1640900CD003A /* StateWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973044062AE1640900CD003A /* StateWrapperView.swift */; };
 		973044092AE17C9000CD003A /* BindingWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973044082AE17C9000CD003A /* BindingWrapperView.swift */; };
+		9739472B2B034D73000DD9DF /* AlertTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9739472A2B034D73000DD9DF /* AlertTraining.swift */; };
+		9739472D2B035093000DD9DF /* AppStorageBoootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9739472C2B035093000DD9DF /* AppStorageBoootcamp.swift */; };
 		973CD62B2AA8C4C400B3E42A /* ShapeEllipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973CD62A2AA8C4C400B3E42A /* ShapeEllipse.swift */; };
 		973CD62D2AA8C8C500B3E42A /* ColorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973CD62C2AA8C8C500B3E42A /* ColorBootcamp.swift */; };
 		973D09512AD2E2CE0050050C /* SheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973D09502AD2E2CE0050050C /* SheetsBootcamp.swift */; };
@@ -102,7 +104,6 @@
 		97D77D7A2ADECFD200B4484B /* FruitsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D77D792ADECFD200B4484B /* FruitsDetail.swift */; };
 		97D7EA4D2AAEE8D9001B2839 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7EA4C2AAEE8D9001B2839 /* CardView.swift */; };
 		97D7EA4F2AAEEE5A001B2839 /* CardViewKinara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7EA4E2AAEEE5A001B2839 /* CardViewKinara.swift */; };
-		97D9D67C2AEA26400044E0CD /* NView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D9D67B2AEA26400044E0CD /* NView.swift */; };
 		97DC69852AFB314900FA80FB /* AlertSingleOK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC69842AFB314900FA80FB /* AlertSingleOK.swift */; };
 		97DC69872AFB3A6800FA80FB /* AlertWithBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC69862AFB3A6800FA80FB /* AlertWithBinding.swift */; };
 		97DE09192AD4EC86007D3F48 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE09182AD4EC86007D3F48 /* NavView.swift */; };
@@ -147,6 +148,8 @@
 		972DCCF32AABF2A900C61CCE /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
 		973044062AE1640900CD003A /* StateWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWrapperView.swift; sourceTree = "<group>"; };
 		973044082AE17C9000CD003A /* BindingWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWrapperView.swift; sourceTree = "<group>"; };
+		9739472A2B034D73000DD9DF /* AlertTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTraining.swift; sourceTree = "<group>"; };
+		9739472C2B035093000DD9DF /* AppStorageBoootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBoootcamp.swift; sourceTree = "<group>"; };
 		973CD62A2AA8C4C400B3E42A /* ShapeEllipse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeEllipse.swift; sourceTree = "<group>"; };
 		973CD62C2AA8C8C500B3E42A /* ColorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBootcamp.swift; sourceTree = "<group>"; };
 		973D09502AD2E2CE0050050C /* SheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootcamp.swift; sourceTree = "<group>"; };
@@ -223,7 +226,6 @@
 		97D77D792ADECFD200B4484B /* FruitsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsDetail.swift; sourceTree = "<group>"; };
 		97D7EA4C2AAEE8D9001B2839 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		97D7EA4E2AAEEE5A001B2839 /* CardViewKinara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewKinara.swift; sourceTree = "<group>"; };
-		97D9D67B2AEA26400044E0CD /* NView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NView.swift; sourceTree = "<group>"; };
 		97DC69842AFB314900FA80FB /* AlertSingleOK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSingleOK.swift; sourceTree = "<group>"; };
 		97DC69862AFB3A6800FA80FB /* AlertWithBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertWithBinding.swift; sourceTree = "<group>"; };
 		97DE09182AD4EC86007D3F48 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
@@ -358,6 +360,14 @@
 				97565E832AE55F1A009597D4 /* EnvironmentObjectExample */,
 			);
 			path = PropertyWrapper;
+			sourceTree = "<group>";
+		};
+		9739472E2B035097000DD9DF /* AppStorage */ = {
+			isa = PBXGroup;
+			children = (
+				9739472C2B035093000DD9DF /* AppStorageBoootcamp.swift */,
+			);
+			path = AppStorage;
 			sourceTree = "<group>";
 		};
 		973D09542AD2F5620050050C /* PopOver */ = {
@@ -506,8 +516,8 @@
 				97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */,
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
-				97D9D67B2AEA26400044E0CD /* NView.swift */,
 				972A82F32AD7C5B00060B895 /* ActionSheetBootcamp.swift */,
+				9739472E2B035097000DD9DF /* AppStorage */,
 				97DC69832AFB311F00FA80FB /* Alert */,
 				97BB21C52AEA458D00D4462C /* EnviObject */,
 				975F2D332AE8ED780048E4C6 /* EnvironmentObject */,
@@ -648,6 +658,7 @@
 		97DC69832AFB311F00FA80FB /* Alert */ = {
 			isa = PBXGroup;
 			children = (
+				9739472A2B034D73000DD9DF /* AlertTraining.swift */,
 				9755CE572AD55FD20008EE7D /* AlertBootcamp.swift */,
 				97DC69862AFB3A6800FA80FB /* AlertWithBinding.swift */,
 				97DC69842AFB314900FA80FB /* AlertSingleOK.swift */,
@@ -825,7 +836,6 @@
 				9797FD702AE417740014E717 /* EnvironmentObjectView.swift in Sources */,
 				974FF5152AAD5771007A3840 /* OverlayIcon.swift in Sources */,
 				97BC53D02AD0560200FC25B8 /* SpringAnimation.swift in Sources */,
-				97D9D67C2AEA26400044E0CD /* NView.swift in Sources */,
 				9767C9AA2AD13DA1006167F5 /* OpacityTransition.swift in Sources */,
 				978D37D82AA76EEC00051875 /* ContentView.swift in Sources */,
 				975F2D372AE8EE630048E4C6 /* DeviceManager.swift in Sources */,
@@ -845,6 +855,7 @@
 				972DCCF22AABED5100C61CCE /* Background.swift in Sources */,
 				973044092AE17C9000CD003A /* BindingWrapperView.swift in Sources */,
 				975D350E2ADE72FD001D4FED /* UserModel.swift in Sources */,
+				9739472B2B034D73000DD9DF /* AlertTraining.swift in Sources */,
 				973D09532AD2F0240050050C /* PopOverBootcamp.swift in Sources */,
 				972A82F42AD7C5B00060B895 /* ActionSheetBootcamp.swift in Sources */,
 				973EDF062AE2AE0800D6081B /* BindingExample.swift in Sources */,
@@ -862,6 +873,7 @@
 				9710298D2AA819E4009438F2 /* TextBootcamp.swift in Sources */,
 				97D7EA4F2AAEEE5A001B2839 /* CardViewKinara.swift in Sources */,
 				97404C1F2AA88AE6007F80B2 /* ShapeLoginPage.swift in Sources */,
+				9739472D2B035093000DD9DF /* AppStorageBoootcamp.swift in Sources */,
 				97F9ECF62ACACCC100D1821A /* CardCircle.swift in Sources */,
 				97DE09192AD4EC86007D3F48 /* NavView.swift in Sources */,
 				975F2D392AE8F17B0048E4C6 /* DeviceModel.swift in Sources */,
