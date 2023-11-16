@@ -20,6 +20,7 @@ struct OnboardingView: View {
     
     @State var name: String = ""
     @State var age: Double = 50
+    @State var gender: String = ""
     
     var body: some View {
         ZStack {
@@ -148,6 +149,27 @@ extension OnboardingView {
                 .fontWeight(.semibold)
                 .foregroundStyle(.white)
             
+//            Picker(selection: $gender) {
+//                Text("1").tag(1)
+//                Text("2").tag(2)
+//            } label: {
+//                Text("Select a gender")
+//                    .font(.headline)
+//                    .foregroundStyle(.purple)
+//                    .frame(minHeight: 55)
+//                    .frame(maxWidth: .infinity)
+//                    .background(Color.white)
+//                    .clipShape(
+//                        RoundedRectangle(cornerRadius: 10)
+//                    )
+//                    .pickerStyle(MenuPickerStyle())
+//            }
+            
+            Picker("Planet", selection: $gender) {
+                Text("SASS")
+                Text("SASS")
+            }
+
             Spacer()
             Spacer()
         }
