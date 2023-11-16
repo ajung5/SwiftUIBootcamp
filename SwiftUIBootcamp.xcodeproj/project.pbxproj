@@ -18,6 +18,7 @@
 		971029912AA849BF009438F2 /* ShapeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971029902AA849BF009438F2 /* ShapeCircle.swift */; };
 		9710E9262AAA07B6001AE36B /* GradientBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710E9252AAA07B6001AE36B /* GradientBootcamp.swift */; };
 		9716A2852ACD0A27000B03F9 /* ConditionalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9716A2842ACD0A27000B03F9 /* ConditionalsView.swift */; };
+		97175C042B04561D00F87640 /* HotelDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97175C032B04561D00F87640 /* HotelDetail.swift */; };
 		971E59112ACA9C140063E4D1 /* ConditionalBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E59102ACA9C140063E4D1 /* ConditionalBootcamp.swift */; };
 		971E59142ACAA9D60063E4D1 /* AakuDanKamu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E59132ACAA9D60063E4D1 /* AakuDanKamu.swift */; };
 		971E59162ACAAD490063E4D1 /* AkuDanKamu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E59152ACAAD490063E4D1 /* AkuDanKamu.swift */; };
@@ -77,6 +78,8 @@
 		978D520D2AAF6A6C00C59F54 /* FloopyDiskStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D520C2AAF6A6C00C59F54 /* FloopyDiskStack.swift */; };
 		978E1EC92AC8748F00ACDC28 /* SijawaraDashboardClone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978E1EC82AC8748F00ACDC28 /* SijawaraDashboardClone.swift */; };
 		978E1ECE2AC87EBE00ACDC28 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978E1ECD2AC87EBE00ACDC28 /* Dashboard.swift */; };
+		9790E7DC2B05EA97009133B4 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9790E7DB2B05EA97009133B4 /* IntroView.swift */; };
+		9790E7DE2B05ED8C009133B4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9790E7DD2B05ED8C009133B4 /* OnboardingView.swift */; };
 		9794158B2AE7A11E0024BF4B /* carsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9794158A2AE7A11E0024BF4B /* carsData.json */; };
 		979415972AE7A5D30024BF4B /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979415962AE7A5D30024BF4B /* CarModel.swift */; };
 		9794159D2AE7B3290024BF4B /* CarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9794159C2AE7B3290024BF4B /* CarManager.swift */; };
@@ -132,6 +135,7 @@
 		971029902AA849BF009438F2 /* ShapeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeCircle.swift; sourceTree = "<group>"; };
 		9710E9252AAA07B6001AE36B /* GradientBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBootcamp.swift; sourceTree = "<group>"; };
 		9716A2842ACD0A27000B03F9 /* ConditionalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalsView.swift; sourceTree = "<group>"; };
+		97175C032B04561D00F87640 /* HotelDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDetail.swift; sourceTree = "<group>"; };
 		971E59102ACA9C140063E4D1 /* ConditionalBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBootcamp.swift; sourceTree = "<group>"; };
 		971E59132ACAA9D60063E4D1 /* AakuDanKamu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AakuDanKamu.swift; sourceTree = "<group>"; };
 		971E59152ACAAD490063E4D1 /* AkuDanKamu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkuDanKamu.swift; sourceTree = "<group>"; };
@@ -194,6 +198,8 @@
 		978D520C2AAF6A6C00C59F54 /* FloopyDiskStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloopyDiskStack.swift; sourceTree = "<group>"; };
 		978E1EC82AC8748F00ACDC28 /* SijawaraDashboardClone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SijawaraDashboardClone.swift; sourceTree = "<group>"; };
 		978E1ECD2AC87EBE00ACDC28 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		9790E7DB2B05EA97009133B4 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		9790E7DD2B05ED8C009133B4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		9794158A2AE7A11E0024BF4B /* carsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = carsData.json; sourceTree = "<group>"; };
 		979415962AE7A5D30024BF4B /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
 		9794159C2AE7B3290024BF4B /* CarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarManager.swift; sourceTree = "<group>"; };
@@ -305,6 +311,14 @@
 				9710E9252AAA07B6001AE36B /* GradientBootcamp.swift */,
 			);
 			path = Color;
+			sourceTree = "<group>";
+		};
+		97175C052B04562400F87640 /* TrainingView */ = {
+			isa = PBXGroup;
+			children = (
+				97175C032B04561D00F87640 /* HotelDetail.swift */,
+			);
+			path = TrainingView;
 			sourceTree = "<group>";
 		};
 		971E59122ACAA9C10063E4D1 /* Conditional */ = {
@@ -499,12 +513,14 @@
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				97D9D67B2AEA26400044E0CD /* NView.swift */,
 				972A82F32AD7C5B00060B895 /* ActionSheetBootcamp.swift */,
+				9790E7DA2B05EA79009133B4 /* OnboardingViews */,
+				975D350A2ADE67D7001D4FED /* Model */,
+				97175C052B04562400F87640 /* TrainingView */,
 				97BB21C52AEA458D00D4462C /* EnviObject */,
 				975F2D332AE8ED780048E4C6 /* EnvironmentObject */,
 				9744EEC22AE60EE50026D276 /* ObservableAndStateObject */,
 				973044052AE163F000CD003A /* PropertyWrapper */,
 				97D77D6B2ADEC1AD00B4484B /* ModelBuah */,
-				975D350A2ADE67D7001D4FED /* Model */,
 				970DFB232ADCE5A500118E46 /* Dictionary */,
 				97DE091C2AD5235C007D3F48 /* List */,
 				97037ED82AD3983400E39682 /* Navigation */,
@@ -551,6 +567,15 @@
 				978E1ECD2AC87EBE00ACDC28 /* Dashboard.swift */,
 			);
 			path = Sijawara;
+			sourceTree = "<group>";
+		};
+		9790E7DA2B05EA79009133B4 /* OnboardingViews */ = {
+			isa = PBXGroup;
+			children = (
+				9790E7DB2B05EA97009133B4 /* IntroView.swift */,
+				9790E7DD2B05ED8C009133B4 /* OnboardingView.swift */,
+			);
+			path = OnboardingViews;
 			sourceTree = "<group>";
 		};
 		97BA15B72ACD397600C37792 /* Ternary */ = {
@@ -795,6 +820,7 @@
 				973CD62B2AA8C4C400B3E42A /* ShapeEllipse.swift in Sources */,
 				97D77D7A2ADECFD200B4484B /* FruitsDetail.swift in Sources */,
 				97A346822AAA9A0B003FA17A /* IconsBootcamp.swift in Sources */,
+				9790E7DE2B05ED8C009133B4 /* OnboardingView.swift in Sources */,
 				971029912AA849BF009438F2 /* ShapeCircle.swift in Sources */,
 				97E67C9E2AAEBE02007D9E1E /* KinaraImage.swift in Sources */,
 				975D35102ADE7364001D4FED /* UserListView.swift in Sources */,
@@ -833,12 +859,14 @@
 				97D77D782ADECE4000B4484B /* FruitsListView.swift in Sources */,
 				975F2D3B2AE8F52C0048E4C6 /* DeviceDetailView.swift in Sources */,
 				97DE52352AED4E550042F319 /* ContextMenuBootcamp.swift in Sources */,
+				9790E7DC2B05EA97009133B4 /* IntroView.swift in Sources */,
 				97AC98352AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift in Sources */,
 				974FF5192AAD7F02007A3840 /* OverlayIconInstagram.swift in Sources */,
 				9710298D2AA819E4009438F2 /* TextBootcamp.swift in Sources */,
 				97D7EA4F2AAEEE5A001B2839 /* CardViewKinara.swift in Sources */,
 				97404C1F2AA88AE6007F80B2 /* ShapeLoginPage.swift in Sources */,
 				97F9ECF62ACACCC100D1821A /* CardCircle.swift in Sources */,
+				97175C042B04561D00F87640 /* HotelDetail.swift in Sources */,
 				97DE09192AD4EC86007D3F48 /* NavView.swift in Sources */,
 				975F2D392AE8F17B0048E4C6 /* DeviceModel.swift in Sources */,
 				97DE091B2AD52354007D3F48 /* ListBootcamp.swift in Sources */,
