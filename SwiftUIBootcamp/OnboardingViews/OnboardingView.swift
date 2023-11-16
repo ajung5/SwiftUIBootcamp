@@ -16,7 +16,9 @@ struct OnboardingView: View {
      2 - add age
      3 - add gender
      */
-    @State var onboardingState: Int = 0
+    @State var onboardingState: Int = 1
+    
+    @State var name: String = ""
     
     var body: some View {
         ZStack {
@@ -25,6 +27,8 @@ struct OnboardingView: View {
                 switch onboardingState {
                 case 0:
                     welcomeSection
+                case 1:
+                    addNameSection
                 default:
                     RoundedRectangle(cornerRadius: 25.0)
                         .foregroundStyle(.green)
@@ -87,6 +91,26 @@ extension OnboardingView {
             Spacer()
         }
         .multilineTextAlignment(.center)
+        .padding(30)
+    }
+    
+    private var addNameSection: some View {
+        VStack(spacing: 20) {
+            Spacer()
+            Text("What's your name?")
+                .font(.largeTitle)
+                .fontWeight(.semibold)
+                .foregroundStyle(.white)
+            
+            TextField("Your Name Here....", text: $name)
+                .font(.headline)
+                .frame(height: 55)
+                .padding(.horizontal)
+                .background(Color.white)
+                .clipShape(RoundedRectangle(cornerRadius: 10))
+            Spacer()
+            Spacer()
+        }
         .padding(30)
     }
 }
