@@ -21,7 +21,15 @@ struct OnboardingView: View {
     var body: some View {
         ZStack {
             // #MARK: content
-            
+            ZStack {
+                switch onboardingState {
+                case 0:
+                    welcomeSection
+                default:
+                    RoundedRectangle(cornerRadius: 25.0)
+                        .foregroundStyle(.green)
+                }
+            }
             
             // #MARK: buttons
             VStack {
@@ -31,7 +39,15 @@ struct OnboardingView: View {
             .padding(30)
         }
     }
-    
+}
+
+#Preview {
+    OnboardingView()
+        .background(Color.purple)
+}
+
+// MARK: Components
+extension OnboardingView {
     private var bottomButton: some View {
         Text("Sign In")
             .font(.headline)
@@ -44,9 +60,33 @@ struct OnboardingView: View {
                 RoundedRectangle(cornerRadius: 10)
             )
     }
-}
-
-#Preview {
-    OnboardingView()
-        .background(Color.purple)
+    
+    private var welcomeSection: some View {
+        VStack(spacing: 40) {
+            Spacer()
+            Image(systemName: "heart.text.square.fill")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 200, height: 200)
+                .foregroundStyle(.white)
+            Text("Find your match")
+                .font(.largeTitle)
+                .fontWeight(.semibold)
+                .foregroundStyle(.white)
+                .overlay(
+                    Capsule(style: .continuous)
+                        .frame(height: 3)
+                        .offset(y: 5)
+                        .foregroundStyle(.white)
+                    , alignment: .bottom
+                )
+            Text("This is #1 app for finding yourr match online! In this tutorial we are practicing using AppStoragee and other SwiftUI techniques")
+                .fontWeight(.medium)
+                .foregroundStyle(.white)
+            Spacer()
+            Spacer()
+        }
+        .multilineTextAlignment(.center)
+        .padding(30)
+    }
 }
