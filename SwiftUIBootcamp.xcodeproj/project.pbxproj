@@ -87,6 +87,7 @@
 		97A346822AAA9A0B003FA17A /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */; };
 		97A346842AAAA8C8003FA17A /* ImagesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A346832AAAA8C8003FA17A /* ImagesBootcamp.swift */; };
 		97AA4BFA2B063EEF003E5011 /* BasicPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AA4BF92B063EEF003E5011 /* BasicPicker.swift */; };
+		97AA4BFC2B0642A5003E5011 /* EnumPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AA4BFB2B0642A5003E5011 /* EnumPicker.swift */; };
 		97AC98332AC306A1006C69A2 /* ExtractedFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */; };
 		97AC98352AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */; };
 		97B91CBA2ADE9131007E0380 /* userData.json in Resources */ = {isa = PBXBuildFile; fileRef = 97B91CB92ADE9131007E0380 /* userData.json */; };
@@ -208,6 +209,7 @@
 		97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
 		97A346832AAAA8C8003FA17A /* ImagesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesBootcamp.swift; sourceTree = "<group>"; };
 		97AA4BF92B063EEF003E5011 /* BasicPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicPicker.swift; sourceTree = "<group>"; };
+		97AA4BFB2B0642A5003E5011 /* EnumPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumPicker.swift; sourceTree = "<group>"; };
 		97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunction.swift; sourceTree = "<group>"; };
 		97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsBootcamp.swift; sourceTree = "<group>"; };
 		97B91CB92ADE9131007E0380 /* userData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = userData.json; sourceTree = "<group>"; };
@@ -585,6 +587,7 @@
 			isa = PBXGroup;
 			children = (
 				97AA4BF92B063EEF003E5011 /* BasicPicker.swift */,
+				97AA4BFB2B0642A5003E5011 /* EnumPicker.swift */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -898,6 +901,7 @@
 				97037ED72AD3982E00E39682 /* NavigationViewBootcamp.swift in Sources */,
 				97EDCA902ABC884D004C26AC /* LazyGridAdaptive.swift in Sources */,
 				978D520D2AAF6A6C00C59F54 /* FloopyDiskStack.swift in Sources */,
+				97AA4BFC2B0642A5003E5011 /* EnumPicker.swift in Sources */,
 				972DCCF42AABF2A900C61CCE /* Overlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
