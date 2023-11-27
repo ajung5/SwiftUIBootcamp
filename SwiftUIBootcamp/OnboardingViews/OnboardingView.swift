@@ -18,6 +18,10 @@ struct OnboardingView: View {
      */
     @State var onboardingState: Int = 0
     
+    let transisi: AnyTransition = .asymmetric(
+        insertion: .move(edge: .trailing),
+        removal: .move(edge: .leading))
+    
     @State var name: String = ""
     @State var age: Double = 50
     @State var gender: String = ""
@@ -29,10 +33,13 @@ struct OnboardingView: View {
                 switch onboardingState {
                 case 0:
                     welcomeSection
+                        .transition(transisi)
                 case 1:
                     addNameSection
+                        .transition(transisi)
                 case 2:
                     addAgeSection
+                        .transition(transisi)
                 case 3:
                     addGenderSection
                 default:
@@ -181,7 +188,10 @@ extension OnboardingView {
 
 extension OnboardingView {
     
-    func handleNextButtonPressed()  {
+    func handleNextButtonPressed() {
+    
+        
+        // GO to Next Section
         if  onboardingState == 3 {
             // sign in
         } else {
