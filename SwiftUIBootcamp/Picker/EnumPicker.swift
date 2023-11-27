@@ -22,7 +22,7 @@ struct EnumPicker: View {
     
     var body: some View {
         List {
-            Picker("Food Category", selection: $selectedCategory) {
+            Picker("Select Food Category", selection: $selectedCategory) {
                ForEach(FoodCategory.allCases) { category in
                     Text(category.rawValue).tag(category)
               }

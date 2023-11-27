@@ -16,7 +16,7 @@ struct OnboardingView: View {
      2 - add age
      3 - add gender
      */
-    @State var onboardingState: Int = 3
+    @State var onboardingState: Int = 0
     
     @State var name: String = ""
     @State var age: Double = 50
@@ -149,26 +149,22 @@ extension OnboardingView {
                 .fontWeight(.semibold)
                 .foregroundStyle(.white)
             
-//            Picker(selection: $gender) {
-//                Text("1").tag(1)
-//                Text("2").tag(2)
-//            } label: {
-//                Text("Select a gender")
-//                    .font(.headline)
-//                    .foregroundStyle(.purple)
-//                    .frame(minHeight: 55)
-//                    .frame(maxWidth: .infinity)
-//                    .background(Color.white)
-//                    .clipShape(
-//                        RoundedRectangle(cornerRadius: 10)
-//                    )
-//                    .pickerStyle(MenuPickerStyle())
-//            }
-            
-            Picker("Planet", selection: $gender) {
-                Text("SASS")
-                Text("SASS")
+
+            Picker("", selection: $gender) {
+                Text("Male").tag("male")
+                Text("Female").tag("female")
+                Text("Non-Binary").tag("nonBinary")
             }
+            .pickerStyle(SegmentedPickerStyle())
+            .font(.headline)
+            .foregroundStyle(.purple)
+            .frame(minHeight: 55)
+            .frame(maxWidth: .infinity)
+            .background(Color.white)
+            .clipShape(
+                RoundedRectangle(cornerRadius: 10)
+            )
+            
 
             Spacer()
             Spacer()
@@ -176,3 +172,6 @@ extension OnboardingView {
         .padding(30)
     }
 }
+
+
+

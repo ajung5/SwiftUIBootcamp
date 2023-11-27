@@ -70,6 +70,7 @@
 		977CD54D2AE8075200555648 /* CitizenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CD54C2AE8075200555648 /* CitizenManager.swift */; };
 		977CD54F2AE80F0300555648 /* CitizenDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CD54E2AE80F0300555648 /* CitizenDetailView.swift */; };
 		977CD5512AE80F9C00555648 /* CitizenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CD5502AE80F9C00555648 /* CitizenModel.swift */; };
+		9780506F2B1440D300445CD4 /* PickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9780506E2B1440D300445CD4 /* PickerBootcamp.swift */; };
 		9783ABAA2AB0AA1B004629E6 /* SpacerExampleInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9783ABA92AB0AA1B004629E6 /* SpacerExampleInstagram.swift */; };
 		978D37D62AA76EEC00051875 /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */; };
 		978D37D82AA76EEC00051875 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D37D72AA76EEC00051875 /* ContentView.swift */; };
@@ -191,6 +192,7 @@
 		977CD54C2AE8075200555648 /* CitizenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenManager.swift; sourceTree = "<group>"; };
 		977CD54E2AE80F0300555648 /* CitizenDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenDetailView.swift; sourceTree = "<group>"; };
 		977CD5502AE80F9C00555648 /* CitizenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenModel.swift; sourceTree = "<group>"; };
+		9780506E2B1440D300445CD4 /* PickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBootcamp.swift; sourceTree = "<group>"; };
 		9783ABA92AB0AA1B004629E6 /* SpacerExampleInstagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExampleInstagram.swift; sourceTree = "<group>"; };
 		978D37D22AA76EEC00051875 /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
@@ -588,6 +590,7 @@
 			children = (
 				97AA4BF92B063EEF003E5011 /* BasicPicker.swift */,
 				97AA4BFB2B0642A5003E5011 /* EnumPicker.swift */,
+				9780506E2B1440D300445CD4 /* PickerBootcamp.swift */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -844,6 +847,7 @@
 				97BC53D02AD0560200FC25B8 /* SpringAnimation.swift in Sources */,
 				97D9D67C2AEA26400044E0CD /* NView.swift in Sources */,
 				9767C9AA2AD13DA1006167F5 /* OpacityTransition.swift in Sources */,
+				9780506F2B1440D300445CD4 /* PickerBootcamp.swift in Sources */,
 				978D37D82AA76EEC00051875 /* ContentView.swift in Sources */,
 				975F2D372AE8EE630048E4C6 /* DeviceManager.swift in Sources */,
 				977CD54B2AE8040300555648 /* CitizenView.swift in Sources */,
