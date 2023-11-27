@@ -59,7 +59,7 @@ struct OnboardingView: View {
 // MARK: Components
 extension OnboardingView {
     private var bottomButton: some View {
-        Text("Sign In")
+        Text(onboardingState == 0 ? "SIGN UP" : onboardingState == 3 ? "FINISH" : "NEXT")
             .font(.headline)
             .ignoresSafeArea(edges: .top)
             .foregroundStyle(.purple)
@@ -69,6 +69,9 @@ extension OnboardingView {
             .clipShape(
                 RoundedRectangle(cornerRadius: 10)
             )
+            .onTapGesture {
+                handleNextButtonPressed()
+            }
     }
     
     private var welcomeSection: some View {
@@ -174,4 +177,13 @@ extension OnboardingView {
 }
 
 
+// MARK: Functions
 
+extension OnboardingView {
+    
+    func handleNextButtonPressed()  {
+        withAnimation(.spring) {
+            onboardingState += 1
+        }
+    }
+}
