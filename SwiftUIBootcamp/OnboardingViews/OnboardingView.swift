@@ -203,6 +203,11 @@ extension OnboardingView {
                 showAlert(title: "Your name must be at 3 characters long! 😩")
                 return
             }
+        case 3:
+            guard gender.count > 1 else {
+                showAlert(title: "Please select gender before move to next step!")
+                return
+            }
         default:
             break
         }
