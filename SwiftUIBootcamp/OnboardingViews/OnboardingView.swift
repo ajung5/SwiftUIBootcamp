@@ -26,6 +26,9 @@ struct OnboardingView: View {
     @State var age: Double = 50
     @State var gender: String = ""
     
+    @State var alertTitle: String = ""
+    @State var showAlert: Bool = false
+    
     var body: some View {
         ZStack {
             // #MARK: content
@@ -54,6 +57,9 @@ struct OnboardingView: View {
                 bottomButton
             }
             .padding(30)
+        }
+        .alert(isPresented: $showAlert) {
+            return Alert(title: Text(alertTitle))
         }
     }
 }
@@ -190,6 +196,16 @@ extension OnboardingView {
     
     func handleNextButtonPressed() {
     
+        // Check Input
+        switch onboardingState {
+        case 1:
+            guard name.count >= 3 else {
+                showAlert(title: "Your name must be at 3 characters long! 😩")
+                return
+            }
+        default:
+            break
+        }
         
         // GO to Next Section
         if  onboardingState == 3 {
@@ -199,5 +215,11 @@ extension OnboardingView {
                 onboardingState += 1
             }
         }
+    }
+    
+    
+    func showAlert(title: String) {
+        alertTitle = title
+        showAlert.toggle()
     }
 }
