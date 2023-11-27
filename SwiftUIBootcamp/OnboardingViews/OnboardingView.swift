@@ -182,8 +182,12 @@ extension OnboardingView {
 extension OnboardingView {
     
     func handleNextButtonPressed()  {
-        withAnimation(.spring) {
-            onboardingState += 1
+        if  onboardingState == 3 {
+            // sign in
+        } else {
+            withAnimation(.spring) {
+                onboardingState += 1
+            }
         }
     }
 }
