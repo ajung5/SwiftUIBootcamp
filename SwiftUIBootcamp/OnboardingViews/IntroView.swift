@@ -30,6 +30,9 @@ struct IntroView: View {
             
             if currentUserSignedIn {
                 HalamanProfil()
+                    .transition(.asymmetric(
+                        insertion: .move(edge: .bottom),
+                        removal: .move(edge: .bottom)))
             } else {
                 OnboardingView() 
             }
