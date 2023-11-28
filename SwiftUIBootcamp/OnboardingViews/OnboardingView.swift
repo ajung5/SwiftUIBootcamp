@@ -131,10 +131,11 @@ extension OnboardingView {
             Text("What's your name?")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
-                .foregroundStyle(.white)
+                .foregroundStyle(.primary)
             
             TextField("Your Name Here....", text: $name)
                 .font(.headline)
+                .foregroundStyle(.black)
                 .frame(height: 55)
                 .padding(.horizontal)
                 .background(Color.white)
@@ -180,7 +181,7 @@ extension OnboardingView {
                 Text("Female").tag("female")
                 Text("Non-Binary").tag("nonBinary")
             }
-            .pickerStyle(SegmentedPickerStyle())
+            .pickerStyle(MenuPickerStyle())
             .font(.headline)
             .foregroundStyle(.purple)
             .frame(minHeight: 55)

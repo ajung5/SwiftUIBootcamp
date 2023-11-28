@@ -28,12 +28,12 @@ struct HalamanProfil: View {
             Text("SIGN OUT")
                 .foregroundStyle(.white)
                 .font(.headline)
-                .clipShape(
-                    RoundedRectangle(cornerRadius: 10)
-                )
                 .frame(height: 55)
                 .frame(maxWidth: .infinity)
                 .background(Color.black)
+                .clipShape(
+                    RoundedRectangle(cornerRadius: 10)
+                )
                 .onTapGesture {
                     signOut()
                 }
@@ -43,8 +43,10 @@ struct HalamanProfil: View {
         .padding()
         .padding(.vertical, 40)
         .shadow(radius: 10)
-        .clipShape(RoundedRectangle(cornerRadius: 10))
         .background(Color.white)
+        .clipShape(
+            RoundedRectangle(cornerRadius: 10)
+        )
     }
     
     func signOut() {
