@@ -66,6 +66,7 @@
 		975F2D3B2AE8F52C0048E4C6 /* DeviceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975F2D3A2AE8F52C0048E4C6 /* DeviceDetailView.swift */; };
 		975F2D3D2AE901D70048E4C6 /* DeviceFinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975F2D3C2AE901D70048E4C6 /* DeviceFinalView.swift */; };
 		9760592A2B16D86100FF1D9C /* AsyncImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976059292B16D86100FF1D9C /* AsyncImageBootcamp.swift */; };
+		9760592C2B16E0C100FF1D9C /* BackgorundMaterialBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9760592B2B16E0C100FF1D9C /* BackgorundMaterialBootcamp.swift */; };
 		9767C9A82AD13B5C006167F5 /* MoveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767C9A72AD13B5C006167F5 /* MoveTransition.swift */; };
 		9767C9AA2AD13DA1006167F5 /* OpacityTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767C9A92AD13DA1006167F5 /* OpacityTransition.swift */; };
 		977A6C5C2AB2971E005F9422 /* PinkDisplayRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */; };
@@ -194,6 +195,7 @@
 		975F2D3A2AE8F52C0048E4C6 /* DeviceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailView.swift; sourceTree = "<group>"; };
 		975F2D3C2AE901D70048E4C6 /* DeviceFinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceFinalView.swift; sourceTree = "<group>"; };
 		976059292B16D86100FF1D9C /* AsyncImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageBootcamp.swift; sourceTree = "<group>"; };
+		9760592B2B16E0C100FF1D9C /* BackgorundMaterialBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgorundMaterialBootcamp.swift; sourceTree = "<group>"; };
 		9767C9A72AD13B5C006167F5 /* MoveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTransition.swift; sourceTree = "<group>"; };
 		9767C9A92AD13DA1006167F5 /* OpacityTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityTransition.swift; sourceTree = "<group>"; };
 		977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkDisplayRegular.ttf; sourceTree = "<group>"; };
@@ -539,6 +541,7 @@
 				973D09502AD2E2CE0050050C /* SheetsBootcamp.swift */,
 				97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */,
 				976059292B16D86100FF1D9C /* AsyncImageBootcamp.swift */,
+				9760592B2B16E0C100FF1D9C /* BackgorundMaterialBootcamp.swift */,
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				972A82F32AD7C5B00060B895 /* ActionSheetBootcamp.swift */,
@@ -845,6 +848,7 @@
 				97E6D0742AC1C3D100824E3A /* ButtonBootcamp.swift in Sources */,
 				97EDCA8E2ABC8536004C26AC /* LazyVGridCustom.swift in Sources */,
 				971E59142ACAA9D60063E4D1 /* AakuDanKamu.swift in Sources */,
+				9760592C2B16E0C100FF1D9C /* BackgorundMaterialBootcamp.swift in Sources */,
 				97DC69852AFB314900FA80FB /* AlertSingleOK.swift in Sources */,
 				972DCCED2AABE18700C61CCE /* FrameBootcamp.swift in Sources */,
 				974E7C012AB1FB4D00AD2300 /* HorizontalScrollView.swift in Sources */,
