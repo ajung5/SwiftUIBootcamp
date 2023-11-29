@@ -67,6 +67,7 @@
 		975F2D3D2AE901D70048E4C6 /* DeviceFinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975F2D3C2AE901D70048E4C6 /* DeviceFinalView.swift */; };
 		9760592A2B16D86100FF1D9C /* AsyncImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976059292B16D86100FF1D9C /* AsyncImageBootcamp.swift */; };
 		9760592C2B16E0C100FF1D9C /* BackgorundMaterialBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9760592B2B16E0C100FF1D9C /* BackgorundMaterialBootcamp.swift */; };
+		9760592E2B16E3F900FF1D9C /* TextSelectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9760592D2B16E3F900FF1D9C /* TextSelectionBootcamp.swift */; };
 		9767C9A82AD13B5C006167F5 /* MoveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767C9A72AD13B5C006167F5 /* MoveTransition.swift */; };
 		9767C9AA2AD13DA1006167F5 /* OpacityTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767C9A92AD13DA1006167F5 /* OpacityTransition.swift */; };
 		977A6C5C2AB2971E005F9422 /* PinkDisplayRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */; };
@@ -196,6 +197,7 @@
 		975F2D3C2AE901D70048E4C6 /* DeviceFinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceFinalView.swift; sourceTree = "<group>"; };
 		976059292B16D86100FF1D9C /* AsyncImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageBootcamp.swift; sourceTree = "<group>"; };
 		9760592B2B16E0C100FF1D9C /* BackgorundMaterialBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgorundMaterialBootcamp.swift; sourceTree = "<group>"; };
+		9760592D2B16E3F900FF1D9C /* TextSelectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionBootcamp.swift; sourceTree = "<group>"; };
 		9767C9A72AD13B5C006167F5 /* MoveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTransition.swift; sourceTree = "<group>"; };
 		9767C9A92AD13DA1006167F5 /* OpacityTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityTransition.swift; sourceTree = "<group>"; };
 		977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkDisplayRegular.ttf; sourceTree = "<group>"; };
@@ -539,6 +541,7 @@
 				97DE52382AED62A50042F319 /* StepperBootcamp.swift */,
 				97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */,
 				973D09502AD2E2CE0050050C /* SheetsBootcamp.swift */,
+				9760592D2B16E3F900FF1D9C /* TextSelectionBootcamp.swift */,
 				97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */,
 				976059292B16D86100FF1D9C /* AsyncImageBootcamp.swift */,
 				9760592B2B16E0C100FF1D9C /* BackgorundMaterialBootcamp.swift */,
@@ -858,6 +861,7 @@
 				973EDF082AE2B0E600D6081B /* ObservedObjectView.swift in Sources */,
 				97565E872AE55F99009597D4 /* BlackView.swift in Sources */,
 				97DE52372AED53790042F319 /* TextfieldBootcamp.swift in Sources */,
+				9760592E2B16E3F900FF1D9C /* TextSelectionBootcamp.swift in Sources */,
 				974C1A432ACFED3D003F87E6 /* AnimationBootcamp.swift in Sources */,
 				9755CE582AD55FD20008EE7D /* AlertBootcamp.swift in Sources */,
 				970D46442AB1956700FE2559 /* EnumBootcamp.swift in Sources */,
