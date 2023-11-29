@@ -65,6 +65,7 @@
 		975F2D392AE8F17B0048E4C6 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975F2D382AE8F17B0048E4C6 /* DeviceModel.swift */; };
 		975F2D3B2AE8F52C0048E4C6 /* DeviceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975F2D3A2AE8F52C0048E4C6 /* DeviceDetailView.swift */; };
 		975F2D3D2AE901D70048E4C6 /* DeviceFinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975F2D3C2AE901D70048E4C6 /* DeviceFinalView.swift */; };
+		9760592A2B16D86100FF1D9C /* AsyncImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976059292B16D86100FF1D9C /* AsyncImageBootcamp.swift */; };
 		9767C9A82AD13B5C006167F5 /* MoveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767C9A72AD13B5C006167F5 /* MoveTransition.swift */; };
 		9767C9AA2AD13DA1006167F5 /* OpacityTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767C9A92AD13DA1006167F5 /* OpacityTransition.swift */; };
 		977A6C5C2AB2971E005F9422 /* PinkDisplayRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */; };
@@ -192,6 +193,7 @@
 		975F2D382AE8F17B0048E4C6 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
 		975F2D3A2AE8F52C0048E4C6 /* DeviceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailView.swift; sourceTree = "<group>"; };
 		975F2D3C2AE901D70048E4C6 /* DeviceFinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceFinalView.swift; sourceTree = "<group>"; };
+		976059292B16D86100FF1D9C /* AsyncImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageBootcamp.swift; sourceTree = "<group>"; };
 		9767C9A72AD13B5C006167F5 /* MoveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTransition.swift; sourceTree = "<group>"; };
 		9767C9A92AD13DA1006167F5 /* OpacityTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityTransition.swift; sourceTree = "<group>"; };
 		977A6C582AB2971E005F9422 /* PinkDisplayRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkDisplayRegular.ttf; sourceTree = "<group>"; };
@@ -536,6 +538,7 @@
 				97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */,
 				973D09502AD2E2CE0050050C /* SheetsBootcamp.swift */,
 				97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */,
+				976059292B16D86100FF1D9C /* AsyncImageBootcamp.swift */,
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				972A82F32AD7C5B00060B895 /* ActionSheetBootcamp.swift */,
@@ -897,6 +900,7 @@
 				97404C1D2AA88738007F80B2 /* ShapeRoundedRectangle.swift in Sources */,
 				97E6D0772AC1D3EE00824E3A /* StateBootcamp.swift in Sources */,
 				97D7EA4D2AAEE8D9001B2839 /* CardView.swift in Sources */,
+				9760592A2B16D86100FF1D9C /* AsyncImageBootcamp.swift in Sources */,
 				975D35122ADE7641001D4FED /* UserProfileView.swift in Sources */,
 				977CD54D2AE8075200555648 /* CitizenManager.swift in Sources */,
 				97BC53CE2AD042C300FC25B8 /* AnimationTimingBootcamp.swift in Sources */,
