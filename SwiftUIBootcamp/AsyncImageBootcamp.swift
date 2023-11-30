@@ -9,9 +9,10 @@ import SwiftUI
 
 struct AsyncImageBootcamp: View {
     
-    let url = URL(string: "https://picsum.photos/id/8/400")
+    //let url = URL(string: "https://picsum.photos/id/8/400")
     
     var body: some View {
+        Text("Hello")
 //        AsyncImage(url: url) { returnedImage in
 //            // add modifier to image url
 //            returnedImage
@@ -24,22 +25,22 @@ struct AsyncImageBootcamp: View {
 //        }
 
         // AsyncImage with Phase
-        AsyncImage(url: url) { phase in
-            switch phase {
-            case .empty:
-                ProgressView()
-            case .success(let returnedImage):
-                returnedImage
-                    .resizable()
-                    .frame(width: 100, height: 100)
-                    .scaledToFit()
-                    .clipShape(Circle())
-            case .failure:
-                Image(systemName: "questionmark")
-            default:
-                Image(systemName: "questionmark")
-            }
-        }
+//        AsyncImage(url: url) { phase in
+//            switch phase {
+//            case .empty:
+//                ProgressView()
+//            case .success(let returnedImage):
+//                returnedImage
+//                    .resizable()
+//                    .frame(width: 100, height: 100)
+//                    .scaledToFit()
+//                    .clipShape(Circle())
+//            case .failure:
+//                Image(systemName: "questionmark")
+//            default:
+//                Image(systemName: "questionmark")
+//            }
+//        }
     }
 }
 

@@ -27,7 +27,7 @@ struct BackgorundMaterialBootcamp: View {
             .frame(maxWidth: .infinity)
             
             // to blur the bbackground
-            .background(.thinMaterial)
+            .background(.ultraThinMaterial)
             .clipShape(RoundedRectangle(cornerRadius: 15))
         }
         .ignoresSafeArea()
