@@ -138,6 +138,7 @@
 		97F9ECF62ACACCC100D1821A /* CardCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F9ECF52ACACCC100D1821A /* CardCircle.swift */; };
 		97FDD68A2B1858FB0013F21F /* BadgesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FDD6892B1858FB0013F21F /* BadgesList.swift */; };
 		97FDD68D2B185B2D0013F21F /* TabViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FDD68C2B185B2D0013F21F /* TabViewBootcamp.swift */; };
+		97FDD68F2B1862920013F21F /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FDD68E2B1862920013F21F /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -275,6 +276,7 @@
 		97F9ECF52ACACCC100D1821A /* CardCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCircle.swift; sourceTree = "<group>"; };
 		97FDD6892B1858FB0013F21F /* BadgesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesList.swift; sourceTree = "<group>"; };
 		97FDD68C2B185B2D0013F21F /* TabViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBootcamp.swift; sourceTree = "<group>"; };
+		97FDD68E2B1862920013F21F /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -792,6 +794,7 @@
 			isa = PBXGroup;
 			children = (
 				97FDD68C2B185B2D0013F21F /* TabViewBootcamp.swift */,
+				97FDD68E2B1862920013F21F /* SettingView.swift */,
 			);
 			path = TabView;
 			sourceTree = "<group>";
@@ -969,6 +972,7 @@
 				97404C1F2AA88AE6007F80B2 /* ShapeLoginPage.swift in Sources */,
 				9739472D2B035093000DD9DF /* AppStorageBoootcamp.swift in Sources */,
 				97F9ECF62ACACCC100D1821A /* CardCircle.swift in Sources */,
+				97FDD68F2B1862920013F21F /* SettingView.swift in Sources */,
 				97175C042B04561D00F87640 /* HotelDetail.swift in Sources */,
 				97DE09192AD4EC86007D3F48 /* NavView.swift in Sources */,
 				975F2D392AE8F17B0048E4C6 /* DeviceModel.swift in Sources */,
