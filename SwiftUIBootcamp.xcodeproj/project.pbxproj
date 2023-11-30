@@ -55,6 +55,7 @@
 		9755CE582AD55FD20008EE7D /* AlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9755CE572AD55FD20008EE7D /* AlertBootcamp.swift */; };
 		97565E852AE55F47009597D4 /* NumberManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97565E842AE55F47009597D4 /* NumberManager.swift */; };
 		97565E872AE55F99009597D4 /* BlackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97565E862AE55F99009597D4 /* BlackView.swift */; };
+		9758D1DF2B1872B900E6BF56 /* FocusStateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9758D1DE2B1872B900E6BF56 /* FocusStateBootcamp.swift */; };
 		97593FBE2AC5B115004037EF /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97593FBD2AC5B115004037EF /* BindingBootcamp.swift */; };
 		975D35092ADE67CA001D4FED /* ModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D35082ADE67CA001D4FED /* ModelBootcamp.swift */; };
 		975D350E2ADE72FD001D4FED /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D350D2ADE72FD001D4FED /* UserModel.swift */; };
@@ -79,6 +80,7 @@
 		977CD5512AE80F9C00555648 /* CitizenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CD5502AE80F9C00555648 /* CitizenModel.swift */; };
 		9780506F2B1440D300445CD4 /* PickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9780506E2B1440D300445CD4 /* PickerBootcamp.swift */; };
 		9783ABAA2AB0AA1B004629E6 /* SpacerExampleInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9783ABA92AB0AA1B004629E6 /* SpacerExampleInstagram.swift */; };
+		978858412B18B6A400D37F17 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978858402B18B6A400D37F17 /* CustomTabView.swift */; };
 		978D37D62AA76EEC00051875 /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */; };
 		978D37D82AA76EEC00051875 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D37D72AA76EEC00051875 /* ContentView.swift */; };
 		978D37DA2AA76EED00051875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978D37D92AA76EED00051875 /* Assets.xcassets */; };
@@ -191,6 +193,7 @@
 		9755CE572AD55FD20008EE7D /* AlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp.swift; sourceTree = "<group>"; };
 		97565E842AE55F47009597D4 /* NumberManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberManager.swift; sourceTree = "<group>"; };
 		97565E862AE55F99009597D4 /* BlackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackView.swift; sourceTree = "<group>"; };
+		9758D1DE2B1872B900E6BF56 /* FocusStateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateBootcamp.swift; sourceTree = "<group>"; };
 		97593FBD2AC5B115004037EF /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
 		975D35082ADE67CA001D4FED /* ModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootcamp.swift; sourceTree = "<group>"; };
 		975D350D2ADE72FD001D4FED /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
@@ -216,6 +219,7 @@
 		977CD5502AE80F9C00555648 /* CitizenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenModel.swift; sourceTree = "<group>"; };
 		9780506E2B1440D300445CD4 /* PickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBootcamp.swift; sourceTree = "<group>"; };
 		9783ABA92AB0AA1B004629E6 /* SpacerExampleInstagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExampleInstagram.swift; sourceTree = "<group>"; };
+		978858402B18B6A400D37F17 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		978D37D22AA76EEC00051875 /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		978D37D72AA76EEC00051875 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -560,6 +564,7 @@
 				976059312B1727AA00FF1D9C /* ListSwipeActionsBootcamp.swift */,
 				9760592B2B16E0C100FF1D9C /* BackgorundMaterialBootcamp.swift */,
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
+				9758D1DE2B1872B900E6BF56 /* FocusStateBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				972A82F32AD7C5B00060B895 /* ActionSheetBootcamp.swift */,
 				97FDD68B2B185AB70013F21F /* TabView */,
@@ -795,6 +800,7 @@
 			children = (
 				97FDD68C2B185B2D0013F21F /* TabViewBootcamp.swift */,
 				97FDD68E2B1862920013F21F /* SettingView.swift */,
+				978858402B18B6A400D37F17 /* CustomTabView.swift */,
 			);
 			path = TabView;
 			sourceTree = "<group>";
@@ -944,6 +950,7 @@
 				97E6D0772AC1D3EE00824E3A /* StateBootcamp.swift in Sources */,
 				97D7EA4D2AAEE8D9001B2839 /* CardView.swift in Sources */,
 				9760592A2B16D86100FF1D9C /* AsyncImageBootcamp.swift in Sources */,
+				978858412B18B6A400D37F17 /* CustomTabView.swift in Sources */,
 				975D35122ADE7641001D4FED /* UserProfileView.swift in Sources */,
 				977CD54D2AE8075200555648 /* CitizenManager.swift in Sources */,
 				97BC53CE2AD042C300FC25B8 /* AnimationTimingBootcamp.swift in Sources */,
@@ -967,6 +974,7 @@
 				9790E7DC2B05EA97009133B4 /* IntroView.swift in Sources */,
 				97AC98352AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift in Sources */,
 				974FF5192AAD7F02007A3840 /* OverlayIconInstagram.swift in Sources */,
+				9758D1DF2B1872B900E6BF56 /* FocusStateBootcamp.swift in Sources */,
 				9710298D2AA819E4009438F2 /* TextBootcamp.swift in Sources */,
 				97D7EA4F2AAEEE5A001B2839 /* CardViewKinara.swift in Sources */,
 				97404C1F2AA88AE6007F80B2 /* ShapeLoginPage.swift in Sources */,
