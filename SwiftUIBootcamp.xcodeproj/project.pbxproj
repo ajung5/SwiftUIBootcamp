@@ -98,6 +98,7 @@
 		97AA4BFC2B0642A5003E5011 /* EnumPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AA4BFB2B0642A5003E5011 /* EnumPicker.swift */; };
 		97AC98332AC306A1006C69A2 /* ExtractedFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */; };
 		97AC98352AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */; };
+		97B4CB9C2B182BC80080F47C /* BadgesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B4CB9B2B182BC80080F47C /* BadgesBootcamp.swift */; };
 		97B91CBA2ADE9131007E0380 /* userData.json in Resources */ = {isa = PBXBuildFile; fileRef = 97B91CB92ADE9131007E0380 /* userData.json */; };
 		97BA15B62ACD0F0A00C37792 /* TernaryBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA15B52ACD0F0A00C37792 /* TernaryBootcamp.swift */; };
 		97BA15B92ACD3A5400C37792 /* LightTernary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA15B82ACD3A5400C37792 /* LightTernary.swift */; };
@@ -135,6 +136,8 @@
 		97EDCA902ABC884D004C26AC /* LazyGridAdaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EDCA8F2ABC884D004C26AC /* LazyGridAdaptive.swift */; };
 		97F1A2912AD0F6F4001477E3 /* TransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1A2902AD0F6F4001477E3 /* TransitionBootcamp.swift */; };
 		97F9ECF62ACACCC100D1821A /* CardCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F9ECF52ACACCC100D1821A /* CardCircle.swift */; };
+		97FDD68A2B1858FB0013F21F /* BadgesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FDD6892B1858FB0013F21F /* BadgesList.swift */; };
+		97FDD68D2B185B2D0013F21F /* TabViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FDD68C2B185B2D0013F21F /* TabViewBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -232,6 +235,7 @@
 		97AA4BFB2B0642A5003E5011 /* EnumPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumPicker.swift; sourceTree = "<group>"; };
 		97AC98322AC306A1006C69A2 /* ExtractedFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunction.swift; sourceTree = "<group>"; };
 		97AC98342AC311A3006C69A2 /* ExtractSubviewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsBootcamp.swift; sourceTree = "<group>"; };
+		97B4CB9B2B182BC80080F47C /* BadgesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesBootcamp.swift; sourceTree = "<group>"; };
 		97B91CB92ADE9131007E0380 /* userData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = userData.json; sourceTree = "<group>"; };
 		97BA15B52ACD0F0A00C37792 /* TernaryBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryBootcamp.swift; sourceTree = "<group>"; };
 		97BA15B82ACD3A5400C37792 /* LightTernary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTernary.swift; sourceTree = "<group>"; };
@@ -269,6 +273,8 @@
 		97EDCA8F2ABC884D004C26AC /* LazyGridAdaptive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridAdaptive.swift; sourceTree = "<group>"; };
 		97F1A2902AD0F6F4001477E3 /* TransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBootcamp.swift; sourceTree = "<group>"; };
 		97F9ECF52ACACCC100D1821A /* CardCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCircle.swift; sourceTree = "<group>"; };
+		97FDD6892B1858FB0013F21F /* BadgesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesList.swift; sourceTree = "<group>"; };
+		97FDD68C2B185B2D0013F21F /* TabViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -554,6 +560,8 @@
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				972A82F32AD7C5B00060B895 /* ActionSheetBootcamp.swift */,
+				97FDD68B2B185AB70013F21F /* TabView */,
+				97FDD6882B1858E50013F21F /* Badges */,
 				97AA4BF82B063EC1003E5011 /* Picker */,
 				9790E7DA2B05EA79009133B4 /* OnboardingViews */,
 				975D350A2ADE67D7001D4FED /* Model */,
@@ -771,6 +779,23 @@
 			path = PaddingAndSpacer;
 			sourceTree = "<group>";
 		};
+		97FDD6882B1858E50013F21F /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				97B4CB9B2B182BC80080F47C /* BadgesBootcamp.swift */,
+				97FDD6892B1858FB0013F21F /* BadgesList.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
+		97FDD68B2B185AB70013F21F /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				97FDD68C2B185B2D0013F21F /* TabViewBootcamp.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -911,6 +936,7 @@
 				97BB21C72AEA45D800D4462C /* CartView.swift in Sources */,
 				97404C1B2AA88718007F80B2 /* ShapeRectangle.swift in Sources */,
 				9794159D2AE7B3290024BF4B /* CarManager.swift in Sources */,
+				97FDD68D2B185B2D0013F21F /* TabViewBootcamp.swift in Sources */,
 				97404C1D2AA88738007F80B2 /* ShapeRoundedRectangle.swift in Sources */,
 				97E6D0772AC1D3EE00824E3A /* StateBootcamp.swift in Sources */,
 				97D7EA4D2AAEE8D9001B2839 /* CardView.swift in Sources */,
@@ -957,8 +983,10 @@
 				971E59162ACAAD490063E4D1 /* AkuDanKamu.swift in Sources */,
 				97EA12BC2AB03D4300E40832 /* PaddingBootcamp.swift in Sources */,
 				97AA4BFA2B063EEF003E5011 /* BasicPicker.swift in Sources */,
+				97B4CB9C2B182BC80080F47C /* BadgesBootcamp.swift in Sources */,
 				97E67C9C2AAEBD75007D9E1E /* StacksBootcamp.swift in Sources */,
 				97E6D0722AC1BCF200824E3A /* SafeAreaBootcamp.swift in Sources */,
+				97FDD68A2B1858FB0013F21F /* BadgesList.swift in Sources */,
 				978D37D62AA76EEC00051875 /* SwiftUIBootcampApp.swift in Sources */,
 				97565E852AE55F47009597D4 /* NumberManager.swift in Sources */,
 				97037ED72AD3982E00E39682 /* NavigationViewBootcamp.swift in Sources */,
