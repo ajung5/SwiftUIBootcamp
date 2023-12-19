@@ -57,6 +57,7 @@
 		97565E872AE55F99009597D4 /* BlackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97565E862AE55F99009597D4 /* BlackView.swift */; };
 		9758D1DF2B1872B900E6BF56 /* FocusStateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9758D1DE2B1872B900E6BF56 /* FocusStateBootcamp.swift */; };
 		97593FBE2AC5B115004037EF /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97593FBD2AC5B115004037EF /* BindingBootcamp.swift */; };
+		9759BAC22B31D197002EBCDF /* ToolbarBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759BAC12B31D197002EBCDF /* ToolbarBootcamp.swift */; };
 		975D35092ADE67CA001D4FED /* ModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D35082ADE67CA001D4FED /* ModelBootcamp.swift */; };
 		975D350E2ADE72FD001D4FED /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D350D2ADE72FD001D4FED /* UserModel.swift */; };
 		975D35102ADE7364001D4FED /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D350F2ADE7364001D4FED /* UserListView.swift */; };
@@ -138,6 +139,7 @@
 		97EDCA8E2ABC8536004C26AC /* LazyVGridCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EDCA8D2ABC8536004C26AC /* LazyVGridCustom.swift */; };
 		97EDCA902ABC884D004C26AC /* LazyGridAdaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EDCA8F2ABC884D004C26AC /* LazyGridAdaptive.swift */; };
 		97F1A2912AD0F6F4001477E3 /* TransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1A2902AD0F6F4001477E3 /* TransitionBootcamp.swift */; };
+		97F35BB42B1A13FF00D50FC1 /* NavigationStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F35BB32B1A13FF00D50FC1 /* NavigationStackBootcamp.swift */; };
 		97F9ECF62ACACCC100D1821A /* CardCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F9ECF52ACACCC100D1821A /* CardCircle.swift */; };
 		97FDD68A2B1858FB0013F21F /* BadgesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FDD6892B1858FB0013F21F /* BadgesList.swift */; };
 		97FDD68D2B185B2D0013F21F /* TabViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FDD68C2B185B2D0013F21F /* TabViewBootcamp.swift */; };
@@ -196,6 +198,7 @@
 		97565E862AE55F99009597D4 /* BlackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackView.swift; sourceTree = "<group>"; };
 		9758D1DE2B1872B900E6BF56 /* FocusStateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateBootcamp.swift; sourceTree = "<group>"; };
 		97593FBD2AC5B115004037EF /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
+		9759BAC12B31D197002EBCDF /* ToolbarBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarBootcamp.swift; sourceTree = "<group>"; };
 		975D35082ADE67CA001D4FED /* ModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootcamp.swift; sourceTree = "<group>"; };
 		975D350D2ADE72FD001D4FED /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		975D350F2ADE7364001D4FED /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
@@ -279,6 +282,7 @@
 		97EDCA8D2ABC8536004C26AC /* LazyVGridCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridCustom.swift; sourceTree = "<group>"; };
 		97EDCA8F2ABC884D004C26AC /* LazyGridAdaptive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridAdaptive.swift; sourceTree = "<group>"; };
 		97F1A2902AD0F6F4001477E3 /* TransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBootcamp.swift; sourceTree = "<group>"; };
+		97F35BB32B1A13FF00D50FC1 /* NavigationStackBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackBootcamp.swift; sourceTree = "<group>"; };
 		97F9ECF52ACACCC100D1821A /* CardCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCircle.swift; sourceTree = "<group>"; };
 		97FDD6892B1858FB0013F21F /* BadgesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesList.swift; sourceTree = "<group>"; };
 		97FDD68C2B185B2D0013F21F /* TabViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBootcamp.swift; sourceTree = "<group>"; };
@@ -568,6 +572,8 @@
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
 				9758D1DE2B1872B900E6BF56 /* FocusStateBootcamp.swift */,
 				978858422B18D36000D37F17 /* SubmitTextFieldBootcamp.swift */,
+				97F35BB32B1A13FF00D50FC1 /* NavigationStackBootcamp.swift */,
+				9759BAC12B31D197002EBCDF /* ToolbarBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				972A82F32AD7C5B00060B895 /* ActionSheetBootcamp.swift */,
 				97FDD68B2B185AB70013F21F /* TabView */,
@@ -927,6 +933,7 @@
 				9746B84A2AADB9560043B26B /* OverlayCircle.swift in Sources */,
 				97593FBE2AC5B115004037EF /* BindingBootcamp.swift in Sources */,
 				973CD62B2AA8C4C400B3E42A /* ShapeEllipse.swift in Sources */,
+				9759BAC22B31D197002EBCDF /* ToolbarBootcamp.swift in Sources */,
 				97D77D7A2ADECFD200B4484B /* FruitsDetail.swift in Sources */,
 				97A346822AAA9A0B003FA17A /* IconsBootcamp.swift in Sources */,
 				9790E7DE2B05ED8C009133B4 /* OnboardingView.swift in Sources */,
@@ -935,6 +942,7 @@
 				975D35102ADE7364001D4FED /* UserListView.swift in Sources */,
 				977CD54F2AE80F0300555648 /* CitizenDetailView.swift in Sources */,
 				9797FD702AE417740014E717 /* EnvironmentObjectView.swift in Sources */,
+				97F35BB42B1A13FF00D50FC1 /* NavigationStackBootcamp.swift in Sources */,
 				974FF5152AAD5771007A3840 /* OverlayIcon.swift in Sources */,
 				97BC53D02AD0560200FC25B8 /* SpringAnimation.swift in Sources */,
 				9767C9AA2AD13DA1006167F5 /* OpacityTransition.swift in Sources */,
