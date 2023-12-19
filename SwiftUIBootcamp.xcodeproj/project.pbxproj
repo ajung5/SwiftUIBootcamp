@@ -483,6 +483,14 @@
 			path = EnvironmentObjectExample;
 			sourceTree = "<group>";
 		};
+		9759BAC32B31D616002EBCDF /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				9759BAC12B31D197002EBCDF /* ToolbarBootcamp.swift */,
+			);
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
 		975D350A2ADE67D7001D4FED /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -573,9 +581,9 @@
 				9758D1DE2B1872B900E6BF56 /* FocusStateBootcamp.swift */,
 				978858422B18D36000D37F17 /* SubmitTextFieldBootcamp.swift */,
 				97F35BB32B1A13FF00D50FC1 /* NavigationStackBootcamp.swift */,
-				9759BAC12B31D197002EBCDF /* ToolbarBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				972A82F32AD7C5B00060B895 /* ActionSheetBootcamp.swift */,
+				9759BAC32B31D616002EBCDF /* Toolbar */,
 				97FDD68B2B185AB70013F21F /* TabView */,
 				97FDD6882B1858E50013F21F /* Badges */,
 				97AA4BF82B063EC1003E5011 /* Picker */,

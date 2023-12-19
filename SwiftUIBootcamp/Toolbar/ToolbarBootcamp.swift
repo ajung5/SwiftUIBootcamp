@@ -25,7 +25,11 @@ struct ToolbarBootcamp: View {
                 }
                 
                 ToolbarItem(placement: .topBarTrailing) {
-                    Image(systemName: "gear")
+                    Image(systemName: "house")
+                }
+                
+                ToolbarItem(placement: .bottomBar) {
+                    Image(systemName: "house")
                 }
             }
         }
