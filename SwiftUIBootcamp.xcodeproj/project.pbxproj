@@ -58,6 +58,7 @@
 		9758D1DF2B1872B900E6BF56 /* FocusStateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9758D1DE2B1872B900E6BF56 /* FocusStateBootcamp.swift */; };
 		97593FBE2AC5B115004037EF /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97593FBD2AC5B115004037EF /* BindingBootcamp.swift */; };
 		9759BAC22B31D197002EBCDF /* ToolbarBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759BAC12B31D197002EBCDF /* ToolbarBootcamp.swift */; };
+		9759BAC52B31D6F7002EBCDF /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759BAC42B31D6F7002EBCDF /* CustomTabBar.swift */; };
 		975D35092ADE67CA001D4FED /* ModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D35082ADE67CA001D4FED /* ModelBootcamp.swift */; };
 		975D350E2ADE72FD001D4FED /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D350D2ADE72FD001D4FED /* UserModel.swift */; };
 		975D35102ADE7364001D4FED /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D350F2ADE7364001D4FED /* UserListView.swift */; };
@@ -199,6 +200,7 @@
 		9758D1DE2B1872B900E6BF56 /* FocusStateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateBootcamp.swift; sourceTree = "<group>"; };
 		97593FBD2AC5B115004037EF /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
 		9759BAC12B31D197002EBCDF /* ToolbarBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarBootcamp.swift; sourceTree = "<group>"; };
+		9759BAC42B31D6F7002EBCDF /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		975D35082ADE67CA001D4FED /* ModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootcamp.swift; sourceTree = "<group>"; };
 		975D350D2ADE72FD001D4FED /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		975D350F2ADE7364001D4FED /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
@@ -487,6 +489,7 @@
 			isa = PBXGroup;
 			children = (
 				9759BAC12B31D197002EBCDF /* ToolbarBootcamp.swift */,
+				9759BAC42B31D6F7002EBCDF /* CustomTabBar.swift */,
 			);
 			path = Toolbar;
 			sourceTree = "<group>";
@@ -914,6 +917,7 @@
 				974E7C012AB1FB4D00AD2300 /* HorizontalScrollView.swift in Sources */,
 				973D09562AD2F58A0050050C /* PopOverWithTransition.swift in Sources */,
 				975F2D3D2AE901D70048E4C6 /* DeviceFinalView.swift in Sources */,
+				9759BAC52B31D6F7002EBCDF /* CustomTabBar.swift in Sources */,
 				97DC69872AFB3A6800FA80FB /* AlertWithBinding.swift in Sources */,
 				973EDF082AE2B0E600D6081B /* ObservedObjectView.swift in Sources */,
 				97565E872AE55F99009597D4 /* BlackView.swift in Sources */,

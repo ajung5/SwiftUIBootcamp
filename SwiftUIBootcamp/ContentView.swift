@@ -10,6 +10,9 @@ import SwiftUI
 struct ContentView: View {
     let alignments: [TextAlignment] = [.leading, .center, .trailing]
     @State private var alignment = TextAlignment.center
+    
+    // custom tab bar
+    @State private var selectedTab: Tab = .house
 
     var body: some View {
         VStack {
@@ -23,6 +26,9 @@ struct ContentView: View {
                 .font(.largeTitle)
                 //.multilineTextAlignment(alignment)
                 .frame(width: 300)
+            
+            Spacer()
+            CustomTabBar(selectedTab: $selectedTab)
         }
     }
 }
