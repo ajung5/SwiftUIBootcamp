@@ -28,6 +28,7 @@
 		972DCCF22AABED5100C61CCE /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DCCF12AABED5100C61CCE /* Background.swift */; };
 		972DCCF42AABF2A900C61CCE /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DCCF32AABF2A900C61CCE /* Overlay.swift */; };
 		972DE7362B6D1C50007F0353 /* ResizableSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DE7352B6D1C50007F0353 /* ResizableSheetBootcamp.swift */; };
+		972DE7382B6D1D2A007F0353 /* ProgrammaticResizableSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DE7372B6D1D2A007F0353 /* ProgrammaticResizableSheet.swift */; };
 		973044072AE1640900CD003A /* StateWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973044062AE1640900CD003A /* StateWrapperView.swift */; };
 		973044092AE17C9000CD003A /* BindingWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973044082AE17C9000CD003A /* BindingWrapperView.swift */; };
 		9739472B2B034D73000DD9DF /* AlertTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9739472A2B034D73000DD9DF /* AlertTraining.swift */; };
@@ -171,6 +172,7 @@
 		972DCCF12AABED5100C61CCE /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		972DCCF32AABF2A900C61CCE /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
 		972DE7352B6D1C50007F0353 /* ResizableSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetBootcamp.swift; sourceTree = "<group>"; };
+		972DE7372B6D1D2A007F0353 /* ProgrammaticResizableSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticResizableSheet.swift; sourceTree = "<group>"; };
 		973044062AE1640900CD003A /* StateWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWrapperView.swift; sourceTree = "<group>"; };
 		973044082AE17C9000CD003A /* BindingWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWrapperView.swift; sourceTree = "<group>"; };
 		9739472A2B034D73000DD9DF /* AlertTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTraining.swift; sourceTree = "<group>"; };
@@ -407,6 +409,7 @@
 			isa = PBXGroup;
 			children = (
 				972DE7352B6D1C50007F0353 /* ResizableSheetBootcamp.swift */,
+				972DE7372B6D1D2A007F0353 /* ProgrammaticResizableSheet.swift */,
 			);
 			path = ResizableSheet;
 			sourceTree = "<group>";
@@ -1018,6 +1021,7 @@
 				97FDD68F2B1862920013F21F /* SettingView.swift in Sources */,
 				97175C042B04561D00F87640 /* HotelDetail.swift in Sources */,
 				97DE09192AD4EC86007D3F48 /* NavView.swift in Sources */,
+				972DE7382B6D1D2A007F0353 /* ProgrammaticResizableSheet.swift in Sources */,
 				975F2D392AE8F17B0048E4C6 /* DeviceModel.swift in Sources */,
 				97DE091B2AD52354007D3F48 /* ListBootcamp.swift in Sources */,
 				9716A2852ACD0A27000B03F9 /* ConditionalsView.swift in Sources */,
