@@ -110,6 +110,7 @@
 		97BB21C72AEA45D800D4462C /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BB21C62AEA45D800D4462C /* CartView.swift */; };
 		97BC53CE2AD042C300FC25B8 /* AnimationTimingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BC53CD2AD042C300FC25B8 /* AnimationTimingBootcamp.swift */; };
 		97BC53D02AD0560200FC25B8 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BC53CF2AD0560200FC25B8 /* SpringAnimation.swift */; };
+		97BDB4712B6CBF49008684D4 /* ResizableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDB4702B6CBF49008684D4 /* ResizableBootcamp.swift */; };
 		97C1741D2AB2A14700C674DB /* TextPink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C1741C2AB2A14700C674DB /* TextPink.swift */; };
 		97C174202AB2A35000C674DB /* PinkishRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */; };
 		97C174222AB2A79800C674DB /* pricedown.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97C174212AB2A79800C674DB /* pricedown.otf */; };
@@ -254,6 +255,7 @@
 		97BB21C62AEA45D800D4462C /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		97BC53CD2AD042C300FC25B8 /* AnimationTimingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingBootcamp.swift; sourceTree = "<group>"; };
 		97BC53CF2AD0560200FC25B8 /* SpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		97BDB4702B6CBF49008684D4 /* ResizableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResizableBootcamp.swift; path = SwiftUIBootcamp/ResizableBootcamp.swift; sourceTree = SOURCE_ROOT; };
 		97C1741C2AB2A14700C674DB /* TextPink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPink.swift; sourceTree = "<group>"; };
 		97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkishRegular.ttf; sourceTree = "<group>"; };
 		97C174212AB2A79800C674DB /* pricedown.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pricedown.otf; sourceTree = "<group>"; };
@@ -586,6 +588,7 @@
 				97F35BB32B1A13FF00D50FC1 /* NavigationStackBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				972A82F32AD7C5B00060B895 /* ActionSheetBootcamp.swift */,
+				97BDB4702B6CBF49008684D4 /* ResizableBootcamp.swift */,
 				9759BAC32B31D616002EBCDF /* Toolbar */,
 				97FDD68B2B185AB70013F21F /* TabView */,
 				97FDD6882B1858E50013F21F /* Badges */,
@@ -977,6 +980,7 @@
 				978858412B18B6A400D37F17 /* CustomTabView.swift in Sources */,
 				975D35122ADE7641001D4FED /* UserProfileView.swift in Sources */,
 				977CD54D2AE8075200555648 /* CitizenManager.swift in Sources */,
+				97BDB4712B6CBF49008684D4 /* ResizableBootcamp.swift in Sources */,
 				97BC53CE2AD042C300FC25B8 /* AnimationTimingBootcamp.swift in Sources */,
 				972DCCF22AABED5100C61CCE /* Background.swift in Sources */,
 				973044092AE17C9000CD003A /* BindingWrapperView.swift in Sources */,
