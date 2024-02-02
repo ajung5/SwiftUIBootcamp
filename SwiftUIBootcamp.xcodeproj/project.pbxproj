@@ -27,6 +27,7 @@
 		972DCCEF2AABE68700C61CCE /* Frames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DCCEE2AABE68700C61CCE /* Frames.swift */; };
 		972DCCF22AABED5100C61CCE /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DCCF12AABED5100C61CCE /* Background.swift */; };
 		972DCCF42AABF2A900C61CCE /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DCCF32AABF2A900C61CCE /* Overlay.swift */; };
+		972DE7362B6D1C50007F0353 /* ResizableSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DE7352B6D1C50007F0353 /* ResizableSheetBootcamp.swift */; };
 		973044072AE1640900CD003A /* StateWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973044062AE1640900CD003A /* StateWrapperView.swift */; };
 		973044092AE17C9000CD003A /* BindingWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973044082AE17C9000CD003A /* BindingWrapperView.swift */; };
 		9739472B2B034D73000DD9DF /* AlertTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9739472A2B034D73000DD9DF /* AlertTraining.swift */; };
@@ -110,7 +111,6 @@
 		97BB21C72AEA45D800D4462C /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BB21C62AEA45D800D4462C /* CartView.swift */; };
 		97BC53CE2AD042C300FC25B8 /* AnimationTimingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BC53CD2AD042C300FC25B8 /* AnimationTimingBootcamp.swift */; };
 		97BC53D02AD0560200FC25B8 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BC53CF2AD0560200FC25B8 /* SpringAnimation.swift */; };
-		97BDB4712B6CBF49008684D4 /* ResizableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDB4702B6CBF49008684D4 /* ResizableBootcamp.swift */; };
 		97C1741D2AB2A14700C674DB /* TextPink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C1741C2AB2A14700C674DB /* TextPink.swift */; };
 		97C174202AB2A35000C674DB /* PinkishRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */; };
 		97C174222AB2A79800C674DB /* pricedown.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97C174212AB2A79800C674DB /* pricedown.otf */; };
@@ -170,6 +170,7 @@
 		972DCCEE2AABE68700C61CCE /* Frames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frames.swift; sourceTree = "<group>"; };
 		972DCCF12AABED5100C61CCE /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		972DCCF32AABF2A900C61CCE /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
+		972DE7352B6D1C50007F0353 /* ResizableSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetBootcamp.swift; sourceTree = "<group>"; };
 		973044062AE1640900CD003A /* StateWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWrapperView.swift; sourceTree = "<group>"; };
 		973044082AE17C9000CD003A /* BindingWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWrapperView.swift; sourceTree = "<group>"; };
 		9739472A2B034D73000DD9DF /* AlertTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTraining.swift; sourceTree = "<group>"; };
@@ -255,7 +256,6 @@
 		97BB21C62AEA45D800D4462C /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		97BC53CD2AD042C300FC25B8 /* AnimationTimingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingBootcamp.swift; sourceTree = "<group>"; };
 		97BC53CF2AD0560200FC25B8 /* SpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
-		97BDB4702B6CBF49008684D4 /* ResizableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResizableBootcamp.swift; path = SwiftUIBootcamp/ResizableBootcamp.swift; sourceTree = SOURCE_ROOT; };
 		97C1741C2AB2A14700C674DB /* TextPink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPink.swift; sourceTree = "<group>"; };
 		97C1741F2AB2A35000C674DB /* PinkishRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinkishRegular.ttf; sourceTree = "<group>"; };
 		97C174212AB2A79800C674DB /* pricedown.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pricedown.otf; sourceTree = "<group>"; };
@@ -401,6 +401,14 @@
 				9746B8492AADB9560043B26B /* OverlayCircle.swift */,
 			);
 			path = BackgroundAndOverlay;
+			sourceTree = "<group>";
+		};
+		972DE7342B6D1BC1007F0353 /* ResizableSheet */ = {
+			isa = PBXGroup;
+			children = (
+				972DE7352B6D1C50007F0353 /* ResizableSheetBootcamp.swift */,
+			);
+			path = ResizableSheet;
 			sourceTree = "<group>";
 		};
 		973044052AE163F000CD003A /* PropertyWrapper */ = {
@@ -588,7 +596,7 @@
 				97F35BB32B1A13FF00D50FC1 /* NavigationStackBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				972A82F32AD7C5B00060B895 /* ActionSheetBootcamp.swift */,
-				97BDB4702B6CBF49008684D4 /* ResizableBootcamp.swift */,
+				972DE7342B6D1BC1007F0353 /* ResizableSheet */,
 				9759BAC32B31D616002EBCDF /* Toolbar */,
 				97FDD68B2B185AB70013F21F /* TabView */,
 				97FDD6882B1858E50013F21F /* Badges */,
@@ -980,7 +988,6 @@
 				978858412B18B6A400D37F17 /* CustomTabView.swift in Sources */,
 				975D35122ADE7641001D4FED /* UserProfileView.swift in Sources */,
 				977CD54D2AE8075200555648 /* CitizenManager.swift in Sources */,
-				97BDB4712B6CBF49008684D4 /* ResizableBootcamp.swift in Sources */,
 				97BC53CE2AD042C300FC25B8 /* AnimationTimingBootcamp.swift in Sources */,
 				972DCCF22AABED5100C61CCE /* Background.swift in Sources */,
 				973044092AE17C9000CD003A /* BindingWrapperView.swift in Sources */,
@@ -1029,6 +1036,7 @@
 				97FDD68A2B1858FB0013F21F /* BadgesList.swift in Sources */,
 				978D37D62AA76EEC00051875 /* SwiftUIBootcampApp.swift in Sources */,
 				97565E852AE55F47009597D4 /* NumberManager.swift in Sources */,
+				972DE7362B6D1C50007F0353 /* ResizableSheetBootcamp.swift in Sources */,
 				97037ED72AD3982E00E39682 /* NavigationViewBootcamp.swift in Sources */,
 				97EDCA902ABC884D004C26AC /* LazyGridAdaptive.swift in Sources */,
 				978D520D2AAF6A6C00C59F54 /* FloopyDiskStack.swift in Sources */,
