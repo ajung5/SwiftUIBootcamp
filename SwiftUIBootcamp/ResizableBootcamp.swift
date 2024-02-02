@@ -33,8 +33,14 @@ struct ResizableBootcamp: View {
         }
         .sheet(isPresented: $showSheet2, content: {
             NextView()
-                .presentationDetents([.medium])
+                //.presentationDetents([.medium])
+            
+                // # custtom detent
+                .presentationDetents([.fraction(0.1), .medium, .large])
                 .interactiveDismissDisabled() // mencegah user untuk mengembalikan ke state semula
+        })
+        .onAppear(perform: {
+            showSheet2 = true
         })
     }
 }
@@ -53,7 +59,8 @@ struct NextView: View {
     var body: some View {
         ZStack {
             Color.pink.ignoresSafeArea()
-            Text("Hello World!")
+            Text("Hello User!")
+                .foregroundStyle(.white)
         }
     }
     
