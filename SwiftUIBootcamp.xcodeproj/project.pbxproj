@@ -19,6 +19,7 @@
 		9710E9262AAA07B6001AE36B /* GradientBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710E9252AAA07B6001AE36B /* GradientBootcamp.swift */; };
 		9716A2852ACD0A27000B03F9 /* ConditionalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9716A2842ACD0A27000B03F9 /* ConditionalsView.swift */; };
 		97175C042B04561D00F87640 /* HotelDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97175C032B04561D00F87640 /* HotelDetail.swift */; };
+		971AD7492B6DB82C008DF15F /* FruitSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971AD7482B6DB82C008DF15F /* FruitSheet.swift */; };
 		971E59112ACA9C140063E4D1 /* ConditionalBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E59102ACA9C140063E4D1 /* ConditionalBootcamp.swift */; };
 		971E59142ACAA9D60063E4D1 /* AakuDanKamu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E59132ACAA9D60063E4D1 /* AakuDanKamu.swift */; };
 		971E59162ACAAD490063E4D1 /* AkuDanKamu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E59152ACAAD490063E4D1 /* AkuDanKamu.swift */; };
@@ -162,6 +163,7 @@
 		9710E9252AAA07B6001AE36B /* GradientBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBootcamp.swift; sourceTree = "<group>"; };
 		9716A2842ACD0A27000B03F9 /* ConditionalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalsView.swift; sourceTree = "<group>"; };
 		97175C032B04561D00F87640 /* HotelDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDetail.swift; sourceTree = "<group>"; };
+		971AD7482B6DB82C008DF15F /* FruitSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitSheet.swift; sourceTree = "<group>"; };
 		971E59102ACA9C140063E4D1 /* ConditionalBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBootcamp.swift; sourceTree = "<group>"; };
 		971E59132ACAA9D60063E4D1 /* AakuDanKamu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AakuDanKamu.swift; sourceTree = "<group>"; };
 		971E59152ACAAD490063E4D1 /* AkuDanKamu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkuDanKamu.swift; sourceTree = "<group>"; };
@@ -409,6 +411,7 @@
 			isa = PBXGroup;
 			children = (
 				972DE7352B6D1C50007F0353 /* ResizableSheetBootcamp.swift */,
+				971AD7482B6DB82C008DF15F /* FruitSheet.swift */,
 				972DE7372B6D1D2A007F0353 /* ProgrammaticResizableSheet.swift */,
 			);
 			path = ResizableSheet;
@@ -967,6 +970,7 @@
 				97E67C9E2AAEBE02007D9E1E /* KinaraImage.swift in Sources */,
 				975D35102ADE7364001D4FED /* UserListView.swift in Sources */,
 				977CD54F2AE80F0300555648 /* CitizenDetailView.swift in Sources */,
+				971AD7492B6DB82C008DF15F /* FruitSheet.swift in Sources */,
 				9797FD702AE417740014E717 /* EnvironmentObjectView.swift in Sources */,
 				97F35BB42B1A13FF00D50FC1 /* NavigationStackBootcamp.swift in Sources */,
 				974FF5152AAD5771007A3840 /* OverlayIcon.swift in Sources */,
