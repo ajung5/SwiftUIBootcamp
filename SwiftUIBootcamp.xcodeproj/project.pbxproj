@@ -100,6 +100,7 @@
 		979415972AE7A5D30024BF4B /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979415962AE7A5D30024BF4B /* CarModel.swift */; };
 		9794159D2AE7B3290024BF4B /* CarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9794159C2AE7B3290024BF4B /* CarManager.swift */; };
 		979533082B6FC7A40005534D /* SafeAreaInsetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979533072B6FC7A40005534D /* SafeAreaInsetBootcamp.swift */; };
+		9795330A2B6FCC730005534D /* GroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979533092B6FCC730005534D /* GroupBootcamp.swift */; };
 		9797FD702AE417740014E717 /* EnvironmentObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9797FD6F2AE417740014E717 /* EnvironmentObjectView.swift */; };
 		97A346822AAA9A0B003FA17A /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */; };
 		97A346842AAAA8C8003FA17A /* ImagesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A346832AAAA8C8003FA17A /* ImagesBootcamp.swift */; };
@@ -248,6 +249,7 @@
 		979415962AE7A5D30024BF4B /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
 		9794159C2AE7B3290024BF4B /* CarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarManager.swift; sourceTree = "<group>"; };
 		979533072B6FC7A40005534D /* SafeAreaInsetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetBootcamp.swift; sourceTree = "<group>"; };
+		979533092B6FCC730005534D /* GroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBootcamp.swift; sourceTree = "<group>"; };
 		9797FD6F2AE417740014E717 /* EnvironmentObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectView.swift; sourceTree = "<group>"; };
 		97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
 		97A346832AAAA8C8003FA17A /* ImagesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesBootcamp.swift; sourceTree = "<group>"; };
@@ -604,6 +606,7 @@
 				97F35BB32B1A13FF00D50FC1 /* NavigationStackBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				979533072B6FC7A40005534D /* SafeAreaInsetBootcamp.swift */,
+				979533092B6FCC730005534D /* GroupBootcamp.swift */,
 				972A82F32AD7C5B00060B895 /* ActionSheetBootcamp.swift */,
 				972DE7342B6D1BC1007F0353 /* ResizableSheet */,
 				9759BAC32B31D616002EBCDF /* Toolbar */,
@@ -955,6 +958,7 @@
 				970D46462AB19BD600FE2559 /* ForEachBootcamp.swift in Sources */,
 				973CD62D2AA8C8C500B3E42A /* ColorBootcamp.swift in Sources */,
 				973D09512AD2E2CE0050050C /* SheetsBootcamp.swift in Sources */,
+				9795330A2B6FCC730005534D /* GroupBootcamp.swift in Sources */,
 				971E59112ACA9C140063E4D1 /* ConditionalBootcamp.swift in Sources */,
 				975F2D352AE8EE110048E4C6 /* MainDashboard.swift in Sources */,
 				979533082B6FC7A40005534D /* SafeAreaInsetBootcamp.swift in Sources */,
