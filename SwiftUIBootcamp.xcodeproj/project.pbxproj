@@ -95,6 +95,7 @@
 		978E1EC92AC8748F00ACDC28 /* SijawaraDashboardClone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978E1EC82AC8748F00ACDC28 /* SijawaraDashboardClone.swift */; };
 		978E1ECE2AC87EBE00ACDC28 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978E1ECD2AC87EBE00ACDC28 /* Dashboard.swift */; };
 		978F19AD2B7269FE0093A78C /* NativePopoverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978F19AC2B7269FE0093A78C /* NativePopoverBootcamp.swift */; };
+		978F19AF2B72743D0093A78C /* ResponsiveViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978F19AE2B72743D0093A78C /* ResponsiveViewBootcamp.swift */; };
 		9790E7DC2B05EA97009133B4 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9790E7DB2B05EA97009133B4 /* IntroView.swift */; };
 		9790E7DE2B05ED8C009133B4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9790E7DD2B05ED8C009133B4 /* OnboardingView.swift */; };
 		9794158B2AE7A11E0024BF4B /* carsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9794158A2AE7A11E0024BF4B /* carsData.json */; };
@@ -245,6 +246,7 @@
 		978E1EC82AC8748F00ACDC28 /* SijawaraDashboardClone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SijawaraDashboardClone.swift; sourceTree = "<group>"; };
 		978E1ECD2AC87EBE00ACDC28 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 		978F19AC2B7269FE0093A78C /* NativePopoverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePopoverBootcamp.swift; sourceTree = "<group>"; };
+		978F19AE2B72743D0093A78C /* ResponsiveViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsiveViewBootcamp.swift; sourceTree = "<group>"; };
 		9790E7DB2B05EA97009133B4 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		9790E7DD2B05ED8C009133B4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		9794158A2AE7A11E0024BF4B /* carsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = carsData.json; sourceTree = "<group>"; };
@@ -602,6 +604,7 @@
 				976059292B16D86100FF1D9C /* AsyncImageBootcamp.swift */,
 				976059312B1727AA00FF1D9C /* ListSwipeActionsBootcamp.swift */,
 				9760592B2B16E0C100FF1D9C /* BackgorundMaterialBootcamp.swift */,
+				978F19AE2B72743D0093A78C /* ResponsiveViewBootcamp.swift */,
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
 				9758D1DE2B1872B900E6BF56 /* FocusStateBootcamp.swift */,
 				978858422B18D36000D37F17 /* SubmitTextFieldBootcamp.swift */,
@@ -975,6 +978,7 @@
 				973CD62B2AA8C4C400B3E42A /* ShapeEllipse.swift in Sources */,
 				9759BAC22B31D197002EBCDF /* ToolbarBootcamp.swift in Sources */,
 				97D77D7A2ADECFD200B4484B /* FruitsDetail.swift in Sources */,
+				978F19AF2B72743D0093A78C /* ResponsiveViewBootcamp.swift in Sources */,
 				97A346822AAA9A0B003FA17A /* IconsBootcamp.swift in Sources */,
 				9790E7DE2B05ED8C009133B4 /* OnboardingView.swift in Sources */,
 				971029912AA849BF009438F2 /* ShapeCircle.swift in Sources */,
