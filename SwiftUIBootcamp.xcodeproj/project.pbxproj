@@ -16,6 +16,7 @@
 		9710298D2AA819E4009438F2 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710298C2AA819E4009438F2 /* TextBootcamp.swift */; };
 		9710298F2AA825C4009438F2 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710298E2AA825C4009438F2 /* ShapesBootcamp.swift */; };
 		971029912AA849BF009438F2 /* ShapeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971029902AA849BF009438F2 /* ShapeCircle.swift */; };
+		971069162B8C30BD00E1C3AA /* AnimationWithValueBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971069152B8C30BD00E1C3AA /* AnimationWithValueBootcamp.swift */; };
 		9710E9262AAA07B6001AE36B /* GradientBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710E9252AAA07B6001AE36B /* GradientBootcamp.swift */; };
 		9716A2852ACD0A27000B03F9 /* ConditionalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9716A2842ACD0A27000B03F9 /* ConditionalsView.swift */; };
 		97175C042B04561D00F87640 /* HotelDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97175C032B04561D00F87640 /* HotelDetail.swift */; };
@@ -164,6 +165,7 @@
 		9710298C2AA819E4009438F2 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
 		9710298E2AA825C4009438F2 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 		971029902AA849BF009438F2 /* ShapeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeCircle.swift; sourceTree = "<group>"; };
+		971069152B8C30BD00E1C3AA /* AnimationWithValueBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationWithValueBootcamp.swift; sourceTree = "<group>"; };
 		9710E9252AAA07B6001AE36B /* GradientBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBootcamp.swift; sourceTree = "<group>"; };
 		9716A2842ACD0A27000B03F9 /* ConditionalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalsView.swift; sourceTree = "<group>"; };
 		97175C032B04561D00F87640 /* HotelDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDetail.swift; sourceTree = "<group>"; };
@@ -720,6 +722,7 @@
 				974C1A422ACFED3D003F87E6 /* AnimationBootcamp.swift */,
 				97BC53CF2AD0560200FC25B8 /* SpringAnimation.swift */,
 				97BC53CD2AD042C300FC25B8 /* AnimationTimingBootcamp.swift */,
+				971069152B8C30BD00E1C3AA /* AnimationWithValueBootcamp.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -1044,6 +1047,7 @@
 				972DE7382B6D1D2A007F0353 /* ProgrammaticResizableSheet.swift in Sources */,
 				975F2D392AE8F17B0048E4C6 /* DeviceModel.swift in Sources */,
 				97DE091B2AD52354007D3F48 /* ListBootcamp.swift in Sources */,
+				971069162B8C30BD00E1C3AA /* AnimationWithValueBootcamp.swift in Sources */,
 				9716A2852ACD0A27000B03F9 /* ConditionalsView.swift in Sources */,
 				9744EF642AAF102B00908F76 /* KinaraCard.swift in Sources */,
 				9783ABAA2AB0AA1B004629E6 /* SpacerExampleInstagram.swift in Sources */,
