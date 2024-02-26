@@ -17,10 +17,8 @@ struct NavigationSplitViewBootcamp: View {
     
     var body: some View {
         NavigationSplitView(columnVisibility: $visibility) {
-            List(KategoriMakanan.allCases, id: \.rawValue) { category in
-                Button(category.rawValue.capitalized) {
-                    selectedCategory = category
-                }
+            List(KategoriMakanan.allCases, id: \.rawValue, selection: $selectedCategory) { category in
+                NavigationLink(category.rawValue.capitalized, value: category)
             }
             .navigationTitle("Categories")
         } content: {
@@ -28,10 +26,11 @@ struct NavigationSplitViewBootcamp: View {
                 Group {
                     switch selectedCategory {
                     case .fruits:
-                        List(Fruit.allCases, id: \.rawValue) { fruit in
-                            Button(fruit.rawValue.capitalized) {
-                                selectedFruit = fruit
-                            }
+                        List(Fruit.allCases, id: \.rawValue, selection: $selectedFruit) { fruit in
+//                            Button(fruit.rawValue.capitalized) {
+//                                selectedFruit = fruit
+//                            }
+                            NavigationLink(fruit.rawValue.capitalized, value: fruit)
                         }
                     case .vegetables:
                         EmptyView()
