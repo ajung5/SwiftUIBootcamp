@@ -17,6 +17,7 @@
 		9710298F2AA825C4009438F2 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710298E2AA825C4009438F2 /* ShapesBootcamp.swift */; };
 		971029912AA849BF009438F2 /* ShapeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971029902AA849BF009438F2 /* ShapeCircle.swift */; };
 		971069162B8C30BD00E1C3AA /* AnimationWithValueBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971069152B8C30BD00E1C3AA /* AnimationWithValueBootcamp.swift */; };
+		971069192B8C3CD000E1C3AA /* NavigationSplitViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971069182B8C3CD000E1C3AA /* NavigationSplitViewBootcamp.swift */; };
 		9710E9262AAA07B6001AE36B /* GradientBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9710E9252AAA07B6001AE36B /* GradientBootcamp.swift */; };
 		9716A2852ACD0A27000B03F9 /* ConditionalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9716A2842ACD0A27000B03F9 /* ConditionalsView.swift */; };
 		97175C042B04561D00F87640 /* HotelDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97175C032B04561D00F87640 /* HotelDetail.swift */; };
@@ -166,6 +167,7 @@
 		9710298E2AA825C4009438F2 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 		971029902AA849BF009438F2 /* ShapeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeCircle.swift; sourceTree = "<group>"; };
 		971069152B8C30BD00E1C3AA /* AnimationWithValueBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationWithValueBootcamp.swift; sourceTree = "<group>"; };
+		971069182B8C3CD000E1C3AA /* NavigationSplitViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewBootcamp.swift; sourceTree = "<group>"; };
 		9710E9252AAA07B6001AE36B /* GradientBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBootcamp.swift; sourceTree = "<group>"; };
 		9716A2842ACD0A27000B03F9 /* ConditionalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalsView.swift; sourceTree = "<group>"; };
 		97175C032B04561D00F87640 /* HotelDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDetail.swift; sourceTree = "<group>"; };
@@ -321,8 +323,10 @@
 		97037ED82AD3983400E39682 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				97F35BB32B1A13FF00D50FC1 /* NavigationStackBootcamp.swift */,
 				97037ED62AD3982E00E39682 /* NavigationViewBootcamp.swift */,
 				97DE09182AD4EC86007D3F48 /* NavView.swift */,
+				971069182B8C3CD000E1C3AA /* NavigationSplitViewBootcamp.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -610,7 +614,6 @@
 				97E6D0712AC1BCF200824E3A /* SafeAreaBootcamp.swift */,
 				9758D1DE2B1872B900E6BF56 /* FocusStateBootcamp.swift */,
 				978858422B18D36000D37F17 /* SubmitTextFieldBootcamp.swift */,
-				97F35BB32B1A13FF00D50FC1 /* NavigationStackBootcamp.swift */,
 				97A346812AAA9A0B003FA17A /* IconsBootcamp.swift */,
 				979533072B6FC7A40005534D /* SafeAreaInsetBootcamp.swift */,
 				978F19AC2B7269FE0093A78C /* NativePopoverBootcamp.swift */,
@@ -955,6 +958,7 @@
 				97565E872AE55F99009597D4 /* BlackView.swift in Sources */,
 				97DE52372AED53790042F319 /* TextfieldBootcamp.swift in Sources */,
 				9760592E2B16E3F900FF1D9C /* TextSelectionBootcamp.swift in Sources */,
+				971069192B8C3CD000E1C3AA /* NavigationSplitViewBootcamp.swift in Sources */,
 				974C1A432ACFED3D003F87E6 /* AnimationBootcamp.swift in Sources */,
 				9755CE582AD55FD20008EE7D /* AlertBootcamp.swift in Sources */,
 				970D46442AB1956700FE2559 /* EnumBootcamp.swift in Sources */,
