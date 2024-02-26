@@ -133,6 +133,7 @@
 		97D7EA4F2AAEEE5A001B2839 /* CardViewKinara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7EA4E2AAEEE5A001B2839 /* CardViewKinara.swift */; };
 		97DC69852AFB314900FA80FB /* AlertSingleOK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC69842AFB314900FA80FB /* AlertSingleOK.swift */; };
 		97DC69872AFB3A6800FA80FB /* AlertWithBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC69862AFB3A6800FA80FB /* AlertWithBinding.swift */; };
+		97DCB3892B8C6F6E00E2FB6E /* GridViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCB3882B8C6F6E00E2FB6E /* GridViewBootcamp.swift */; };
 		97DE09192AD4EC86007D3F48 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE09182AD4EC86007D3F48 /* NavView.swift */; };
 		97DE091B2AD52354007D3F48 /* ListBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE091A2AD52354007D3F48 /* ListBootcamp.swift */; };
 		97DE52352AED4E550042F319 /* ContextMenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE52342AED4E550042F319 /* ContextMenuBootcamp.swift */; };
@@ -286,6 +287,7 @@
 		97D7EA4E2AAEEE5A001B2839 /* CardViewKinara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewKinara.swift; sourceTree = "<group>"; };
 		97DC69842AFB314900FA80FB /* AlertSingleOK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSingleOK.swift; sourceTree = "<group>"; };
 		97DC69862AFB3A6800FA80FB /* AlertWithBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertWithBinding.swift; sourceTree = "<group>"; };
+		97DCB3882B8C6F6E00E2FB6E /* GridViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewBootcamp.swift; sourceTree = "<group>"; };
 		97DE09182AD4EC86007D3F48 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 		97DE091A2AD52354007D3F48 /* ListBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBootcamp.swift; sourceTree = "<group>"; };
 		97DE52342AED4E550042F319 /* ContextMenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBootcamp.swift; sourceTree = "<group>"; };
@@ -743,6 +745,7 @@
 			isa = PBXGroup;
 			children = (
 				97CDC7D32AB2ED9700E39153 /* LazyVGridBootcamp.swift */,
+				97DCB3882B8C6F6E00E2FB6E /* GridViewBootcamp.swift */,
 				97EDCA8F2ABC884D004C26AC /* LazyGridAdaptive.swift */,
 				97EDCA8D2ABC8536004C26AC /* LazyVGridCustom.swift */,
 			);
@@ -1055,6 +1058,7 @@
 				9716A2852ACD0A27000B03F9 /* ConditionalsView.swift in Sources */,
 				9744EF642AAF102B00908F76 /* KinaraCard.swift in Sources */,
 				9783ABAA2AB0AA1B004629E6 /* SpacerExampleInstagram.swift in Sources */,
+				97DCB3892B8C6F6E00E2FB6E /* GridViewBootcamp.swift in Sources */,
 				974FF5172AAD6DFF007A3840 /* LinearGradientBound.swift in Sources */,
 				97F1A2912AD0F6F4001477E3 /* TransitionBootcamp.swift in Sources */,
 				978E1ECE2AC87EBE00ACDC28 /* Dashboard.swift in Sources */,
