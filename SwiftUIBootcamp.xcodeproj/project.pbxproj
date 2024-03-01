@@ -50,6 +50,8 @@
 		9744EF642AAF102B00908F76 /* KinaraCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9744EF632AAF102B00908F76 /* KinaraCard.swift */; };
 		9746B84A2AADB9560043B26B /* OverlayCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9746B8492AADB9560043B26B /* OverlayCircle.swift */; };
 		974881D32B91A64C0054B515 /* ContentUnavailableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974881D22B91A64C0054B515 /* ContentUnavailableBootcamp.swift */; };
+		974881D52B91AD530054B515 /* CardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974881D42B91AD530054B515 /* CardImage.swift */; };
+		974881D72B91B6820054B515 /* CreditCardBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974881D62B91B6820054B515 /* CreditCardBank.swift */; };
 		974A120B2AE7E6CB00493245 /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A120A2AE7E6CB00493245 /* CarView.swift */; };
 		974C1A432ACFED3D003F87E6 /* AnimationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974C1A422ACFED3D003F87E6 /* AnimationBootcamp.swift */; };
 		974E7BFD2AB1E64100AD2300 /* ForEachArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974E7BFC2AB1E64100AD2300 /* ForEachArray.swift */; };
@@ -204,6 +206,8 @@
 		9744EF632AAF102B00908F76 /* KinaraCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinaraCard.swift; sourceTree = "<group>"; };
 		9746B8492AADB9560043B26B /* OverlayCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayCircle.swift; sourceTree = "<group>"; };
 		974881D22B91A64C0054B515 /* ContentUnavailableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableBootcamp.swift; sourceTree = "<group>"; };
+		974881D42B91AD530054B515 /* CardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImage.swift; sourceTree = "<group>"; };
+		974881D62B91B6820054B515 /* CreditCardBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardBank.swift; sourceTree = "<group>"; };
 		974A120A2AE7E6CB00493245 /* CarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarView.swift; sourceTree = "<group>"; };
 		974C1A422ACFED3D003F87E6 /* AnimationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBootcamp.swift; sourceTree = "<group>"; };
 		974E7BFC2AB1E64100AD2300 /* ForEachArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachArray.swift; sourceTree = "<group>"; };
@@ -487,10 +491,19 @@
 			children = (
 				97D7EA4C2AAEE8D9001B2839 /* CardView.swift */,
 				97D7EA4E2AAEEE5A001B2839 /* CardViewKinara.swift */,
+				974881D42B91AD530054B515 /* CardImage.swift */,
+				974881D62B91B6820054B515 /* CreditCardBank.swift */,
 				97F9ECF52ACACCC100D1821A /* CardCircle.swift */,
 				9744EF632AAF102B00908F76 /* KinaraCard.swift */,
 			);
 			path = Card;
+			sourceTree = "<group>";
+		};
+		974881D82B91B9970054B515 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 		974B6A9C2AC9B1AD0095B4E7 /* BindingAndState */ = {
@@ -603,6 +616,7 @@
 			children = (
 				97219A7C2AEBFB25003D9D5F /* arrayExample.playground */,
 				977A6C5E2AB29A2A005F9422 /* Info.plist */,
+				974881D82B91B9970054B515 /* Font */,
 				978D37D52AA76EEC00051875 /* SwiftUIBootcampApp.swift */,
 				978D37D72AA76EEC00051875 /* ContentView.swift */,
 				97DE52362AED53790042F319 /* TextfieldBootcamp.swift */,
@@ -961,6 +975,7 @@
 				972DCCED2AABE18700C61CCE /* FrameBootcamp.swift in Sources */,
 				974E7C012AB1FB4D00AD2300 /* HorizontalScrollView.swift in Sources */,
 				973D09562AD2F58A0050050C /* PopOverWithTransition.swift in Sources */,
+				974881D72B91B6820054B515 /* CreditCardBank.swift in Sources */,
 				975F2D3D2AE901D70048E4C6 /* DeviceFinalView.swift in Sources */,
 				9759BAC52B31D6F7002EBCDF /* CustomTabBar.swift in Sources */,
 				97DC69872AFB3A6800FA80FB /* AlertWithBinding.swift in Sources */,
@@ -1068,6 +1083,7 @@
 				97DCB3892B8C6F6E00E2FB6E /* GridViewBootcamp.swift in Sources */,
 				974FF5172AAD6DFF007A3840 /* LinearGradientBound.swift in Sources */,
 				97F1A2912AD0F6F4001477E3 /* TransitionBootcamp.swift in Sources */,
+				974881D52B91AD530054B515 /* CardImage.swift in Sources */,
 				978E1ECE2AC87EBE00ACDC28 /* Dashboard.swift in Sources */,
 				97D77D712ADEC21900B4484B /* ModelFruit.swift in Sources */,
 				971E59162ACAAD490063E4D1 /* AkuDanKamu.swift in Sources */,
